@@ -1,8 +1,8 @@
 # wps.des: id = bioclim_prism, title = Annual BioClim from PRISM Data for a Single Point, abstract = Calculates 19 BioClim indices from the PRISM dataset for the specified time period for the specified lat/lon location. The time period must resolve to a whole number of years If the lat/lon is outside the PRISM dataset the nearest grid cell to the point of interest will be used; 
 # wps.in: start, string, Start Date, Start Date in %Y-%m-%d (ie. 1950-01-01) format.;
 # wps.in: end, string, End Date, End Date in %Y-%m-%d (ie. 2000-01-01) format.;
-# wps.in: lat_in, double, Latitude, Latitude of point of interest.;
-# wps.in: lon_in, double, Longitude, Longitude of point of interest.;
+# wps.in: lat_in, string, Latitude, Latitude of point of interest.;
+# wps.in: lon_in, string, Longitude, Longitude of point of interest.;
 
 # *** Comment out start, end, lat_in, and lon_in for use with the WPS framework. ***
 # Start and end dates in '%Y-%m-%d format
@@ -10,8 +10,10 @@
 # end = "2000-01-01"
 
 # Latitude and Longitude in Decimal Degrees in WGS84 or compatible datum.
-# lat_in = 43.00
-# lon_in = -90.00
+# lat_in = '43.00'
+# lon_in = '-90.00'
+lat_in = as.double(lat_in)
+lon_in = as.double(lon_in)
 
 # Define Inputs (will come from external call)
 # The OPeNDAP Calendar or Time Variable Name.

@@ -28,8 +28,8 @@
 		</wps:Input>
 	</wps:DataInputs>
 	<wps:ResponseForm>
-		<wps:ResponseDocument>
-			<wps:Output>
+		<wps:ResponseDocument storeExecuteResponse="true" status="true">
+			<wps:Output asReference="true">
 				<ows:Identifier>output</ows:Identifier>
 			</wps:Output>
 		</wps:ResponseDocument>
