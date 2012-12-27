@@ -3,21 +3,22 @@
 # wps.in: end, string, End Date, End Date in %Y-%m-%d (ie. 2000-01-01) format.;
 # wps.in: lat_in, string, Latitude, Latitude of point of interest.;
 # wps.in: lon_in, string, Longitude, Longitude of point of interest.;
+#wps.in: ids, string, Point Ids, Identifiers for points entered as lat/lon pairs.;
 
 # *** Comment out inputs for use with the WPS framework. ***
 # Start and end dates in '%Y-%m-%d format
-start = "1950-01-01"
-end = "2000-01-01"
+# start = "1950-01-01"
+# end = "2000-01-01"
 
 # Latitude and Longitude in Decimal Degrees in WGS84 or compatible datum.
-lat_in <- '43.00, 42.00'
-lon_in <- '-90.00, -91.00'
+# lat_in <- '43.00, 42.00'
+# lon_in <- '-90.00, -91.00'
 lat_in <- read.csv(header=F,colClasses=c("character"),text=lat_in)
 lat_in <- as.double(lat_in)
 lon_in <- read.csv(header=F,colClasses=c("character"),text=lon_in)
 lon_in <- as.double(lon_in)
 # ids list to correspond to lat lon lists.
-ids = 'a, b'
+# ids = 'a, b'
 ids = read.csv(header=F,colClasses=c("character"),text=ids)
 if (length(lat_in)!=length(lon_in)) {
 	stop('Latitude longitude lists are not the same length')
