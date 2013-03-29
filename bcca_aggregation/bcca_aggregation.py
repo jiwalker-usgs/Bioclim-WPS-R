@@ -16,10 +16,10 @@ for line in lines: # Loop through all lines, build unions and joinexistings as w
 			# write a joinExisting aggregation for current path.
 			name=line[0:-1-8]+'ncml' # create name for join file.
 			name_monthly=line[0:-1-8]+'monthly.ncml' # Create name for monthly join file.
-			f=open('./ncmls/'+name,'w')
+			f=open('./ncmls/joins/'+name,'w')
 			f.write(daily_ncml_1+'"'+path+'"'+daily_ncml_2)
 			f.close()
-			f=open('./ncmls/'+name_monthly,'w')
+			f=open('./ncmls/joins/'+name_monthly,'w')
 			f.write(monthly_ncml_1+'"'+path+'"'+monthly_ncml_2)
 			f.close()
 # 3 grids, 2 time resolutions, 5 calendars, 3 time periods.
@@ -40,8 +40,8 @@ for grid in grids:
 						path_switch=0 # Turn off path switch.
 						# open and write start of union files
 						if open_switch==0:
-							d=open('./ncmls/'+grid+'.'+calendar+'.'+time_prd+'.ncml','w')
-							m=open('./ncmls/'+grid+'.'+calendar+'.'+time_prd+'.monthly.ncml','w')
+							d=open('./ncmls/unions/'+grid+'.'+calendar+'.'+time_prd+'','w')
+							m=open('./ncmls/unions/'+grid+'.'+calendar+'.'+time_prd+'.monthly','w')
 							d.write('<?xml version="1.0" encoding="UTF-8"?><netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"><aggregation type="union">')
 							m.write('<?xml version="1.0" encoding="UTF-8"?><netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"><aggregation type="union">')
 							open_switch=1
