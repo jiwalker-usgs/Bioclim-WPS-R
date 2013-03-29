@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation type="union">
+  <netcdf location="../joins/gridded_obs.pr.OBS_2deg.daily.ncml">
+   <variable orgName="pr" name="gridded_obs-pr-OBS_2deg-daily" />
+  </netcdf>
+  <netcdf location="../joins/gridded_obs.tasmax.OBS_2deg.daily.ncml">
+   <variable orgName="tasmax" name="gridded_obs-tasmax-OBS_2deg-daily" />
+  </netcdf>
+  <netcdf location="../joins/gridded_obs.tasmin.OBS_2deg.daily.ncml">
+   <variable orgName="tasmin" name="gridded_obs-tasmin-OBS_2deg-daily" />
+  </netcdf>
+ </aggregation>
+</netcdf>

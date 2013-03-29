@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation type="union">
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run1.pr.BC_2deg.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-20c3m-run1-pr-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run1.tasmax.BC_2deg.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-20c3m-run1-tasmax-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run1.tasmin.BC_2deg.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-20c3m-run1-tasmin-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run2.pr.BC_2deg.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-20c3m-run2-pr-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run2.tasmax.BC_2deg.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-20c3m-run2-tasmax-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run2.tasmin.BC_2deg.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-20c3m-run2-tasmin-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run3.pr.BC_2deg.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-20c3m-run3-pr-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run3.tasmax.BC_2deg.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-20c3m-run3-tasmax-BC_2deg" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.20c3m.run3.tasmin.BC_2deg.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-20c3m-run3-tasmin-BC_2deg" />
+  </netcdf>
+ </aggregation>
+</netcdf>

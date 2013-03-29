@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation type="union">
+  <netcdf location="../joins/ipsl_cm4.360_day.20c3m.run1.pr.REGRID_2deg.monthly.ncml">
+   <variable orgName="pr" name="ipsl_cm4-360_day-20c3m-run1-pr-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/ipsl_cm4.360_day.20c3m.run1.tasmax.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmax" name="ipsl_cm4-360_day-20c3m-run1-tasmax-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/ipsl_cm4.360_day.20c3m.run1.tasmin.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmin" name="ipsl_cm4-360_day-20c3m-run1-tasmin-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run1.pr.REGRID_2deg.monthly.ncml">
+   <variable orgName="pr" name="miub_echo_g-360_day-20c3m-run1-pr-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run1.tasmax.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmax" name="miub_echo_g-360_day-20c3m-run1-tasmax-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run1.tasmin.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmin" name="miub_echo_g-360_day-20c3m-run1-tasmin-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run2.pr.REGRID_2deg.monthly.ncml">
+   <variable orgName="pr" name="miub_echo_g-360_day-20c3m-run2-pr-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run2.tasmax.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmax" name="miub_echo_g-360_day-20c3m-run2-tasmax-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run2.tasmin.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmin" name="miub_echo_g-360_day-20c3m-run2-tasmin-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run3.pr.REGRID_2deg.monthly.ncml">
+   <variable orgName="pr" name="miub_echo_g-360_day-20c3m-run3-pr-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run3.tasmax.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmax" name="miub_echo_g-360_day-20c3m-run3-tasmax-REGRID_2deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/miub_echo_g.360_day.20c3m.run3.tasmin.REGRID_2deg.monthly.ncml">
+   <variable orgName="tasmin" name="miub_echo_g-360_day-20c3m-run3-tasmin-REGRID_2deg-monthly" />
+  </netcdf>
+ </aggregation>
+</netcdf>

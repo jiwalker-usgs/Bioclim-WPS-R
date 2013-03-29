@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation type="union">
+  <netcdf location="../joins/gfdl_cm2_0.noleap.20c3m.run1.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="gfdl_cm2_0-noleap-20c3m-run1-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/gfdl_cm2_0.noleap.20c3m.run1.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="gfdl_cm2_0-noleap-20c3m-run1-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/gfdl_cm2_0.noleap.20c3m.run1.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="gfdl_cm2_0-noleap-20c3m-run1-tasmin-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/gfdl_cm2_1.noleap.20c3m.run1.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="gfdl_cm2_1-noleap-20c3m-run1-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/gfdl_cm2_1.noleap.20c3m.run1.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="gfdl_cm2_1-noleap-20c3m-run1-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/gfdl_cm2_1.noleap.20c3m.run1.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="gfdl_cm2_1-noleap-20c3m-run1-tasmin-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run1.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="mri_cgcm2_3_2a-noleap-20c3m-run1-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run1.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="mri_cgcm2_3_2a-noleap-20c3m-run1-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run1.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="mri_cgcm2_3_2a-noleap-20c3m-run1-tasmin-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run2.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="mri_cgcm2_3_2a-noleap-20c3m-run2-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run2.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="mri_cgcm2_3_2a-noleap-20c3m-run2-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run2.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="mri_cgcm2_3_2a-noleap-20c3m-run2-tasmin-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run3.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="mri_cgcm2_3_2a-noleap-20c3m-run3-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run3.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="mri_cgcm2_3_2a-noleap-20c3m-run3-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run3.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="mri_cgcm2_3_2a-noleap-20c3m-run3-tasmin-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run4.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="mri_cgcm2_3_2a-noleap-20c3m-run4-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run4.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="mri_cgcm2_3_2a-noleap-20c3m-run4-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run4.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="mri_cgcm2_3_2a-noleap-20c3m-run4-tasmin-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run5.pr.BCCA_0.125deg.ncml">
+   <variable orgName="pr" name="mri_cgcm2_3_2a-noleap-20c3m-run5-pr-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run5.tasmax.BCCA_0.125deg.ncml">
+   <variable orgName="tasmax" name="mri_cgcm2_3_2a-noleap-20c3m-run5-tasmax-BCCA_0-125deg" />
+  </netcdf>
+  <netcdf location="../joins/mri_cgcm2_3_2a.noleap.20c3m.run5.tasmin.BCCA_0.125deg.ncml">
+   <variable orgName="tasmin" name="mri_cgcm2_3_2a-noleap-20c3m-run5-tasmin-BCCA_0-125deg" />
+  </netcdf>
+ </aggregation>
+</netcdf>
