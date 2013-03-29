@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="bcca.ncml">
+        <!-- Global Attributes for Dataset Discovery -->
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="Conventions" type="String" value="CF-1.5" />
+        <attribute name="title" type="String" value=""/>
+        <attribute name="summary" type="String" value=""/>
+        <attribute name="keywords" type="String" value=""/>
+        <attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+        <attribute name="id" type="String" value="/pub/dcp/archive/bcca/..."/>
+        <attribute name="naming_authority" type="String" value="gdo-dcp.ucllnl.org"/>
+        <attribute name="cdm_data_type" type="String" value="Grid"/>
+        <attribute name="date_created" type="String" value=""/>
+        <attribute name="date_modified" type="String" value=""/>
+        <attribute name="creator_name" type="String" value=""/>
+        <attribute name="creator_url" type="String" value=""/>
+        <attribute name="creator_email" type="String" value=""/>
+        <attribute name="publisher_name" type="String" value=""/>
+        <attribute name="publisher_url" type="String" value=""/>
+        <attribute name="publisher_email" type="String" value=""/>
+        <attribute name="institution" type="String" value=""/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="project" type="String" value=""/>
+        <attribute name="processing_level" type="String" value=""/>
+        <attribute name="acknowledgement" type="String" value=""/>
+        <attribute name="contributors" type="String" value=""/>
+        <attribute name="geospatial_lat_min" type="String" value="24"/>
+        <attribute name="geospatial_lat_max" type="String" value="53"/>
+        <attribute name="geospatial_lon_min" type="String" value="-125"/>
+        <attribute name="geospatial_lon_max" type="String" value="-67"/>
+        <attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+        <attribute name="time_coverage_end" type="String" value="2099-12-31T00:00"/>
+        <attribute name="time_coverage_resolution" type="String" value="P1D"/> <!--P1M for Monthly -->
+        <attribute name="license" type="String" value="Freely available"/>
+        <!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>
