@@ -1,1 +1,6 @@
-<?xml version="1.0"?><netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"><aggregation dimName="time" type="joinExisting"><scan location="/dcp_data/dcp/archive/bcca/mri_cgcm2_3_2a.noleap/sresb1/run4/pr/regrid" regExp=".*monthly.*.nc" subdirs="false"/></aggregation></netcdf>
+<?xml version="1.0"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting">
+  <scan location="/dcp_data/dcp/archive/bcca/mri_cgcm2_3_2a.noleap/sresb1/run4/pr/regrid" regExp=".*(?&lt;<!monthly)\.\d{4}.nc" subdirs="false"/>
+ </aggregation>
+</netcdf>
