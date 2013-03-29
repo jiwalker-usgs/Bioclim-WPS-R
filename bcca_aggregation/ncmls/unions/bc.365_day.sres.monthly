@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation type="union">
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run1.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresa1b-run1-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run1.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresa1b-run1-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run1.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresa1b-run1-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run1.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresa2-run1-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run1.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresa2-run1-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run1.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresa2-run1-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run1.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresb1-run1-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run1.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresb1-run1-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run1.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresb1-run1-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run2.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresa1b-run2-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run2.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresa1b-run2-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run2.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresa1b-run2-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run2.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresa2-run2-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run2.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresa2-run2-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run2.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresa2-run2-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run2.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresb1-run2-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run2.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresb1-run2-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run2.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresb1-run2-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run3.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresa1b-run3-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run3.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresa1b-run3-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa1b.run3.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresa1b-run3-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run3.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresa2-run3-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run3.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresa2-run3-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresa2.run3.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresa2-run3-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run3.pr.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="pr" name="cccma_cgcm3_1-365_day-sresb1-run3-pr-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run3.tasmax.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmax" name="cccma_cgcm3_1-365_day-sresb1-run3-tasmax-BCCA_0-125deg-monthly" />
+  </netcdf>
+  <netcdf location="../joins/cccma_cgcm3_1.365_day.sresb1.run3.tasmin.BCCA_0.125deg.monthly.ncml">
+   <variable orgName="tasmin" name="cccma_cgcm3_1-365_day-sresb1-run3-tasmin-BCCA_0-125deg-monthly" />
+  </netcdf>
+ </aggregation>
+</netcdf>
