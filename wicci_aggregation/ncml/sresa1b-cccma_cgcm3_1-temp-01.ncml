@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2046.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2047.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2048.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2049.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2050.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2051.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2052.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2053.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2054.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2055.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2056.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2057.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2058.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2059.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2060.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2061.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2062.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2063.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2064.nc"/>
+  <netcdf location="../sresa1b/cccma_cgcm3_1/temp_01_2065.nc"/>
+</aggregation>
+</netcdf>

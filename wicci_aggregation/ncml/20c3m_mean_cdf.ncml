@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf location="../20c3m/cccma_cgcm3_1/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-cccma_cgcm3_1-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-cccma_cgcm3_1-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-cccma_cgcm3_1-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-cccma_cgcm3_1-meantmin" />
+			<variable orgName="tmax" name="20c3m-cccma_cgcm3_1-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-cccma_cgcm3_1-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1_t63/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-cccma_cgcm3_1_t63-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-cccma_cgcm3_1_t63-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1_t63/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-cccma_cgcm3_1_t63-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1_t63/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-cccma_cgcm3_1_t63-meantmin" />
+			<variable orgName="tmax" name="20c3m-cccma_cgcm3_1_t63-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/cccma_cgcm3_1_t63/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-cccma_cgcm3_1_t63-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/cnrm_cm3/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-cnrm_cm3-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-cnrm_cm3-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/cnrm_cm3/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-cnrm_cm3-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/cnrm_cm3/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-cnrm_cm3-meantmin" />
+			<variable orgName="tmax" name="20c3m-cnrm_cm3-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/cnrm_cm3/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-cnrm_cm3-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_0/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-csiro_mk3_0-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-csiro_mk3_0-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_0/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-csiro_mk3_0-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_0/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-csiro_mk3_0-meantmin" />
+			<variable orgName="tmax" name="20c3m-csiro_mk3_0-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_0/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-csiro_mk3_0-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_5/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-csiro_mk3_5-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-csiro_mk3_5-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_5/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-csiro_mk3_5-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_5/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-csiro_mk3_5-meantmin" />
+			<variable orgName="tmax" name="20c3m-csiro_mk3_5-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/csiro_mk3_5/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-csiro_mk3_5-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/gfdl_cm2_0/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-gfdl_cm2_0-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-gfdl_cm2_0-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/gfdl_cm2_0/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-gfdl_cm2_0-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/gfdl_cm2_0/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-gfdl_cm2_0-meantmin" />
+			<variable orgName="tmax" name="20c3m-gfdl_cm2_0-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/gfdl_cm2_0/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-gfdl_cm2_0-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_aom/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-giss_aom-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-giss_aom-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_aom/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-giss_aom-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_aom/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-giss_aom-meantmin" />
+			<variable orgName="tmax" name="20c3m-giss_aom-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_aom/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-giss_aom-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_model_e_r/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-giss_model_e_r-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-giss_model_e_r-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_model_e_r/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-giss_model_e_r-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_model_e_r/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-giss_model_e_r-meantmin" />
+			<variable orgName="tmax" name="20c3m-giss_model_e_r-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/giss_model_e_r/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-giss_model_e_r-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/iap_fgoals1_0_g/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-iap_fgoals1_0_g-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-iap_fgoals1_0_g-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/iap_fgoals1_0_g/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-iap_fgoals1_0_g-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/iap_fgoals1_0_g/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-iap_fgoals1_0_g-meantmin" />
+			<variable orgName="tmax" name="20c3m-iap_fgoals1_0_g-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/iap_fgoals1_0_g/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-iap_fgoals1_0_g-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/miroc3_2_hires/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-miroc3_2_hires-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-miroc3_2_hires-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/miroc3_2_hires/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-miroc3_2_hires-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/miroc3_2_hires/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-miroc3_2_hires-meantmin" />
+			<variable orgName="tmax" name="20c3m-miroc3_2_hires-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/miroc3_2_hires/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-miroc3_2_hires-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/miub_echo_g/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-miub_echo_g-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-miub_echo_g-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/miub_echo_g/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-miub_echo_g-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/miub_echo_g/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-miub_echo_g-meantmin" />
+			<variable orgName="tmax" name="20c3m-miub_echo_g-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/miub_echo_g/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-miub_echo_g-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/mpi_echam5/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-mpi_echam5-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-mpi_echam5-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/mpi_echam5/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-mpi_echam5-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/mpi_echam5/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-mpi_echam5-meantmin" />
+			<variable orgName="tmax" name="20c3m-mpi_echam5-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/mpi_echam5/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-mpi_echam5-meanprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/mri_cgcm2_3_2a/temp_cdf_1961_2000.nc">
+			<variable orgName="cdftmin" name="20c3m-mri_cgcm2_3_2a-cdftmin" />
+			<variable orgName="cdftmax" name="20c3m-mri_cgcm2_3_2a-cdftmax" />
+		</netcdf>
+		<netcdf location="../20c3m/mri_cgcm2_3_2a/prcp_cdf_1961_2000.nc">
+			<variable orgName="ccdf" name="20c3m-mri_cgcm2_3_2a-cdfprcp" />
+		</netcdf>
+		<netcdf location="../20c3m/mri_cgcm2_3_2a/temp_mean_1961_2000.nc">
+			<variable orgName="tmin" name="20c3m-mri_cgcm2_3_2a-meantmin" />
+			<variable orgName="tmax" name="20c3m-mri_cgcm2_3_2a-meantmax" />
+		</netcdf>
+		<netcdf location="../20c3m/mri_cgcm2_3_2a/prcp_mean_1961_2000.nc">
+			<variable orgName="prcp" name="20c3m-mri_cgcm2_3_2a-meanprcp" />
+		</netcdf>
+</aggregation>
+</netcdf>

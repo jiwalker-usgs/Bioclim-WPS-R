@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2081.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2082.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2083.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2084.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2085.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2086.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2087.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2088.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2089.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2090.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2091.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2092.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2093.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2094.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2095.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2096.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2097.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2098.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2099.nc"/>
+  <netcdf location="../sresa2/cnrm_cm3/prcp_01_2100.nc"/>
+</aggregation>
+</netcdf>

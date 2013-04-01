@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+  <netcdf location="../20c3m/giss_aom/prcp_01_1961.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1962.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1963.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1964.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1965.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1966.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1967.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1968.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1969.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1970.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1971.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1972.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1973.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1974.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1975.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1976.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1977.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1978.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1979.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1980.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1981.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1982.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1983.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1984.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1985.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1986.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1987.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1988.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1989.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1990.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1991.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1992.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1993.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1994.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1995.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1996.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1997.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1998.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_1999.nc"/>
+  <netcdf location="../20c3m/giss_aom/prcp_01_2000.nc"/>
+</aggregation>
+</netcdf>
