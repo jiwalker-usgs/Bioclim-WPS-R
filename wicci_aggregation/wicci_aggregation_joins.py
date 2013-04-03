@@ -2,10 +2,10 @@ s = open('../tree.txt','r')
 inlines = s.readlines()
 for line in inlines:
 	if line[0]=='.':
-		path='../'+line[2:-1-1]
+		path='../../'+line[2:-1-1]
 		print path
 		# than construct joinexisting header.
-		name=path[3:len(path)].replace('/','-')
+		name='joins/'+path[6:len(path)].replace('/','-')
 		print name
 		f1=open(name+'-temp-01.ncml','w')
 		f2=open(name+'-temp-02.ncml','w')

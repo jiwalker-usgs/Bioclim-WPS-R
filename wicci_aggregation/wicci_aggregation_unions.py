@@ -32,11 +32,11 @@ for line in inlines:
 		name=path[3:len(path)].replace('/','-')
 		print name
 		if line.find('20c3m')!=-1:
-			u1.write('		<netcdf location="'+name+'-temp-01.ncml">\n')
+			u1.write('		<netcdf location="joins/'+name+'-temp-01.ncml">\n')
 			u1.write('			<variable orgName="tmin" name="'+name+'-tmin-01" />\n')
 			u1.write('			<variable orgName="tmax" name="'+name+'-tmax-01" />\n')
 			u1.write('		</netcdf>\n')
-			u1.write('		<netcdf location="'+name+'-prcp-01.ncml">\n')
+			u1.write('		<netcdf location="joins/'+name+'-prcp-01.ncml">\n')
 			u1.write('			<variable orgName="prcp" name="'+name+'-prcp-01" />\n')
 			u1.write('		</netcdf>\n')
 			u4.write('		<netcdf location="'+path+'/temp_cdf_1961_2000.nc">\n')
@@ -55,19 +55,19 @@ for line in inlines:
 			u4.write('		</netcdf>\n')
 		else:
 			# Early Period Data
-			u2.write('		<netcdf location="'+name+'-temp-01.ncml">\n')
+			u2.write('		<netcdf location="joins/'+name+'-temp-01.ncml">\n')
 			u2.write('			<variable orgName="tmin" name="'+name+'-tmin-01" />\n')
 			u2.write('			<variable orgName="tmax" name="'+name+'-tmax-01" />\n')
 			u2.write('		</netcdf>\n')
-			u2.write('		<netcdf location="'+name+'-prcp-01.ncml">\n')
+			u2.write('		<netcdf location="joins/'+name+'-prcp-01.ncml">\n')
 			u2.write('			<variable orgName="prcp" name="'+name+'-prcp-01" />\n')
 			u2.write('		</netcdf>\n')
 			# Late period data
-			u3.write('		<netcdf location="'+name+'-temp-01-2.ncml">\n')
+			u3.write('		<netcdf location="joins/'+name+'-temp-01-2.ncml">\n')
 			u3.write('			<variable orgName="tmin" name="'+name+'-tmin-01" />\n')
 			u3.write('			<variable orgName="tmax" name="'+name+'-tmax-01" />\n')
 			u3.write('		</netcdf>\n')
-			u3.write('		<netcdf location="'+name+'-prcp-01-2.ncml">\n')
+			u3.write('		<netcdf location="joins/'+name+'-prcp-01-2.ncml">\n')
 			u3.write('			<variable orgName="prcp" name="'+name+'-prcp-01" />\n')
 			u3.write('		</netcdf>\n')
 			# early period mean_cdf
@@ -109,28 +109,28 @@ for line in inlines:
 		name=path[3:len(path)].replace('/','-')
 		print name
 		if line.find('20c3m')!=-1:
-			u1.write('		<netcdf location="'+name+'-temp-02.ncml">\n')
+			u1.write('		<netcdf location="joins/'+name+'-temp-02.ncml">\n')
 			u1.write('			<variable orgName="tmin" name="'+name+'-tmin-02" />\n')
 			u1.write('			<variable orgName="tmax" name="'+name+'-tmax-02" />\n')
 			u1.write('		</netcdf>\n')
-			u1.write('		<netcdf location="'+name+'-prcp-02.ncml">\n')
+			u1.write('		<netcdf location="joins/'+name+'-prcp-02.ncml">\n')
 			u1.write('			<variable orgName="prcp" name="'+name+'-prcp-02" />\n')
 			u1.write('		</netcdf>\n')
 		else:
 			# Early Period Data
-			u2.write('		<netcdf location="'+name+'-temp-02.ncml">\n')
+			u2.write('		<netcdf location="joins/'+name+'-temp-02.ncml">\n')
 			u2.write('			<variable orgName="tmin" name="'+name+'-tmin-02" />\n')
 			u2.write('			<variable orgName="tmax" name="'+name+'-tmax-02" />\n')
 			u2.write('		</netcdf>\n')
-			u2.write('		<netcdf location="'+name+'-prcp-02.ncml">\n')
+			u2.write('		<netcdf location="joins/'+name+'-prcp-02.ncml">\n')
 			u2.write('			<variable orgName="prcp" name="'+name+'-prcp-02" />\n')
 			u2.write('		</netcdf>\n')
 			# Late period data
-			u3.write('		<netcdf location="'+name+'-temp-02-2.ncml">\n')
+			u3.write('		<netcdf location="joins/'+name+'-temp-02-2.ncml">\n')
 			u3.write('			<variable orgName="tmin" name="'+name+'-tmin-02" />\n')
 			u3.write('			<variable orgName="tmax" name="'+name+'-tmax-02" />\n')
 			u3.write('		</netcdf>\n')
-			u3.write('		<netcdf location="'+name+'-prcp-02-2.ncml">\n')
+			u3.write('		<netcdf location="joins/'+name+'-prcp-02-2.ncml">\n')
 			u3.write('			<variable orgName="prcp" name="'+name+'-prcp-02" />\n')
 			u3.write('		</netcdf>\n')
 
@@ -142,28 +142,28 @@ for line in inlines:
 		name=path[3:len(path)].replace('/','-')
 		print name
 		if line.find('20c3m')!=-1:
-			u1.write('		<netcdf location="'+name+'-temp-03.ncml">\n')
+			u1.write('		<netcdf location="joins/'+name+'-temp-03.ncml">\n')
 			u1.write('			<variable orgName="tmin" name="'+name+'-tmin-03" />\n')
 			u1.write('			<variable orgName="tmax" name="'+name+'-tmax-03" />\n')
 			u1.write('		</netcdf>\n')
-			u1.write('		<netcdf location="'+name+'-prcp-03.ncml">\n')
+			u1.write('		<netcdf location="joins/'+name+'-prcp-03.ncml">\n')
 			u1.write('			<variable orgName="prcp" name="'+name+'-prcp-03" />\n')
 			u1.write('		</netcdf>\n')
 		else:
 			# Early Period Data
-			u2.write('		<netcdf location="'+name+'-temp-03.ncml">\n')
+			u2.write('		<netcdf location="joins/'+name+'-temp-03.ncml">\n')
 			u2.write('			<variable orgName="tmin" name="'+name+'-tmin-03" />\n')
 			u2.write('			<variable orgName="tmax" name="'+name+'-tmax-03" />\n')
 			u2.write('		</netcdf>\n')
-			u2.write('		<netcdf location="'+name+'-prcp-03.ncml">\n')
+			u2.write('		<netcdf location="joins/'+name+'-prcp-03.ncml">\n')
 			u2.write('			<variable orgName="prcp" name="'+name+'-prcp-03" />\n')
 			u2.write('		</netcdf>\n')
 			# Late period data
-			u3.write('		<netcdf location="'+name+'-temp-03-2.ncml">\n')
+			u3.write('		<netcdf location="joins/'+name+'-temp-03-2.ncml">\n')
 			u3.write('			<variable orgName="tmin" name="'+name+'-tmin-03" />\n')
 			u3.write('			<variable orgName="tmax" name="'+name+'-tmax-03" />\n')
 			u3.write('		</netcdf>\n')
-			u3.write('		<netcdf location="'+name+'-prcp-03-2.ncml">\n')
+			u3.write('		<netcdf location="joins/'+name+'-prcp-03-2.ncml">\n')
 			u3.write('			<variable orgName="prcp" name="'+name+'-prcp-03" />\n')
 			u3.write('		</netcdf>\n')
 
