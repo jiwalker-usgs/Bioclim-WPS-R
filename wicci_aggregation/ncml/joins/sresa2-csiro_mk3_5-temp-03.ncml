@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2046.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2047.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2048.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2049.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2050.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2051.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2052.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2053.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2054.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2055.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2056.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2057.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2058.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2059.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2060.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2061.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2062.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2063.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2064.nc"/>
+  <netcdf location="../../sresa2/csiro_mk3_5/temp_03_2065.nc"/>
+</aggregation>
+</netcdf>

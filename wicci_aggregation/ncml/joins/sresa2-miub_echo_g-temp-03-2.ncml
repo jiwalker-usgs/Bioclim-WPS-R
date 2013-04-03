@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2081.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2082.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2083.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2084.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2085.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2086.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2087.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2088.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2089.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2090.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2091.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2092.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2093.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2094.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2095.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2096.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2097.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2098.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2099.nc"/>
+  <netcdf location="../../sresa2/miub_echo_g/temp_03_2100.nc"/>
+</aggregation>
+</netcdf>

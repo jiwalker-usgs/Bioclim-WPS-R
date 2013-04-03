@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1961.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1962.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1963.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1964.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1965.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1966.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1967.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1968.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1969.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1970.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1971.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1972.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1973.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1974.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1975.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1976.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1977.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1978.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1979.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1980.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1981.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1982.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1983.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1984.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1985.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1986.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1987.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1988.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1989.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1990.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1991.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1992.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1993.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1994.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1995.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1996.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1997.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1998.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_1999.nc"/>
+  <netcdf location="../../20c3m/cccma_cgcm3_1_t63/temp_03_2000.nc"/>
+</aggregation>
+</netcdf>
