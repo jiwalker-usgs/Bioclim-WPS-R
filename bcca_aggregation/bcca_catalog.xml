@@ -47,525 +47,525 @@
 				</eastwest>
 			</geospatialCoverage>
 		</metadata>
-	</dataset>
-	<dataset name="BC_2deg 365_day 20c3m" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 365_day 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 365_day sres" ID="llnl.gov/bcca/BC_2deg.365_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 365_day sres monthly" ID="llnl.gov/bcca/BC_2deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg gregorian 20c3m" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg gregorian 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg gregorian sres" ID="llnl.gov/bcca/BC_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg gregorian sres monthly" ID="llnl.gov/bcca/BC_2deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 360_day 20c3m" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 360_day 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 360_day sres" ID="llnl.gov/bcca/BC_2deg.360_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg 360_day sres monthly" ID="llnl.gov/bcca/BC_2deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg noleap 20c3m" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg noleap 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg noleap sres" ID="llnl.gov/bcca/BC_2deg.noleap.sres" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.ncml"/>
-	</dataset>
-	<dataset name="BC_2deg noleap sres monthly" ID="llnl.gov/bcca/BC_2deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 365_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 365_day 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 365_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 365_day sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg gregorian 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg gregorian 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg gregorian sres" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg gregorian sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 360_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 360_day 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 360_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg 360_day sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg noleap 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg noleap 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg noleap sres" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.ncml"/>
-	</dataset>
-	<dataset name="BCCA_0.125deg noleap sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 365_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 365_day 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 365_day sres" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 365_day sres monthly" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg gregorian 20c3m" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg gregorian 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg gregorian sres" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg gregorian sres monthly" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 360_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 360_day 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 360_day sres" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg 360_day sres monthly" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg noleap 20c3m" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg noleap 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1961-01-01T00:00</start>
-			<end>2000-12-31T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.monthly.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg noleap sres" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.ncml"/>
-	</dataset>
-	<dataset name="REGRID_2deg noleap sres monthly" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>2046-01-01T00:00</start>
-			<end>2100-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.monthly.ncml"/>
-	</dataset>
-	<dataset name="OBS_2deg" ID="llnl.gov/bcca/OBS_2deg" serviceName="Services" urlPath="bcca/OBS_2deg">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1950-01-01T00:00</start>
-			<end>1999-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.ncml"/>
-	</dataset>
-	<dataset name="OBS_2deg monthly" ID="llnl.gov/bcca/OBS_2deg.monthly" serviceName="Services" urlPath="bcca/OBS_2deg-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1950-01-01T00:00</start>
-			<end>1999-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.monthly.ncml"/>
-	</dataset>
-	<dataset name="OBS_125deg" ID="llnl.gov/bcca/OBS_125deg" serviceName="Services" urlPath="bcca/OBS_125deg">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1950-01-01T00:00</start>
-			<end>1999-01-01T00:00</end>
-			<resolution>1 Day</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.ncml"/>
-	</dataset>
-	<dataset name="OBS_125deg monthly" ID="llnl.gov/bcca/OBS_125deg.monthly" serviceName="Services" urlPath="bcca/OBS_125deg-monthly">
-		<dataType>Grid</dataType>
-		<dataFormat>NcML</dataFormat>
-		<timeCoverage>
-			<start>1950-01-01T00:00</start>
-			<end>1999-01-01T00:00</end>
-			<resolution>1 Month</resolution>
-		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.monthly.ncml"/>
+		<dataset name="BC_2deg 365_day 20c3m" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 365_day 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 365_day sres" ID="llnl.gov/bcca/BC_2deg.365_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 365_day sres monthly" ID="llnl.gov/bcca/BC_2deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg gregorian 20c3m" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg gregorian 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg gregorian sres" ID="llnl.gov/bcca/BC_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg gregorian sres monthly" ID="llnl.gov/bcca/BC_2deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 360_day 20c3m" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 360_day 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 360_day sres" ID="llnl.gov/bcca/BC_2deg.360_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg 360_day sres monthly" ID="llnl.gov/bcca/BC_2deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg noleap 20c3m" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg noleap 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg noleap sres" ID="llnl.gov/bcca/BC_2deg.noleap.sres" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.ncml"/>
+		</dataset>
+		<dataset name="BC_2deg noleap sres monthly" ID="llnl.gov/bcca/BC_2deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 365_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 365_day 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 365_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 365_day sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg gregorian 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg gregorian 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg gregorian sres" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg gregorian sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 360_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 360_day 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 360_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg 360_day sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg noleap 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg noleap 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg noleap sres" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.ncml"/>
+		</dataset>
+		<dataset name="BCCA_0.125deg noleap sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 365_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 365_day 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 365_day sres" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 365_day sres monthly" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg gregorian 20c3m" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg gregorian 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg gregorian sres" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg gregorian sres monthly" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 360_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 360_day 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 360_day sres" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg 360_day sres monthly" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg noleap 20c3m" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg noleap 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1961-01-01T00:00</start>
+				<end>2000-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.monthly.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg noleap sres" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.ncml"/>
+		</dataset>
+		<dataset name="REGRID_2deg noleap sres monthly" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>2046-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.monthly.ncml"/>
+		</dataset>
+		<dataset name="OBS_2deg" ID="llnl.gov/bcca/OBS_2deg" serviceName="Services" urlPath="bcca/OBS_2deg">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1950-01-01T00:00</start>
+				<end>1999-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.ncml"/>
+		</dataset>
+		<dataset name="OBS_2deg monthly" ID="llnl.gov/bcca/OBS_2deg.monthly" serviceName="Services" urlPath="bcca/OBS_2deg-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1950-01-01T00:00</start>
+				<end>1999-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.monthly.ncml"/>
+		</dataset>
+		<dataset name="OBS_125deg" ID="llnl.gov/bcca/OBS_125deg" serviceName="Services" urlPath="bcca/OBS_125deg">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1950-01-01T00:00</start>
+				<end>1999-01-01T00:00</end>
+				<resolution>1 Day</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.ncml"/>
+		</dataset>
+		<dataset name="OBS_125deg monthly" ID="llnl.gov/bcca/OBS_125deg.monthly" serviceName="Services" urlPath="bcca/OBS_125deg-monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<timeCoverage>
+				<start>1950-01-01T00:00</start>
+				<end>1999-01-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.monthly.ncml"/>
+		</dataset>
 	</dataset>
 </catalog>
