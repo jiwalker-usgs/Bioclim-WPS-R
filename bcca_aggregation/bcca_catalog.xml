@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink" name="BCCA Climate Projections by Maurer, Brekke, Pruitt, and Duffy">
+	<service name="Services" serviceType="Compound" base="">
+		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+		<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+		<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+		<service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+	</service>
+	<dataset name="BC_2deg 365_day 20c3m" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 365_day 20c3m" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 365_day sres" ID="llnl.gov/bcca/BC_2deg.365_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 365_day sres" ID="llnl.gov/bcca/BC_2deg.365_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg gregorian 20c3m" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg gregorian 20c3m" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg gregorian sres" ID="llnl.gov/bcca/BC_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg gregorian sres" ID="llnl.gov/bcca/BC_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 360_day 20c3m" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 360_day 20c3m" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 360_day sres" ID="llnl.gov/bcca/BC_2deg.360_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg 360_day sres" ID="llnl.gov/bcca/BC_2deg.360_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg noleap 20c3m" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg noleap 20c3m" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg noleap sres" ID="llnl.gov/bcca/BC_2deg.noleap.sres" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.ncml"/>
+	</dataset>
+	<dataset name="BC_2deg noleap sres" ID="llnl.gov/bcca/BC_2deg.noleap.sres" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 365_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 365_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 365_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 365_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg gregorian 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg gregorian 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg gregorian sres" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg gregorian sres" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 360_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 360_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 360_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg 360_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg noleap 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg noleap 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg noleap sres" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.ncml"/>
+	</dataset>
+	<dataset name="BCCA_0.125deg noleap sres" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 365_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 365_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 365_day sres" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 365_day sres" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg gregorian 20c3m" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg gregorian 20c3m" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg gregorian sres" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg gregorian sres" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 360_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 360_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 360_day sres" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg 360_day sres" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg noleap 20c3m" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg noleap 20c3m" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1961-01-01T00:00</start>
+			<end>2000-12-31T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg noleap sres" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.ncml"/>
+	</dataset>
+	<dataset name="REGRID_2deg noleap sres" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>2046-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.ncml"/>
+	</dataset>
+	<dataset name="OBS_2deg" ID="llnl.gov/bcca/OBS_2deg" serviceName="Services" urlPath="bcca/OBS_2deg">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>1999-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.ncml"/>
+	</dataset>
+	<dataset name="OBS_2deg" ID="llnl.gov/bcca/OBS_2deg" serviceName="Services" urlPath="bcca/OBS_2deg">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>1999-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.monthly.ncml"/>
+	</dataset>
+	<dataset name="OBS_125deg" ID="llnl.gov/bcca/OBS_125deg" serviceName="Services" urlPath="bcca/OBS_125deg">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>1999-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.ncml"/>
+	</dataset>
+	<dataset name="OBS_125deg" ID="llnl.gov/bcca/OBS_125deg" serviceName="Services" urlPath="bcca/OBS_125deg">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"> This archive contains fine spatial-resolution translations of 53 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+		<documentation type="Reference">Maurer, E.P., H.G. Hidalgo, T. Das, M.D. Dettinger, and D.R. Cayan, 2010, The utility of daily large-scale climate data in the assessment of climate change impacts o n daily streamflow in California, Hydrology and Earth System Sciences 14, 1125-1138, doi:10.5194/hess-14-1125-2010</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>1999-01-01T00:00</end>
+			<resolution>1 Month</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.monthly.ncml"/>
+	</dataset>
+</catalog>
