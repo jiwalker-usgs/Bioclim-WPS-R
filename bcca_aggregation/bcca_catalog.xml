@@ -54,7 +54,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg 365_day 20c3m" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m">
+	<dataset name="BC_2deg 365_day 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-365_day-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -100,7 +100,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg 365_day sres" ID="llnl.gov/bcca/BC_2deg.365_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres">
 		<dataType>Grid</dataType>
@@ -150,7 +150,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg 365_day sres" ID="llnl.gov/bcca/BC_2deg.365_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres">
+	<dataset name="BC_2deg 365_day sres monthly" ID="llnl.gov/bcca/BC_2deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-365_day-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -196,7 +196,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.365_day.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg gregorian 20c3m" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m">
 		<dataType>Grid</dataType>
@@ -246,7 +246,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg gregorian 20c3m" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m">
+	<dataset name="BC_2deg gregorian 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -292,7 +292,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg gregorian sres" ID="llnl.gov/bcca/BC_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres">
 		<dataType>Grid</dataType>
@@ -342,7 +342,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg gregorian sres" ID="llnl.gov/bcca/BC_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres">
+	<dataset name="BC_2deg gregorian sres monthly" ID="llnl.gov/bcca/BC_2deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-gregorian-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -388,7 +388,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.gregorian.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg 360_day 20c3m" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m">
 		<dataType>Grid</dataType>
@@ -438,7 +438,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg 360_day 20c3m" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m">
+	<dataset name="BC_2deg 360_day 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-360_day-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -484,7 +484,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg 360_day sres" ID="llnl.gov/bcca/BC_2deg.360_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres">
 		<dataType>Grid</dataType>
@@ -534,7 +534,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg 360_day sres" ID="llnl.gov/bcca/BC_2deg.360_day.sres" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres">
+	<dataset name="BC_2deg 360_day sres monthly" ID="llnl.gov/bcca/BC_2deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-360_day-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -580,7 +580,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.360_day.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg noleap 20c3m" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m">
 		<dataType>Grid</dataType>
@@ -630,7 +630,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg noleap 20c3m" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m">
+	<dataset name="BC_2deg noleap 20c3m monthly" ID="llnl.gov/bcca/BC_2deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/BC_2deg-noleap-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -676,7 +676,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BC_2deg noleap sres" ID="llnl.gov/bcca/BC_2deg.noleap.sres" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres">
 		<dataType>Grid</dataType>
@@ -726,7 +726,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.ncml"/>
 	</dataset>
-	<dataset name="BC_2deg noleap sres" ID="llnl.gov/bcca/BC_2deg.noleap.sres" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres">
+	<dataset name="BC_2deg noleap sres monthly" ID="llnl.gov/bcca/BC_2deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/BC_2deg-noleap-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -772,7 +772,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_2deg.noleap.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg 365_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m">
 		<dataType>Grid</dataType>
@@ -822,7 +822,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg 365_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m">
+	<dataset name="BCCA_0.125deg 365_day 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -868,7 +868,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg 365_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres">
 		<dataType>Grid</dataType>
@@ -918,7 +918,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg 365_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres">
+	<dataset name="BCCA_0.125deg 365_day sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-365_day-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -964,7 +964,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.365_day.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg gregorian 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m">
 		<dataType>Grid</dataType>
@@ -1014,7 +1014,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg gregorian 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m">
+	<dataset name="BCCA_0.125deg gregorian 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1060,7 +1060,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg gregorian sres" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres">
 		<dataType>Grid</dataType>
@@ -1110,7 +1110,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg gregorian sres" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres">
+	<dataset name="BCCA_0.125deg gregorian sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-gregorian-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1156,7 +1156,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.gregorian.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg 360_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m">
 		<dataType>Grid</dataType>
@@ -1206,7 +1206,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg 360_day 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m">
+	<dataset name="BCCA_0.125deg 360_day 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1252,7 +1252,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg 360_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres">
 		<dataType>Grid</dataType>
@@ -1302,7 +1302,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg 360_day sres" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres">
+	<dataset name="BCCA_0.125deg 360_day sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-360_day-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1348,7 +1348,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.360_day.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg noleap 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m">
 		<dataType>Grid</dataType>
@@ -1398,7 +1398,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg noleap 20c3m" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m">
+	<dataset name="BCCA_0.125deg noleap 20c3m monthly" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1444,7 +1444,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="BCCA_0.125deg noleap sres" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres">
 		<dataType>Grid</dataType>
@@ -1494,7 +1494,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.ncml"/>
 	</dataset>
-	<dataset name="BCCA_0.125deg noleap sres" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres">
+	<dataset name="BCCA_0.125deg noleap sres monthly" ID="llnl.gov/bcca/BCCA_0.125deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/BCCA_0.125deg-noleap-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1540,7 +1540,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.noleap.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg 365_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m">
 		<dataType>Grid</dataType>
@@ -1590,7 +1590,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg 365_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m">
+	<dataset name="REGRID_2deg 365_day 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.365_day.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1636,7 +1636,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg 365_day sres" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres">
 		<dataType>Grid</dataType>
@@ -1686,7 +1686,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg 365_day sres" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres">
+	<dataset name="REGRID_2deg 365_day sres monthly" ID="llnl.gov/bcca/REGRID_2deg.365_day.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-365_day-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1732,7 +1732,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.365_day.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg gregorian 20c3m" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m">
 		<dataType>Grid</dataType>
@@ -1782,7 +1782,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg gregorian 20c3m" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m">
+	<dataset name="REGRID_2deg gregorian 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.gregorian.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1828,7 +1828,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg gregorian sres" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres">
 		<dataType>Grid</dataType>
@@ -1878,7 +1878,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg gregorian sres" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres">
+	<dataset name="REGRID_2deg gregorian sres monthly" ID="llnl.gov/bcca/REGRID_2deg.gregorian.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-gregorian-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -1924,7 +1924,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.gregorian.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg 360_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m">
 		<dataType>Grid</dataType>
@@ -1974,7 +1974,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg 360_day 20c3m" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m">
+	<dataset name="REGRID_2deg 360_day 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.360_day.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -2020,7 +2020,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg 360_day sres" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres">
 		<dataType>Grid</dataType>
@@ -2070,7 +2070,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg 360_day sres" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres">
+	<dataset name="REGRID_2deg 360_day sres monthly" ID="llnl.gov/bcca/REGRID_2deg.360_day.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-360_day-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -2116,7 +2116,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.360_day.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg noleap 20c3m" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m">
 		<dataType>Grid</dataType>
@@ -2166,7 +2166,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg noleap 20c3m" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m">
+	<dataset name="REGRID_2deg noleap 20c3m monthly" ID="llnl.gov/bcca/REGRID_2deg.noleap.20c3m.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-20c3m-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -2212,7 +2212,7 @@
 			<end>2000-12-31T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.20c3m.monthly.ncml"/>
 	</dataset>
 	<dataset name="REGRID_2deg noleap sres" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres">
 		<dataType>Grid</dataType>
@@ -2262,7 +2262,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.ncml"/>
 	</dataset>
-	<dataset name="REGRID_2deg noleap sres" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres">
+	<dataset name="REGRID_2deg noleap sres monthly" ID="llnl.gov/bcca/REGRID_2deg.noleap.sres.monthly" serviceName="Services" urlPath="bcca/REGRID_2deg-noleap-sres-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -2308,7 +2308,7 @@
 			<end>2100-01-01T00:00</end>
 			<resolution>1 Month</resolution>
 		</timeCoverage>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.ncml"/>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/REGRID_2deg.noleap.sres.monthly.ncml"/>
 	</dataset>
 	<dataset name="OBS_2deg" ID="llnl.gov/bcca/OBS_2deg" serviceName="Services" urlPath="bcca/OBS_2deg">
 		<dataType>Grid</dataType>
@@ -2358,7 +2358,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_2deg.ncml"/>
 	</dataset>
-	<dataset name="OBS_2deg" ID="llnl.gov/bcca/OBS_2deg" serviceName="Services" urlPath="bcca/OBS_2deg">
+	<dataset name="OBS_2deg monthly" ID="llnl.gov/bcca/OBS_2deg.monthly" serviceName="Services" urlPath="bcca/OBS_2deg-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
@@ -2454,7 +2454,7 @@
 		</timeCoverage>
 		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/OBS_125deg.ncml"/>
 	</dataset>
-	<dataset name="OBS_125deg" ID="llnl.gov/bcca/OBS_125deg" serviceName="Services" urlPath="bcca/OBS_125deg">
+	<dataset name="OBS_125deg monthly" ID="llnl.gov/bcca/OBS_125deg.monthly" serviceName="Services" urlPath="bcca/OBS_125deg-monthly">
 		<dataType>Grid</dataType>
 		<dataFormat>NcML</dataFormat>
 		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 Climate and Hydrology Projections Home"/>
