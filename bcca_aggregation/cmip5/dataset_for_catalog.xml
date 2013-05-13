@@ -1,0 +1,104 @@
+<dataset name="BCCA CMIP5 Climate daily Projections" ID="llnl.gov/cmip5/bcca/">
+	<metadata inherited="true">
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html" title="Bias Corrected and Downscaled WCRP CMIP3 and CMIP5 Climate and Hydrology Projections Home"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Projections: Complete Archives" title="Originating Data Repository"/>
+		<documentation href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/downscaled_climate.pdf" title="Reference Document"/>
+		<documentation type="Rights">Freely Available</documentation>
+		<documentation type="Summary"></documentation>
+		<documentation type="Reference">Downscaled CMIP3 and CMIP5 Climate Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with Preceding Information, and Summary of User Needs. U.S. Department of the Interior, Bureau of Reclamation, Technical Service Center, Denver, Colorado, 116 p., Link Above.
+		</documentation>
+		<keyword>Surface Winds Atmosphere</keyword>
+		<keyword>Air Temperature Atmosphere</keyword>
+		<keyword>Precipitation</keyword>
+		<keyword>Rain</keyword>
+		<keyword>Downscaled Climate Projection</keyword>
+		<creator>
+			<name>Bridget Thrasher</name>
+			<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+		</creator>
+		<creator>
+			<name>Ed Maurer</name>
+			<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+		</creator>
+		<publisher>
+			<name>LLNL-PCMDI</name>
+			<contact url="http://www-pcmdi.llnl.gov/" email="webmaster@pcmdi.llnl.gov"/>
+		</publisher>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<geospatialCoverage>
+			<northsouth>
+				<start>53</start>
+				<size>-28</size>
+				<units>degrees_north</units>
+			</northsouth>
+			<eastwest>
+				<start>-125</start>
+				<size>58</size>
+				<units>degrees_east</units>
+			</eastwest>
+		</geospatialCoverage>
+	</metadata>
+	<dataset name="BCCA 0.125-Deg Historical" ID="llnl.gov/cmip5/bcca/BCCA_0.125deg.historical" serviceName="Services" urlPath="cmip5/bcca/BCCA_0.125deg.historical">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>2006-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.historical.ncml"/>
+	</dataset>
+	<dataset name="BCCA 0.125-Deg RCP" ID="llnl.gov/cmip5/bcca/BCCA_0.125deg.RCP" serviceName="Services" urlPath="cmip5/bcca/BCCA_0.125deg.RCP">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<timeCoverage>
+			<start>2006-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BCCA_0.125deg.rcp.ncml"/>
+	</dataset>
+	<dataset name="BC 1-Deg Historical" ID="llnl.gov/cmip5/bcca/BC_1deg.historical" serviceName="Services" urlPath="cmip5/bcca/BC_1deg.historical">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>2006-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_1deg.historical.ncml"/>
+	</dataset>
+	<dataset name="BC 1-Deg RCP" ID="llnl.gov/cmip5/bcca/BC_1deg.RCP" serviceName="Services" urlPath="cmip5/bcca/BC_1deg.RCP">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<timeCoverage>
+			<start>2006-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/BC_1deg.rcp.ncml"/>
+	</dataset>
+	<dataset name="Regridded 1-Deg Historical" ID="llnl.gov/cmip5/bcca/regridded_1deg.historical" serviceName="Services" urlPath="cmip5/bcca/regridded_1deg.historical">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<timeCoverage>
+			<start>1950-01-01T00:00</start>
+			<end>2006-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/regridded_1deg.historical.ncml"/>
+	</dataset>
+	<dataset name="Regridded 1-Deg RCP" ID="llnl.gov/cmip5/bcca/regridded_1deg.RCP" serviceName="Services" urlPath="cmip5/bcca/regridded_1deg.RCP">
+		<dataType>Grid</dataType>
+		<dataFormat>NcML</dataFormat>
+		<timeCoverage>
+			<start>2006-01-01T00:00</start>
+			<end>2100-01-01T00:00</end>
+			<resolution>1 Day</resolution>
+		</timeCoverage>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/esg/content/thredds/bcsd/bcca/unions/regridded_1deg.rcp.ncml"/>
+	</dataset>
+</dataset>
