@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting">
+  <scan location="/dcp_data/dcp/archive/cmip5/bcca/canesm2/historical/day/r4i1p1/tasmin" regExp="BC_1deg_.* subdirs="false"/>
+ </aggregation>
+</netcdf>
