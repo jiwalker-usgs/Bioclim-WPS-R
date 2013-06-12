@@ -7,7 +7,7 @@ c.write('<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unida
 a.write('<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n  <aggregation type="union">\n')
 for line in lines:
     if '.nc' in line and '.nc.gz' not in line:
-        new_name = line[0:-1-13]
+        new_name = line[0:-1-13].replace('.','-')
         if 'pr' in new_name:
             orgName = 'pr' 
         if 'tmin' in new_name:
