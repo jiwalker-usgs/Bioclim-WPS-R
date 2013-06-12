@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <aggregation type="union">
+       <netcdf location="../ccsm.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../ccsm.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../ccsm.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../ccsm.a1fi.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.a1fi.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../ccsm.a1fi.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.a1fi.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../ccsm.a1fi.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.a1fi.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../ccsm.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../ccsm.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../ccsm.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../ccsm.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../ccsm.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../ccsm.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t47.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t47.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t47.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t47.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t47.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t47.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t47.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t47.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t47.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t63.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t63.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t63.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t63.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t63.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t63.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t63.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t63.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t63.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cnrm.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cnrm.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cnrm.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cnrm.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cnrm.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cnrm.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cnrm.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cnrm.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cnrm.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cnrm.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cnrm.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cnrm.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../cnrm.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="cnrm.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../cnrm.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="cnrm.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../cnrm.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="cnrm.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../csiro.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="csiro.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../csiro.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="csiro.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../csiro.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="csiro.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../csiro.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="csiro.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../csiro.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="csiro.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../csiro.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="csiro.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../csiro.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="csiro.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../csiro.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="csiro.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../csiro.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="csiro.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../echam5.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="echam5.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../echam5.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="echam5.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../echam5.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="echam5.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../echam5.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="echam5.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../echam5.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="echam5.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../echam5.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="echam5.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../echam5.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="echam5.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../echam5.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="echam5.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../echam5.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="echam5.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../echo.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="echo.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../echo.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="echo.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../echo.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="echo.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../echo.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="echo.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../echo.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="echo.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../echo.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="echo.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../echo.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="echo.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../echo.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="echo.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../echo.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="echo.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.0.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.0.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.0.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.0.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.0.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.0.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1fi.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.a1fi.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1fi.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.a1fi.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1fi.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.a1fi.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../giss_aom.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="giss_aom.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../giss_aom.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="giss_aom.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../giss_aom.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="giss_aom.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../giss_aom.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="giss_aom.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../giss_aom.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="giss_aom.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../giss_aom.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="giss_aom.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../miroc_hi.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="miroc_hi.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../miroc_hi.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_hi.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../miroc_hi.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_hi.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../miroc_hi.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="miroc_hi.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../miroc_hi.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_hi.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../miroc_hi.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_hi.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../miroc_med.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="miroc_med.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../miroc_med.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_med.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../miroc_med.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_med.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../miroc_med.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="miroc_med.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../miroc_med.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_med.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../miroc_med.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_med.a2.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../miroc_med.b1.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="miroc_med.b1.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../miroc_med.b1.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_med.b1.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../miroc_med.b1.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_med.b1.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a1b.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="mri_cgcm2.a1b.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a1b.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="mri_cgcm2.a1b.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a1b.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="mri_cgcm2.a1b.grid.Alas.tmin" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a2.grid.Alas.pr.1960.2099.nc">
+         <variable orgName="pr" name="mri_cgcm2.a2.grid.Alas.pr" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a2.grid.Alas.tmax.1960.2099.nc">
+         <variable orgName="tmax" name="mri_cgcm2.a2.grid.Alas.tmax" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a2.grid.Alas.tmin.1960.2099.nc">
+         <variable orgName="tmin" name="mri_cgcm2.a2.grid.Alas.tmin" />
+        </netcdf>
+   </aggregation>
+</netcdf>

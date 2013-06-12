@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <aggregation type="union">
+       <netcdf location="../ccsm.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a1fi.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.a1fi.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a1fi.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.a1fi.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a1fi.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.a1fi.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="ccsm.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="ccsm.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../ccsm.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="ccsm.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t47.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t47.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t47.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t47.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t47.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t47.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t47.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t47.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t47.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t47.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t63.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t63.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t63.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t63.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t63.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t63.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cgcm3_t63.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cgcm3_t63.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cgcm3_t63.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cgcm3_t63.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cnrm.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cnrm.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cnrm.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cnrm.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cnrm.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cnrm.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="cnrm.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="cnrm.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../cnrm.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="cnrm.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="csiro.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="csiro.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="csiro.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="csiro.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="csiro.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="csiro.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="csiro.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../csiro.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="csiro.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="echam5.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="echam5.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="echam5.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="echam5.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="echam5.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="echam5.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="echam5.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="echam5.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echam5.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="echam5.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="echo.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="echo.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="echo.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="echo.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="echo.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="echo.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="echo.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="echo.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../echo.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="echo.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.0.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.0.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.0.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.0.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.0.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.0.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.0.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1fi.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.a1fi.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1fi.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.a1fi.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a1fi.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.a1fi.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="gfdl_2.1.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="gfdl_2.1.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../gfdl_2.1.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="gfdl_2.1.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../giss_aom.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="giss_aom.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../giss_aom.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="giss_aom.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../giss_aom.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="giss_aom.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../giss_aom.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="giss_aom.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../giss_aom.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="giss_aom.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../giss_aom.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="giss_aom.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_hi.a1b.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="miroc_hi.a1b.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_hi.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_hi.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_hi.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_hi.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_hi.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="miroc_hi.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_hi.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_hi.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_hi.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_hi.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_med.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_med.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="miroc_med.a2.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.a2.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_med.a2.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.a2.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_med.a2.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.b1.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="miroc_med.b1.pr.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.b1.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="miroc_med.b1.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../miroc_med.b1.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="miroc_med.b1.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a1b.tmax.NAm.grid.1960.2099.nc">
+         <variable orgName="tmax" name="mri_cgcm2.a1b.tmax.NAm.grid" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a1b.tmin.NAm.grid.1960.2099.nc">
+         <variable orgName="tmin" name="mri_cgcm2.a1b.tmin.NAm.grid" />
+        </netcdf>
+       <netcdf location="../mri_cgcm2.a2.pr.NAm.grid.1960.2099.nc">
+         <variable orgName="pr" name="mri_cgcm2.a2.pr.NAm.grid" />
+        </netcdf>
+   </aggregation>
+</netcdf>

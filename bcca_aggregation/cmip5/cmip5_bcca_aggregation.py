@@ -22,7 +22,7 @@ for line in lines: # Loop through all lines, build unions and joinexistings as w
                 count+=1
                 print name
                 f=open('./ncmls/joins/'+name,'w')
-                f.write(daily_ncml_1+'"'+path+'"'+daily_ncml_2+'"'+grid+'.*'+daily_ncml_3)
+                f.write(daily_ncml_1+'"'+path+'"'+daily_ncml_2+'"'+grid+'.*"'+daily_ncml_3)
                 f.close()
 
 
