@@ -11,6 +11,9 @@ bioclims<-c(1,2,3)
 
 library("ncdf4")
 library("climates")
+library("rgdal")
+library("stats")
+library("utils")
 dods_data <- nc_open(OPeNDAP_URI)
 # Get time index time origin.
 time_units<-strsplit(dods_data$dim$time$units, " ")[[1]]
@@ -75,7 +78,7 @@ for (row in 1:nrow(tmax_data))
 coords <- array(dim=c(length(lons)*length(lats),2))
 ind<-1
 for (row in 1:length(lons)) {
-  for (col in 1:length(lats))
+  for (col in length(lats):1)
   {coords[ind,1]<-lons[row]
    coords[ind,2]<-lats[col]
    ind<-ind+1
