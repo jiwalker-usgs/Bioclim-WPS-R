@@ -77,10 +77,14 @@ for (row in 1:nrow(tmax_data))
 # Create lat/lon points for cells for geotiff files to be written.
 coords <- array(dim=c(length(lons)*length(lats),2))
 ind<-1
+dif_lons = mean(diff(lons))
+dif_lats = mean(diff(lats))
+if (abs(dif_lats-dif_lons)>0.00001)
+  stop('The data source appears to be an irregular grid, this datatype is not supported.')
 for (row in 1:length(lons)) {
   for (col in length(lats):1)
-  {coords[ind,1]<-lons[row]
-   coords[ind,2]<-lats[col]
+  {coords[ind,1]<-lons[row]-dif_lons/2
+   coords[ind,2]<-lats[col]-dif_lats/2
    ind<-ind+1
   }
 }
