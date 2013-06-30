@@ -1,13 +1,13 @@
 # Define Inputs (will come from external call)
 start <- "1950"
-end <- "1951"
+end <- "1960"
 bbox<-c(-88,41,-84,44)
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/prism"
 tmax_var  <- "tmx"
 tmin_var <- "tmn"
 prcp_var <- "ppt"
 tave_var <- "NULL"
-bioclims<-c(1)
+bioclims<-c(1,2,3)
 
 library("ncdf4")
 library("climates")
@@ -26,6 +26,7 @@ cal_origin <- paste(date_origin, time_origin)
 year_origin=as.numeric(strsplit(date_origin,'-')[[1]][1])
 month_origin=as.numeric(strsplit(date_origin,'-')[[1]][2])
 day_origin=as.numeric(strsplit(date_origin,'-')[[1]][3])
+years=as.numeric(end)-as.numeric(start)
 t_1 <- julian(strptime(paste(start,'-01-01',sep=''), '%Y-%m-%d'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
 t_2 <- julian(strptime(paste(end, '-01-01', sep='') '%Y-%m-%d'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
 # Some simple time and bbox validation.
@@ -57,17 +58,16 @@ tmin_data <- ncvar_get(dods_data, tmin_var, c(min(lon1_index,lon2_index),min(lat
 prcp_data <- ncvar_get(dods_data, prcp_var, c(min(lon1_index,lon2_index),min(lat1_index,lat2_index),t_ind1),c((abs(lon1_index-lon2_index)+1),(abs(lat1_index-lat2_index)+1),(t_ind2-t_ind1)))
 if (tave_var!="NULL") tave_data <- ncvar_get(dods_data, tave_var, c(min(lon1_index,lon2_index),min(lat1_index,lat2_index),t_ind1),c((abs(lon1_index-lon2_index)+1),(abs(lat1_index-lat2_index)+1),(t_ind2-t_ind1))) else tave_data <- (tmax_data+tmin_data)/2
 # The loops below calculate bioclim for each time series and assemble a matrix 'out_data' that is lon*lat X time steps X bioclim stats.
-years=dim(tmax_data)[3]/12
 out_data <- array(dim=c(nrow(tmax_data)*ncol(tmax_data),years,length(bioclims)))
 ind<-1
 for (row in 1:nrow(tmax_data))
 {
   for (col in 1:ncol(tmax_data))
   {
-    tmax <- matrix(tmax_data[row,col,],dim(tmax_data)[3]/12,12)
-    tmin <- matrix(tmin_data[row,col,],dim(tmin_data)[3]/12,12)
-    prcp <- matrix(prcp_data[row,col,],dim(prcp_data)[3]/12,12)
-    tave <- matrix(tave_data[row,col,],dim(prcp_data)[3]/12,12)
+    tmax <- matrix(tmax_data[row,col,],years,12)
+    tmin <- matrix(tmin_data[row,col,],years,12)
+    prcp <- matrix(prcp_data[row,col,],years,12)
+    tave <- matrix(tave_data[row,col,],years,12)
     if (length(bioclims)==1) # bioclim returns a vector rather than a dataFrame if only asked for one output.
     {
       bioclim<-bioclim(tmin=tmin, tmax=tmax, prec=prcp, tmean=tave, bioclims)
@@ -81,7 +81,7 @@ for (row in 1:nrow(tmax_data))
     }
     for (bclim in 1:length(bioclims))
     {
-      for (t in 1:dim(tmax_data)[3]/12)
+      for (t in 1:years)
       {
         out_data[ind,t,bclim] <- (bioclim[t,1])
       }
@@ -107,8 +107,8 @@ for (row in 1:length(lons)) {
 for (bclim in 1:length(bioclims))
 {
   file_bclim<-names(bioclim)[bclim]
-  file_year<-as.numeric(strsplit(start,'-')[[1]][1])
-  for (t in 1:(dim(tmax_data)[3]/12))
+  file_year<-as.numeric(start)
+  for (t in 1:(years))
   {
     grid_data <- data.frame(out_data[,t,bclim])
     names(grid_data) <- names(bioclim)[bclim]
