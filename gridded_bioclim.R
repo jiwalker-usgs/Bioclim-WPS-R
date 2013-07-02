@@ -16,6 +16,7 @@ library("stats")
 library("utils")
 library("chron")
 library("zoo")
+library("rgdal")
 dods_data <- nc_open(OPeNDAP_URI)
 # Get time index time origin.
 time_units<-strsplit(dods_data$dim$time$units, " ")[[1]]
@@ -56,7 +57,7 @@ if (!is.null(ncatt_get(dods_data, tmax_var,'grid_mapping')))
                    " +x_0=", false_easting,
                    " +y_0=", false_northing,
                    " +a=", semi_major_axis,
-                   " +f=", inverse_flattening,
+                   " +f=", (1/inverse_flattening),
                    sep='')
     }
     else
@@ -68,12 +69,17 @@ if (!is.null(ncatt_get(dods_data, tmax_var,'grid_mapping')))
                    " +x_0=", false_easting,
                    " +y_0=", false_northing,
                    " +a=", semi_major_axis,
-                   " +f=", inverse_flattening,
+                   " +f=", (1/inverse_flattening),
                    sep='') 
     }
   }
 }
-
+bbox_unproj<-matrix(ncol=2,nrow=2)
+bbox_unproj[1,]<-c(bbox[1],bbox[2])
+bbox_unproj[2,]<-c(bbox[3],bbox[4])
+# Fooling around with projection of the bounding box... haven't gotten this to work yet.
+# proj_bbox<-ptransform(bbox_unproj,"+init=epsg:4326",prj)
+# proj_bbox<-project(bbox_unproj,prj)
 if (bbox[1]<min(dods_data$dim$lon$vals)) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",min(dods_data$dim$lon$vals)))
 if (bbox[2]<min(dods_data$dim$lat$vals)) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",min(dods_data$dim$lat$vals)))
 if (bbox[3]>max(dods_data$dim$lon$vals)) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",max(dods_data$dim$lon$vals)))
