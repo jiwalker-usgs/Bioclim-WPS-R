@@ -1,6 +1,6 @@
 # Define Inputs (will come from external call)
 start <- "1950"
-end <- "1960"
+end <- "1951"
 bbox<-c(-88,41,-84,44)
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/prism"
 tmax_var  <- "tmx"
@@ -28,7 +28,7 @@ month_origin=as.numeric(strsplit(date_origin,'-')[[1]][2])
 day_origin=as.numeric(strsplit(date_origin,'-')[[1]][3])
 years=as.numeric(end)-as.numeric(start)
 t_1 <- julian(strptime(paste(start,'-01-01',sep=''), '%Y-%m-%d'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
-t_2 <- julian(strptime(paste(end, '-01-01', sep='') '%Y-%m-%d'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
+t_2 <- julian(strptime(paste(end, '-01-01', sep=''), '%Y-%m-%d'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
 # Some simple time and bbox validation.
 if (t_1<head(dods_data$dim$time$vals,1)) stop(paste("Submitted start date,",start, "is before the dataset's start date,",chron(head(dods_data$dim$time$vals,1),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
 if (t_2>tail(dods_data$dim$time$vals,1)) stop(paste("Submitted end date,",end, "is after the dataset's end date,",chron(tail(dods_data$dim$time$vals,1),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
