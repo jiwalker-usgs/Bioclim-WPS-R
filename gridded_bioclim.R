@@ -2,6 +2,7 @@
 start <- "1980"
 end <- "1981"
 bbox<-c(-90,41,-90.5,41.5)
+bbox<-c(-125,41,-90.5,41.5)
 OPeNDAP_URI<-"http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
 tmax_var  <- "tmax"
 tmin_var <- "tmin"
@@ -16,7 +17,6 @@ library("stats")
 library("utils")
 library("chron")
 library("zoo")
-library("rgdal")
 dods_data <- nc_open(OPeNDAP_URI)
 # Get time index time origin.
 time_units<-strsplit(dods_data$dim$time$units, " ")[[1]]
@@ -72,14 +72,38 @@ if (!is.null(ncatt_get(dods_data, tmax_var,'grid_mapping')))
                    " +f=", (1/inverse_flattening),
                    sep='') 
     }
+    # Project bbox and unproject data-source range to check intersection.
+    min_dods_x<-min(dods_data$dim$x$vals)
+    max_dods_x<-max(dods_data$dim$x$vals)
+    min_dods_y<-min(dods_data$dim$y$vals)
+    max_dods_y<-max(dods_data$dim$y$vals)
+    bbox_unproj<-data.frame(matrix(c(bbox, bbox[1],bbox[4],bbox[3],bbox[2]),ncol=2,byrow=TRUE))
+    colnames(bbox_unproj)<-c("x","y")
+    coordinates(bbox_unproj)<-c("x","y")
+    proj4string(bbox_unproj) <- CRS("+init=epsg:4326")
+    bbox_proj<-spTransform(bbox_unproj,CRS(prj))
+    bbox_proj_coords<-coordinates(bbox_proj)
+    dods_data_range<-data.frame(matrix(c(min_dods_x,min_dods_y,max_dods_x,max_dods_y,min_dods_x,max_dods_y,max_dods_x,min_dods_y),ncol=2,byrow=TRUE))
+    colnames(dods_data_range)<-c("x","y")
+    coordinates(dods_data_range)<-c("x","y")
+    proj4string(dods_data_range) <- CRS(prj)
+    dods_data_range_unproj<-spTransform(dods_data_range,CRS("+init=epsg:4326"))
+    dods_data_range_unproj_coords<-coordinates(dods_data_range_unproj)
+    # Coding against daymet for now, need to find a way to identify the coordinate variable for requested variables and use that name rather than the hardcoded x and y.
+    # Check lower left.
+    if (bbox_proj_coords[1]<min_dods_x || bbox_proj_coords[1]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",dods_data_range_unproj_coords[1]))
+    if (bbox_proj_coords[3]<min_dods_y || bbox_proj_coords[3]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",dods_data_range_unproj_coords[2]))
+    # Check upper right.
+    if (bbox_proj_coords[2]<min_dods_x || bbox_proj_coords[2]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",dods_data_range_unproj_coords[3]))
+    if (bbox_proj_coords[4]<min_dods_y || bbox_proj_coords[4]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",dods_data_range_unproj_coords[4]))
+    # Check upper left.
+    if (bbox_proj_coords[5]<min_dods_x || bbox_proj_coords[5]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",dods_data_range_unproj_coords[1]))
+    if (bbox_proj_coords[6]<min_dods_y || bbox_proj_coords[6]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",dods_data_range_unproj_coords[2]))
+    # Check lower right.
+    if (bbox_proj_coords[7]<min_dods_x || bbox_proj_coords[7]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",dods_data_range_unproj_coords[3]))
+    if (bbox_proj_coords[8]<min_dods_y || bbox_proj_coords[8]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",dods_data_range_unproj_coords[4]))
   }
 }
-bbox_unproj<-matrix(ncol=2,nrow=2)
-bbox_unproj[1,]<-c(bbox[1],bbox[2])
-bbox_unproj[2,]<-c(bbox[3],bbox[4])
-# Fooling around with projection of the bounding box... haven't gotten this to work yet.
-# proj_bbox<-ptransform(bbox_unproj,"+init=epsg:4326",prj)
-# proj_bbox<-project(bbox_unproj,prj)
 if (bbox[1]<min(dods_data$dim$lon$vals)) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",min(dods_data$dim$lon$vals)))
 if (bbox[2]<min(dods_data$dim$lat$vals)) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",min(dods_data$dim$lat$vals)))
 if (bbox[3]>max(dods_data$dim$lon$vals)) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",max(dods_data$dim$lon$vals)))
