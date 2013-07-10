@@ -1,13 +1,33 @@
 # Define Inputs (will come from external call)
 start <- "1961"
 end <- "1962"
-bbox<-c(-90,41,-90.5,41.5)
+bbox_in<-c(-90,41,-90.5,41.5)
+bioclims<-c(1,2)
+
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/wicci/cmip3/20c3m"
 tmax_var  <- "20c3m-cccma_cgcm3_1-tmax-01"
 tmin_var <- "20c3m-cccma_cgcm3_1-tmin-01"
 prcp_var <- "20c3m-cccma_cgcm3_1-prcp-01"
 tave_var <- "NULL"
-bioclims<-c(1,2)
+
+
+OPeNDAP_URI<-"http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
+tmax_var  <- "tmax"
+tmin_var <- "tmin"
+prcp_var <- "prcp"
+tave_var <- "NULL"
+
+OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/dcp/conus"
+tmax_var  <- "ccsm-a1b-tmax-NAm-grid"
+tmin_var <- "ccsm-a1b-tmin-NAm-grid"
+prcp_var <- "ccsm-a1fi-pr-NAm-grid"
+tave_var <- "NULL"
+
+OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/prism"
+tmax_var  <- "tmx"
+tmin_var <- "tmn"
+prcp_var <- "ppt"
+tave_var <- "NULL"
 
 library("ncdf4")
 library("climates")
@@ -17,7 +37,7 @@ library("utils")
 library("chron")
 library("zoo")
 dods_data <- nc_open(OPeNDAP_URI)
-# Need to check it specified inputs exist in specified dataset and throw errors acordingly. 
+# Need to check if specified inputs exist in specified dataset and throw errors acordingly. 
 # Get time index time origin.
 time_units<-strsplit(dods_data$dim$time$units, " ")[[1]]
 time_step<-time_units[1]
@@ -35,96 +55,9 @@ t_2 <- julian(strptime(paste(end, '-01-01 00:00', sep=''), '%Y-%m-%d %H:%M'), or
 if (t_1<head(dods_data$dim$time$vals,1)) stop(paste("Submitted start date,",start, "is before the dataset's start date,",chron(head(dods_data$dim$time$vals,1),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
 if (t_2>tail(dods_data$dim$time$vals,1)) stop(paste("Submitted end date,",end, "is after the dataset's end date,",chron(tail(dods_data$dim$time$vals,1),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
 if (t_1>t_2) stop('Start date must be before end date.')
-if (!is.null(ncatt_get(dods_data, tmax_var,'grid_mapping')))
-{
-  if (ncatt_get(dods_data, ncatt_get(dods_data, tmax_var,'grid_mapping')$value, 'grid_mapping_name')$value=='lambert_conformal_conic')
-  {
-    grid_mapping_name<-ncatt_get(dods_data, tmax_var,'grid_mapping')$value
-    longitude_of_central_meridian<-ncatt_get(dods_data, grid_mapping_name, 'longitude_of_central_meridian')$value
-    latitude_of_projection_origin<-ncatt_get(dods_data, grid_mapping_name, 'latitude_of_projection_origin')$value
-    standard_parallel<-ncatt_get(dods_data, grid_mapping_name, 'standard_parallel')$value
-    false_easting<-ncatt_get(dods_data, grid_mapping_name, 'false_easting')$value
-    false_northing<-ncatt_get(dods_data, grid_mapping_name, 'false_northing')$value
-    longitude_of_prime_meridian<-ncatt_get(dods_data, grid_mapping_name, 'longitude_of_prime_meridian')$value
-    semi_major_axis<-ncatt_get(dods_data, grid_mapping_name, 'semi_major_axis')$value
-    inverse_flattening<-ncatt_get(dods_data, grid_mapping_name, 'inverse_flattening')$value
-    if (length(standard_parallel==2))
-    {
-      prj <- paste("+proj=lcc +lat_1=", standard_parallel[1],
-                   " +lat_2=", standard_parallel[2],
-                   " +lat_0=", latitude_of_projection_origin,
-                   " +lon_0=", longitude_of_central_meridian,
-                   " +x_0=", false_easting,
-                   " +y_0=", false_northing,
-                   " +a=", semi_major_axis,
-                   " +f=", (1/inverse_flattening),
-                   sep='')
-    }
-    else
-    {
-      prj <- paste("+proj=lcc +lat_1=", standard_parallel[1],
-                   " +lat_2=", standard_parallel[1],
-                   " +lat_0=", latitude_of_projection_origin,
-                   " +lon_0=", longitude_of_central_meridian,
-                   " +x_0=", false_easting,
-                   " +y_0=", false_northing,
-                   " +a=", semi_major_axis,
-                   " +f=", (1/inverse_flattening),
-                   sep='') 
-    }
-    # Project bbox and unproject data-source range to check intersection.
-    min_dods_x<-min(dods_data$dim$x$vals)
-    max_dods_x<-max(dods_data$dim$x$vals)
-    min_dods_y<-min(dods_data$dim$y$vals)
-    max_dods_y<-max(dods_data$dim$y$vals)
-    bbox_unproj<-data.frame(matrix(c(bbox, bbox[1],bbox[4],bbox[3],bbox[2]),ncol=2,byrow=TRUE))
-    colnames(bbox_unproj)<-c("x","y")
-    coordinates(bbox_unproj)<-c("x","y")
-    proj4string(bbox_unproj) <- CRS("+init=epsg:4326")
-    bbox_proj<-spTransform(bbox_unproj,CRS(prj))
-    bbox_proj_coords<-coordinates(bbox_proj)
-    dods_data_range<-data.frame(matrix(c(min_dods_x,min_dods_y,max_dods_x,max_dods_y,min_dods_x,max_dods_y,max_dods_x,min_dods_y),ncol=2,byrow=TRUE))
-    colnames(dods_data_range)<-c("x","y")
-    coordinates(dods_data_range)<-c("x","y")
-    proj4string(dods_data_range) <- CRS(prj)
-    dods_data_range_unproj<-spTransform(dods_data_range,CRS("+init=epsg:4326"))
-    dods_data_range_unproj_coords<-coordinates(dods_data_range_unproj)
-    # Coding against daymet for now, need to find a way to identify the coordinate variable for requested variables and use that name rather than the hardcoded x and y.
-    # Check lower left.
-    if (bbox_proj_coords[1]<min_dods_x || bbox_proj_coords[1]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",dods_data_range_unproj_coords[1]))
-    if (bbox_proj_coords[3]<min_dods_y || bbox_proj_coords[3]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",dods_data_range_unproj_coords[2]))
-    # Check upper right.
-    if (bbox_proj_coords[2]<min_dods_x || bbox_proj_coords[2]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",dods_data_range_unproj_coords[3]))
-    if (bbox_proj_coords[4]<min_dods_y || bbox_proj_coords[4]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",dods_data_range_unproj_coords[4]))
-    # Check upper left.
-    if (bbox_proj_coords[5]<min_dods_x || bbox_proj_coords[5]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",dods_data_range_unproj_coords[1]))
-    if (bbox_proj_coords[6]<min_dods_y || bbox_proj_coords[6]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",dods_data_range_unproj_coords[2]))
-    # Check lower right.
-    if (bbox_proj_coords[7]<min_dods_x || bbox_proj_coords[7]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",dods_data_range_unproj_coords[3]))
-    if (bbox_proj_coords[8]<min_dods_y || bbox_proj_coords[8]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",dods_data_range_unproj_coords[4]))
-  }
-}
-if (max(dods_data$dim$lon$vals)>180 || max(dods_data$dim$lat$vals)>180) 
-{
-  bbox[1]=bbox[1]+360
-  bbox[3]=bbox[3]+360
-}
-if (bbox[1]<min(dods_data$dim$lon$vals)) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",min(dods_data$dim$lon$vals)))
-if (bbox[2]<min(dods_data$dim$lat$vals)) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",min(dods_data$dim$lat$vals)))
-if (bbox[3]>max(dods_data$dim$lon$vals)) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",max(dods_data$dim$lon$vals)))
-if (bbox[4]>max(dods_data$dim$lat$vals)) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",max(dods_data$dim$lat$vals)))
-# Search for time and lot/lon indices cooresponding to start and end dates.
+request_indices<-request_bbox(dods_data,tmax_var,bbox_in)
 t_ind1 <- min(which(abs(dods_data$dim$time$vals-t_1)==min(abs(dods_data$dim$time$vals-t_1))))
 t_ind2 <- max(which(abs(dods_data$dim$time$vals-t_2)==min(abs(dods_data$dim$time$vals-t_2))))
-lon1_index <- which(abs(dods_data$dim$lon$vals-bbox[1])==min(abs(dods_data$dim$lon$vals-bbox[1])))
-lat1_index <- which(abs(dods_data$dim$lat$vals-bbox[2])==min(abs(dods_data$dim$lat$vals-bbox[2])))
-lon2_index <- which(abs(dods_data$dim$lon$vals-bbox[3])==min(abs(dods_data$dim$lon$vals-bbox[3])))                 
-lat2_index <- which(abs(dods_data$dim$lat$vals-bbox[4])==min(abs(dods_data$dim$lat$vals-bbox[4])))
-# Check to see if multiple indices were found and buffer out if they were.
-if(length(lon1_index)==2) if((bbox[1]-dods_data$dim$lon$vals[lon1_index[1]])>(bbox[1]-dods_data$dim$lon$vals[lon1_index[2]])) lon1_index<-lon1_index[1] else lon1_index<-lon1_index[2]  
-if(length(lat1_index)==2) if((bbox[2]-dods_data$dim$lat$vals[lat1_index[1]])>(bbox[2]-dods_data$dim$lat$vals[lat1_index[2]])) lat1_index<-lat1_index[1] else lat1_index<-lat1_index[2]
-if(length(lon2_index)==2) if((bbox[3]-dods_data$dim$lon$vals[lon2_index[1]])>(bbox[3]-dods_data$dim$lon$vals[lon2_index[2]])) lon2_index<-lon2_index[1] else lon2_index<-lon2_index[2]
-if(length(lat2_index)==2) if((bbox[4]-dods_data$dim$lat$vals[lat2_index[1]])>(bbox[4]-dods_data$dim$lat$vals[lat2_index[2]])) lat2_index<-lat2_index[1] else lat2_index<-lat2_index[2]
 #Pull out data needed for calculations and writing geotiffs. 
 # A loop should be introduced here to the end of the script to only pull in one year of data at a time.
 lons<-dods_data$dim$lon$vals[lon1_index:lon2_index]
