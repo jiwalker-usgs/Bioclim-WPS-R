@@ -1,3 +1,5 @@
+library("ncdf4")
+library("rgdal")
 request_bbox<-function(ncdf4_handle,rep_var,bbox)
 {
   if (!is.null(ncatt_get(ncdf4_handle, rep_var,'grid_mapping')) && !is.null(ncdf4_handle$dim$x$vals))
