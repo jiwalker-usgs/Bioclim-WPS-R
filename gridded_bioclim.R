@@ -1,6 +1,6 @@
 # Define Inputs (will come from external call)
-start <- "1961"
-end <- "1962"
+start <- "1980"
+end <- "2020"
 bbox_in<-c(-90,41,-90.5,41.5)
 bioclims<-c(1,2)
 
