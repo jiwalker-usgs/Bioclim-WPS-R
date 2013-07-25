@@ -9,7 +9,6 @@ request_time_bounds<-function(ncdf4_handle, start, end)
   year_origin=as.numeric(strsplit(date_origin,'-')[[1]][1])
   month_origin=as.numeric(strsplit(date_origin,'-')[[1]][2])
   day_origin=as.numeric(strsplit(date_origin,'-')[[1]][3])
-  years=as.numeric(end)-as.numeric(start)
   t_1 <- julian(strptime(paste(start,'-01-01 12:00',sep=''), '%Y-%m-%d %H:%M'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
   t_2 <- julian(strptime(paste(end, '-01-01 00:00', sep=''), '%Y-%m-%d %H:%M'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
   # Some simple time and bbox validation.
