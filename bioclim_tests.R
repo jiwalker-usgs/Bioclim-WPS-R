@@ -8,12 +8,12 @@ tmax_var  <- "20c3m-cccma_cgcm3_1-tmax-01"
 tmin_var <- "20c3m-cccma_cgcm3_1-tmin-01"
 prcp_var <- "20c3m-cccma_cgcm3_1-prcp-01"
 tave_var <- "NULL"
-gridded_bioclim<-function(bbox_in, bioclims, OPeNDAP_URI, start, end, tmax_var, tmin_var, prcp_var, tave_var)
+gridded_bioclim(bbox_in, bioclims, OPeNDAP_URI, start, end, tmax_var, tmin_var, prcp_var, tave_var)
 
 
 # Define Inputs (will come from external call)
-start <- "1950"
-end <- "1962"
+start <- "1980"
+end <- "1982"
 bbox_in<-c(-90,41,-90.5,41.5)
 bioclims<-c(1,2)
 OPeNDAP_URI<-"http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
@@ -22,7 +22,6 @@ tmin_var <- "tmin"
 prcp_var <- "prcp"
 tave_var <- "NULL"
 
-# Define Inputs (will come from external call)
 start <- "1950"
 end <- "1962"
 bbox_in<-c(-90,41,-90.5,41.5)
@@ -33,10 +32,9 @@ tmin_var <- "ccsm-a1b-tmin-NAm-grid"
 prcp_var <- "ccsm-a1fi-pr-NAm-grid"
 tave_var <- "NULL"
 
-# Define Inputs (will come from external call)
 start <- "1950"
-end <- "1962"
-bbox_in<-c(-90,41,-90.5,41.5)
+end <- "1955"
+bbox_in<-c(-90,41,-91,42)
 bioclims<-c(1,2)
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/prism"
 tmax_var  <- "tmx"
