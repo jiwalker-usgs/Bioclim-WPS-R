@@ -90,6 +90,7 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox)
   }
   if (!is.null(ncdf4_handle$dim$lat$vals) && length(dim(ncdf4_handle$dim$lat$vals)==1))
   {
+    prj<-"+init=epsg:4326"
     if (max(ncdf4_handle$dim$lon$vals)>180 || max(ncdf4_handle$dim$lat$vals)>180) 
     {
       bbox[1]=bbox[1]+360
@@ -116,5 +117,5 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox)
     x2<-lon2_index
     y2<-lat2_index
   }
-  return(list(x1,y1,x2,y2,x_index,y_index))
+  return(list(x1,y1,x2,y2,x_index,y_index,prj))
 }
