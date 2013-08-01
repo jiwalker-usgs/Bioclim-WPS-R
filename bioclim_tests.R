@@ -1,7 +1,7 @@
 # Define Inputs (will come from external call)
 start <- "1961"
 end <- "1963"
-bbox_in<-c(-90,41,-90.5,41.5)
+bbox_in<-c(-90,41,-92,43)
 bioclims<-c(1,2,3,4,5,6,7)
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/wicci/cmip3/20c3m"
 tmax_var  <- "20c3m-cccma_cgcm3_1-tmax-01"

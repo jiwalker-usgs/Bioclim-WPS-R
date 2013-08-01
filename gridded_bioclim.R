@@ -5,6 +5,11 @@ library("stats")
 library("utils")
 library("chron")
 library("zoo")
+download_time<-0
+process_time<-0
+file_time<-0
+#if (bioclims==-1)
+#  bioclims<-sequence(19)
 # Define Inputs (will come from external call)
 dods_data <- nc_open(OPeNDAP_URI)
 # Need to check if specified inputs exist in specified dataset and throw errors acordingly. 
@@ -23,17 +28,11 @@ if (abs(abs(dif_ys)-abs(dif_xs))>0.00001)
   stop('The data source appears to be an irregular grid, this datatype is not supported.')
 # Create x/y points for cells for geotiff files to be written.
 coords <- array(dim=c(length(x_index)*length(y_index),2))
-ind<-1
-for (row in 1:length(x_index)) {
-  for (col in length(y_index):1)
-  {coords[ind,1]<-x_index[row]+dif_xs/2
-   coords[ind,2]<-y_index[col]-dif_ys/2
-   ind<-ind+1
-  }
-}
+coords[,1]<-rep(x_index+dif_ys/2,each=length(y_index))
+coords[,2]<-rep(rev(y_index)-dif_ys/2,length(x_index))
 #Pull out data needed for calculations and writing geotiffs. 
 # A loop should be introduced here to the end of the script to only pull in one year of data at a time.
-years=as.numeric(end)-as.numeric(start)
+years<-as.numeric(end)-as.numeric(start)
 file_year<-as.numeric(start)
 for (t in 1:(years))
 {
@@ -43,14 +42,17 @@ for (t in 1:(years))
   t_ind2<-request_time_indices[2][[1]]
   time<-request_time_indices[3][[1]]
   origin<-request_time_indices[4][[1]]
+  t<-proc.time()
   #tmax_data <- ncvar_get(dods_data, tmax_var, c(t_ind1,min(y1,y2),min(x1,x2)),c((t_ind2-t_ind1),(abs(y1-y2)+1),(abs(x1-x2)+1)),verbose=TRUE)
   tmax_data <- ncvar_get(dods_data, tmax_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
   tmin_data <- ncvar_get(dods_data, tmin_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
   prcp_data <- ncvar_get(dods_data, prcp_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
   if (tave_var!="NULL") tave_data <- ncvar_get(dods_data, tave_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1))) else tave_data <- (tmax_data+tmin_data)/2
+  download_time<-download_time+proc.time()-t
   # The loops below calculate bioclim for each time series and assemble a matrix 'out_data' that is lon*lat X time steps X bioclim stats.
   out_data <- array(dim=c(nrow(tmax_data)*ncol(tmax_data),1,length(bioclims)))
   ind<-1
+  t<-proc.time()
   for (row in 1:nrow(tmax_data))
   {
     for (col in 1:ncol(tmax_data))
@@ -88,7 +90,9 @@ for (t in 1:(years))
       ind<-ind+1
     }
   }
+  process_time<-process_time+proc.time()-t
   # Step through bclims.
+  t<-proc.time()
   for (bclim in 1:length(bioclims))
   {
     file_bclim<-names(bioclim)[bclim]
@@ -99,4 +103,8 @@ for (t in 1:(years))
     writeGDAL(data_to_write,file_name)
   }
   file_year=file_year+1
+  file_time<-file_time+proc.time()-t
 }
+download_time
+process_time
+file_time
