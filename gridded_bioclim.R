@@ -39,10 +39,13 @@ for (t in 1:(years))
   # Get time index time origin.
   request_time_indices<-request_time_bounds(dods_data,start,as.character(as.numeric(start)+1))
   t_ind1<-request_time_indices[1][[1]]
+  t_ind1 <- request_time_indices$t_ind1
+  # Get the rest of these using named list.
   t_ind2<-request_time_indices[2][[1]]
   time<-request_time_indices[3][[1]]
   origin<-request_time_indices[4][[1]]
   t<-proc.time()
+  # Make sure this is robust for network failures.
   #tmax_data <- ncvar_get(dods_data, tmax_var, c(t_ind1,min(y1,y2),min(x1,x2)),c((t_ind2-t_ind1),(abs(y1-y2)+1),(abs(x1-x2)+1)),verbose=TRUE)
   tmax_data <- ncvar_get(dods_data, tmax_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
   tmin_data <- ncvar_get(dods_data, tmin_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
@@ -76,6 +79,7 @@ for (t in 1:(years))
       }
       else
       {
+        # Look at making this hit all pixels at once.
         tmax <- matrix(tmax_data[row,col,],1,12)
         tmin <- matrix(tmin_data[row,col,],1,12)
         prcp <- matrix(prcp_data[row,col,],1,12)
@@ -85,8 +89,8 @@ for (t in 1:(years))
       dim(bioclim)<-c(1,length(bioclims))
       colnames(bioclim)<-paste('bioclim_',bioclims, sep='')
       bioclim<-data.frame(bioclim)
-      for (bclim in 1:length(bioclims))
-        out_data[ind,1,bclim] <- bioclim[1,bclim]
+      #for (bclim in 1:length(bioclims))
+      out_data[ind,1,] <- bioclim[1,]
       ind<-ind+1
     }
   }
@@ -104,6 +108,7 @@ for (t in 1:(years))
   }
   file_year=file_year+1
   file_time<-file_time+proc.time()-t
+  #also index the start time!
 }
 download_time
 process_time
