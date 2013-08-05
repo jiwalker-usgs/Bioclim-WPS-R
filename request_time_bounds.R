@@ -14,13 +14,8 @@ request_time_bounds<-function(ncdf4_handle, start, end)
   t_1 <- julian(strptime(paste(start,'-01-01 12:00',sep=''), '%Y-%m-%d %H:%M'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
   t_2 <- julian(strptime(paste(end, '-01-01 00:00', sep=''), '%Y-%m-%d %H:%M'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
   # Some simple time and bbox validation.
-<<<<<<< HEAD
-  if (t_1<head(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted start date,",start, "is before the dataset's start date,",chron(dates(head(ncdf4_handle$dim$time$vals,1),origin=c(month=month_origin, day=day_origin, year=year_origin)),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
-  if (t_2>tail(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted end date,",end, "is after the dataset's end date,",chron(dates(tail(ncdf4_handle$dim$time$vals,1),origin=c(month=month_origin, day=day_origin, year=year_origin)),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
-=======
-  if (t_1<head(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted start date,",start, "is before the dataset's start date,",chron(floor(head(ncdf4_handle$dim$time$vals,1)),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
-  if (t_2>tail(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted end date,",end, "is after the dataset's end date,",chron(floor(tail(ncdf4_handle$dim$time$vals,1)),out.format=c(dates="year-m-day"), origin=c(month=month_origin, day=day_origin, year=year_origin))))
->>>>>>> 1adb4746159735f17dfcf6e34ec1a908e0834af7
+  if (t_1<head(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted start date,",start, "is before the dataset's start date,",chron(floor(head(ncdf4_handle$dim$time$vals,1)),out.format=c(dates="year-m-day"), origin=origin)))
+  if (t_2>tail(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted end date,",end, "is after the dataset's end date,",chron(floor(tail(ncdf4_handle$dim$time$vals,1)),out.format=c(dates="year-m-day"), origin=origin)))
   if (t_1>t_2) stop('Start date must be before end date.')
   t_ind1 <- min(which(abs(ncdf4_handle$dim$time$vals-t_1)==min(abs(ncdf4_handle$dim$time$vals-t_1))))
   t_ind2 <- max(which(abs(ncdf4_handle$dim$time$vals-t_2)==min(abs(ncdf4_handle$dim$time$vals-t_2))))
