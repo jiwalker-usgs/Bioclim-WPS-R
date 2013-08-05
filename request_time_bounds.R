@@ -20,5 +20,5 @@ request_time_bounds<-function(ncdf4_handle, start, end)
   t_ind1 <- min(which(abs(ncdf4_handle$dim$time$vals-t_1)==min(abs(ncdf4_handle$dim$time$vals-t_1))))
   t_ind2 <- max(which(abs(ncdf4_handle$dim$time$vals-t_2)==min(abs(ncdf4_handle$dim$time$vals-t_2))))
   time<-dods_data$dim$time$vals[t_ind1:(t_ind2-1)]
-  return(list(t_ind1=t_ind1, t_ind2=t_ind2, time=time, origin=orgin))
+  return(list(t_ind1=t_ind1, t_ind2=t_ind2, time=time, origin=origin))
 }
