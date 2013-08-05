@@ -8,8 +8,6 @@ tmax_var  <- "20c3m-cccma_cgcm3_1-tmax-01"
 tmin_var <- "20c3m-cccma_cgcm3_1-tmin-01"
 prcp_var <- "20c3m-cccma_cgcm3_1-prcp-01"
 tave_var <- "NULL"
-gridded_bioclim(bbox_in, bioclims, OPeNDAP_URI, start, end, tmax_var, tmin_var, prcp_var, tave_var)
-
 
 # Define Inputs (will come from external call)
 start <- "1980"
