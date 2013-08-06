@@ -11,9 +11,9 @@ tave_var <- "NULL"
 
 # Define Inputs (will come from external call)
 start <- "1980"
-end <- "1982"
-bbox_in<-c(-90,41,-90.5,41.5)
-bioclims<-c(1,2)
+end <- "1985"
+bbox_in<-c(-90,40,-92,42)
+bioclims<-c(1,2,3,4,5)
 OPeNDAP_URI<-"http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
 tmax_var  <- "tmax"
 tmin_var <- "tmin"
