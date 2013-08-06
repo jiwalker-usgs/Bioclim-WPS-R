@@ -121,3 +121,36 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox)
   }
   return(list(x1,y1,x2,y2,x_index,y_index,prj))
 }
+
+dailyToMonthly<-function(daily_data, time, origin, cells)
+{
+  daily_data<-zoo(daily_data,chron(time,out.format=c(dates="year-m-day"), origin=origin))
+  daily_data<-aggregate(daily_data, as.yearmon, mean)
+  daily_data<-t(data.matrix(fortify.zoo(daily_data),cells)[1:12,2:(cells+1)])
+  return(daily_data)
+}
+
+request_time_bounds<-function(ncdf4_handle, start, end)
+{
+  time_units<-strsplit(ncdf4_handle$dim$time$units, " ")[[1]]
+  time_step<-time_units[1]
+  date_origin<-time_units[3]
+  time_origin<-"00:00:00"
+  if(length(time_units)==4) time_origin<-time_units[4]
+  cal_origin <- paste(date_origin, time_origin)
+  # Convert to posixlt
+  year_origin<-as.numeric(strsplit(date_origin,'-')[[1]][1])
+  month_origin<-as.numeric(strsplit(date_origin,'-')[[1]][2])
+  day_origin<-as.numeric(strsplit(date_origin,'-')[[1]][3])
+  origin<-c(month=month_origin, day=day_origin, year=year_origin)
+  t_1 <- julian(strptime(paste(start,'-01-01 12:00',sep=''), '%Y-%m-%d %H:%M'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
+  t_2 <- julian(strptime(paste(end, '-01-01 00:00', sep=''), '%Y-%m-%d %H:%M'), origin<-strptime(cal_origin, '%Y-%m-%d %H:%M:%S'))
+  # Some simple time and bbox validation.
+  if (t_1<head(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted start date,",start, "is before the dataset's start date,",chron(floor(head(ncdf4_handle$dim$time$vals,1)),out.format=c(dates="year-m-day"), origin=origin)))
+  if (t_2>tail(ncdf4_handle$dim$time$vals,1)) stop(paste("Submitted end date,",end, "is after the dataset's end date,",chron(floor(tail(ncdf4_handle$dim$time$vals,1)),out.format=c(dates="year-m-day"), origin=origin)))
+  if (t_1>t_2) stop('Start date must be before end date.')
+  t_ind1 <- min(which(abs(ncdf4_handle$dim$time$vals-t_1)==min(abs(ncdf4_handle$dim$time$vals-t_1))))
+  t_ind2 <- max(which(abs(ncdf4_handle$dim$time$vals-t_2)==min(abs(ncdf4_handle$dim$time$vals-t_2))))
+  time<-dods_data$dim$time$vals[t_ind1:(t_ind2-1)]
+  return(list(t_ind1=t_ind1, t_ind2=t_ind2, time=time, origin=origin))
+}

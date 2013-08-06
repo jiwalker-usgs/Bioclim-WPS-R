@@ -49,52 +49,42 @@ for (year in as.numeric(start):(as.numeric(end)-1))
   if (tave_var!="NULL") tave_data <- ncvar_get(dods_data, tave_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1))) else tave_data <- (tmax_data+tmin_data)/2
   download_time<-download_time+proc.time()-t
   # The loops below calculate bioclim for each time series and assemble a matrix 'out_data' that is lon*lat X time steps X bioclim stats.
-  out_data <- array(dim=c(nrow(tmax_data)*ncol(tmax_data),length(bioclims)))
-  ind<-1
   t<-proc.time()
   cells<-nrow(tmax_data)*ncol(tmax_data)
-  tmax_data_mat <- matrix(tmax_data,t_ind2-t_ind1,cells)
-  tmin_data <- matrix(tmin_data,cells)
-  prcp_data <- matrix(prcp_data,cells)
-  tave_data <- matrix(tave_data,cells)
+  tmax_data <- matrix(tmax_data,t_ind2-t_ind1,cells)
+  tmin_data <- matrix(tmin_data,t_ind2-t_ind1,cells)
+  prcp_data <- matrix(prcp_data,t_ind2-t_ind1,cells)
+  tave_data <- matrix(tave_data,t_ind2-t_ind1,cells)
   if (dim(time)>12)
   {
     # Convert daily data to monthly in preperation for bioclim functions.
     time<-floor(time)
-    tmax_data_zoo<-zoo(tmax_data_mat,chron(time,out.format=c(dates="year-m-day"), origin=origin))
-    tmax_data<-aggregate(tmax_data, as.yearmon, mean)
-    tmax_data<-matrix(fortify.zoo(tmax_data),cells,12) # This is close, not sure why this is getting the date values too.
-    tmin_data<-zoo(tmin_data,chron(time,out.format=c(dates="year-m-day"), origin=origin))
-    tmin_data<-aggregate(tmin_data, as.yearmon, mean)
-    tmin_data<-matrix(fortify.zoo(tmin_data)$tmin,1,12)
-    prcp_data<-zoo(prcp_data,chron(time,out.format=c(dates="year-m-day"), origin=origin))
-    prcp_data<-aggregate(prcp_data, as.yearmon, mean)
-    prcp_data<-matrix(fortify.zoo(prcp_data)$prcp,1,12)
-    tave_data<-zoo(tave_data,chron(time,out.format=c(dates="year-m-day"), origin=origin))
-    tave_data<-aggregate(tave_data, as.yearmon, mean)
-    tave_data<-matrix(fortify.zoo(tave_data)$tave,1,12)
+    tmax_data<-dailyToMonthly(tmax_data, time, origin, cells)
+    tmin_data<-dailyToMonthly(tmin_data, time, origin, cells)
+    prcp_data<-dailyToMonthly(prcp_data, time, origin, cells)
+    tave_data<-dailyToMonthly(tave_data, time, origin, cells)
   }
-  bioclim<-bioclim(tmin=tmin, tmax=tmax, prec=prcp, tmean=tave, bioclims)
-  dim(bioclim)<-c(1,length(bioclims))
+  else
+  {
+    tmax_data<-t(tmax_data)
+    tmin_data<-t(tmin_data)
+    prcp_data<-t(prcp_data)
+    tave_data<-t(tave_data)
+  }
+  bioclim<-bioclim(tmin=tmin_data, tmax=tmax_data, prec=prcp_data, tmean=tave_data, bioclims)
   colnames(bioclim)<-paste('bioclim_',bioclims, sep='')
   bioclim<-data.frame(bioclim)
-  #for (bclim in 1:length(bioclims))
-  out_data[ind,1,] <- bioclim[1,]
-  ind<-ind+1
   process_time<-process_time+proc.time()-t
   # Step through bclims.
   t<-proc.time()
-  for (bclim in 1:length(bioclims))
+  for (bclim in names(bioclim))
   {
-    file_bclim<-names(bioclim)[bclim]
-    grid_data <- data.frame(out_data[,1,bclim])
-    names(grid_data) <- names(bioclim)[bclim]
-    data_to_write <- SpatialPixelsDataFrame(SpatialPoints(coords, proj4string = CRS(prj)), grid_data, tolerance=0.0001)
-    file_name<-paste(file_bclim,'_',as.character(t),'.tif',sep='')
+    data_to_write <- SpatialPixelsDataFrame(SpatialPoints(coords, proj4string = CRS(prj)), bioclim[bclim], tolerance=0.0001)
+    file_name<-paste(bclim,'_',start,'.tif',sep='')
     writeGDAL(data_to_write,file_name)
   }
   file_time<-file_time+proc.time()-t
-  #also index the start time!
+  start<-as.character(as.numeric(start)+1)
 }
 download_time
 process_time
