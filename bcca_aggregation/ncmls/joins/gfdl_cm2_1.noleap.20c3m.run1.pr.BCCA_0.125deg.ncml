@@ -1,0 +1,1 @@
+<?xml version="1.0"?><netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"><aggregation dimName="time" type="joinExisting"><scan location="/dcp_data/dcp/archive/bcca/gfdl_cm2_1.noleap/20c3m/run1/pr/bcca" regExp=".*monthly.*.nc" subdirs="false"/></aggregation></netcdf>
