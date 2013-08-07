@@ -11,9 +11,9 @@ tave_var <- "NULL"
 
 # Define Inputs (will come from external call)
 start <- "1980"
-end <- "1985"
-bbox_in<-c(-90,40,-92,42)
-bioclims<-c(1,2,3,4,5)
+end <- "1980"
+bbox_in<-c(-90,40,-91,41)
+bioclims<-c(1)
 OPeNDAP_URI<-"http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
 tmax_var  <- "tmax"
 tmin_var <- "tmin"
@@ -31,9 +31,9 @@ prcp_var <- "ccsm-a1fi-pr-NAm-grid"
 tave_var <- "NULL"
 
 start <- "1950"
-end <- "1955"
+end <- "1950"
 bbox_in<-c(-90,41,-91,42)
-bioclims<-c(1,2)
+bioclims<-c(9)
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/prism"
 tmax_var  <- "tmx"
 tmin_var <- "tmn"

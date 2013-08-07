@@ -119,7 +119,7 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox)
     x2<-lon2_index
     y2<-lat2_index
   }
-  return(list(x1,y1,x2,y2,x_index,y_index,prj))
+  return(list(x1=x1,y1=y1,x2=x2,y2=y2,x_index=x_index,y_index=y_index,prj=prj))
 }
 
 dailyToMonthly<-function(daily_data, time, origin, cells)
