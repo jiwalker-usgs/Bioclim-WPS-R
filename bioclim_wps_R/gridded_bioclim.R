@@ -1,9 +1,21 @@
+# wps.des: id = gridded_bioclim, title = A generalized bioclim algorithm, abstract = TBD; 
+# wps.in: start, string, Start Year, Start Year (ie. 1950);
+# wps.in: end, string, End Year, End Year (ie. 2000);
+# wps.in: bbox_in, string, BBOX, Format, comma seperated min lat/lon max lat/lon;
+# wps.in: bioclims, string, bioclims, list of bioclims of interest.;
+# wps.in: OPeNDAP_URI, string, OPeNDAP URI, An OPeNDAP (dods) url for the climate dataset of interest.;
+# wps.in: tmax_var, string, Tmax Variable, The variable from the OPeNDAP dataset to use as tmax.;
+# wps.in: tmin_var, string, Tmin Variable, The variable from the OPeNDAP dataset to use as tmin.;
+# wps.in: tave_var, string, Tave Variable, The variable from the OPeNDAP dataset to use as tave, can be "NULL".;
+# wps.in: prcp_var, string, Prcp Variable, The variable from the OPeNDAP dataset to use as prcp.;
 library("ncdf4")
 library("climates")
 library("rgdal")
 library("stats")
 library("chron")
 library("zoo")
+bbox_in <- as.double(read.csv(header=F,colClasses=c("character"),text=bbox_in))
+bioclims <- as.double(read.csv(header=F,colClasses=c("character"),text=bioclims))
 # Define Inputs (will come from external call)
 dods_data <- nc_open(OPeNDAP_URI)
 #!!!Need to check if specified inputs exist in specified dataset and throw errors acordingly!!! 
@@ -28,6 +40,8 @@ if (abs(abs(dif_ys)-abs(dif_xs))>0.00001)
 coords <- array(dim=c(length(x_index)*length(y_index),2))
 coords[,1]<-rep(x_index+dif_ys/2,each=length(y_index))
 coords[,2]<-rep(rev(y_index)-dif_ys/2,length(x_index)) 
+fileNames<-array(dim=(as.numeric(end)-as.numeric(start))*length(bioclims))
+fileStep<-1
 for (year in as.numeric(start):(as.numeric(end)))
 {
   request_time_indices<-request_time_bounds(dods_data,year,year+1)
@@ -67,6 +81,11 @@ for (year in as.numeric(start):(as.numeric(end)))
   {
     data_to_write <- SpatialPixelsDataFrame(SpatialPoints(coords, proj4string = CRS(prj)), bioclim[bclim], tolerance=0.0001)
     file_name<-paste(bclim,'_',as.character(year),'.tif',sep='')
+    fileNames[fileStep]<-file_name
+    fileStep<-fileStep+1
     writeGDAL(data_to_write,file_name)
   }
 }
+name<-'bioclim.zip'
+bioclim_zip<-zip(name,fileNames)
+#wps.out: name, netcdf, bioclim_zip, A zip pf the resulting bioclim getiffs..;
