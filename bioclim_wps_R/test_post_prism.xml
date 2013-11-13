@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wps:Execute xmlns:wps="http://www.opengis.net/wps/1.0.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="WPS" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wps/1.0.0 http://schemas.opengis.net/wps/1.0.0/wpsExecute_request.xsd">
+	<ows:Identifier>org.n52.wps.server.r.gridded_bioclim</ows:Identifier>
+	<wps:DataInputs>
+		<wps:Input>
+			<ows:Identifier>start</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>1950</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>end</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>1955</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>bbox_in</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>-87,41,-89,43</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>bioclims</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>1,2,3,4,5,6,7</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>OPeNDAP_URI</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>http://cida.usgs.gov/thredds/dodsC/prism</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>tmax_var</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>tmx</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>tmin_var</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>tmn</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>tave_var</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>NULL</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+		<wps:Input>
+			<ows:Identifier>prcp_var</ows:Identifier>
+			<wps:Data>
+				<wps:LiteralData>ppt</wps:LiteralData>
+			</wps:Data>
+		</wps:Input>
+	</wps:DataInputs>
+	<wps:ResponseForm>
+		<wps:ResponseDocument storeExecuteResponse="true" status="true">
+			<wps:Output asReference="true">
+				<ows:Identifier>name</ows:Identifier>
+			</wps:Output>
+		</wps:ResponseDocument>
+	</wps:ResponseForm>
+</wps:Execute>

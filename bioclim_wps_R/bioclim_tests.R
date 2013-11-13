@@ -1,8 +1,8 @@
 # Define Inputs (will come from external call)
 start <- "1961"
-end <- "1963"
-bbox_in<-"-90,41,-92,43"
-bioclims<-"1,2,3,4,5,6,7"
+end <- "1962"
+bbox_in<-"-87,41,-89,43"
+bioclims<-"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/wicci/cmip3/20c3m"
 tmax_var  <- "20c3m-cccma_cgcm3_1-tmax-01"
 tmin_var <- "20c3m-cccma_cgcm3_1-tmin-01"
@@ -32,8 +32,8 @@ tave_var <- "NULL"
 
 start <- "1950"
 end <- "1950"
-bbox_in<-c(-90,41,-91,42)
-bioclims<-c(9)
+bbox_in<-"-87,41,-89,43"
+bioclims<-"1,2,3,4,5,6,7"
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/prism"
 tmax_var  <- "tmx"
 tmin_var <- "tmn"
