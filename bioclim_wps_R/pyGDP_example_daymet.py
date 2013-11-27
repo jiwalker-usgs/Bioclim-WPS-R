@@ -2,14 +2,15 @@ import pyGDP
 pyGDP.WPS_URL    = 'http://cida-eros-gdpdev.er.usgs.gov:8080/gdp-process-wps/WebProcessingService'
 processid = 'org.n52.wps.server.r.gridded_bioclim'
 
-start = "1950"
-end = "2010"
-bbox_in="-87,41,-89,43"
+start = "1985"
+end = "2005"
+#bbox_in="-100,36,-110,42"
+bbox_in="-90,40,-91,41"
 bioclims="1,2,3,4,5,6,7"
-OPeNDAP_URI="http://cida.usgs.gov/thredds/dodsC/prism"
-tmax_var  = "tmx"
-tmin_var = "tmn"
-prcp_var = "ppt"
+OPeNDAP_URI="http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
+tmax_var  = "tmax"
+tmin_var = "tmin"
+prcp_var = "prcp"
 tave_var = "NULL"
 
 inputs = [("start",start),
