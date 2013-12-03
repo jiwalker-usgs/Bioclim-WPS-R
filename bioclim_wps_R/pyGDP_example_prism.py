@@ -1,9 +1,12 @@
 import pyGDP
+import os
 pyGDP.WPS_URL    = 'http://cida-eros-gdpdev.er.usgs.gov:8080/gdp-process-wps/WebProcessingService'
 processid = 'org.n52.wps.server.r.gridded_bioclim'
 
+filename = 'test_prism.zip'
+
 start = "1950"
-end = "2010"
+end = "1952"
 bbox_in="-100,36,-110,42"
 bioclims="1,2,3,4,5,6,7"
 OPeNDAP_URI="http://cida.usgs.gov/thredds/dodsC/prism"
@@ -28,3 +31,4 @@ verbose=True
 
 pyGDP = pyGDP.pyGDPwebProcessing()
 gotime=pyGDP._executeRequest(processid, inputs, output, verbose)
+os.rename(gotime, filename)

@@ -1,0 +1,37 @@
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <aggregation type="union">
+    <netcdf location="dayl.ncml"/>
+    <netcdf location="prcp.ncml"/>
+    <netcdf location="srad.ncml"/>
+    <netcdf location="swe.ncml"/>
+    <netcdf location="tmax.ncml"/>
+    <netcdf location="tmin.ncml"/>
+    <netcdf location="vp.ncml"/>
+  </aggregation>
+  <variable name="x">
+    <attribute name="standard_name" value="projection_x_coordinate"/>
+  </variable>
+  <variable name="y">
+    <attribute name="standard_name" value="projection_y_coordinate"/>
+  </variable>
+  <variable name="lambert_conformal_conic">
+    <!-- add WGS84 ellipsoid parameters. In NetCDF-Java the default ellipsoid is a
+     sphere.  The daymet data description explicitly mentions the datum as WGS84  -->
+    <attribute name="longitude_of_prime_meridian" type="double" value="0.0"/>
+    <attribute name="semi_major_axis" type="double" value="6378137.0"/>
+    <attribute name="inverse_flattening" type="double" value="298.257223563"/>
+  </variable>
+  <variable name="time">
+    <!-- NetCDF-Java ignores bounds on time variables and uses the time value
+     as the lower edge of the bin.  Since the daymet time values are centered 
+     and the duration is 1d, we need to subtract 0.5d from the time value
+     so that the value represents the lower edge -->
+    <attribute name="add_offset" type="double" value="-0.5"/>
+  </variable>
+  <variable name="prcp">
+    <!-- The presence of this attribute will force NetCDF-Java to promote 
+     the data type to a double, this is convenient so that missing values
+     are represented as NaN for consistency with other domain variables -->
+    <attribute name="scale_factor" type="double" value="1.0"/>
+  </variable>
+</netcdf>

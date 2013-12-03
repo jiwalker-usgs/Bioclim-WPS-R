@@ -1,0 +1,13 @@
+library("ncdf")
+library("chron")
+nc_filename<-'times.nc'
+originDate<-strptime("2006-04-01","%Y-%m-%d")
+endDate<-strptime("2100-01-01","%Y-%m-%d")
+times<-seq(from=originDate,to=endDate,by='months')
+times<-round(julian(times,origin=originDate))
+time_vec<-1:length(times)
+nc_time_dim <- dim.def.ncdf('time','',time_vec,create_dimvar=FALSE)
+nc_time_var <- var.def.ncdf('time','days since 2006-04-01', nc_time_dim, -999, prec='integer')
+nc_file<-create.ncdf(nc_filename,list(nc_time_var))
+var<-put.var.ncdf(nc_file,nc_time_var,times)
+close.ncdf(nc_file)
