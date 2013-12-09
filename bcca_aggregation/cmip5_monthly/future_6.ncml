@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation type="union">
+ <netcdf location="../cmip5_bcsd/hadgem2-cc/rcp85/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012.nc">
+ <variable orgName="pr" name="BCSD_0-125deg_pr_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-cc/rcp85/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012.nc">
+ <variable orgName="tas" name="BCSD_0-125deg_tas_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-cc/rcp85/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-cc/rcp85/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-CC_rcp85_r1i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp26/mon/r4i1p1/pr/BCSD_0.125deg_pr_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012.nc">
+ <variable orgName="pr" name="BCSD_0-125deg_pr_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp26/mon/r4i1p1/tas/BCSD_0.125deg_tas_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012.nc">
+ <variable orgName="tas" name="BCSD_0-125deg_tas_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp26/mon/r4i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp26/mon/r4i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp26_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp45/mon/r4i1p1/pr/BCSD_0.125deg_pr_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012.nc">
+ <variable orgName="pr" name="BCSD_0-125deg_pr_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp45/mon/r4i1p1/tas/BCSD_0.125deg_tas_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012.nc">
+ <variable orgName="tas" name="BCSD_0-125deg_tas_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp45/mon/r4i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp45/mon/r4i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp45_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r2i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp60_r2i1p1_200601-210011.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp60_r2i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r2i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp60_r2i1p1_200601-210011.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp60_r2i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r3i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp60_r3i1p1_200601-210011.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp60_r3i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r3i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp60_r3i1p1_200601-210011.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp60_r3i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r4i1p1/pr/BCSD_0.125deg_pr_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210012.nc">
+ <variable orgName="pr" name="BCSD_0-125deg_pr_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r4i1p1/tas/BCSD_0.125deg_tas_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210012.nc">
+ <variable orgName="tas" name="BCSD_0-125deg_tas_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r4i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210011.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp60/mon/r4i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210011.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp60_r4i1p1_200512-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r2i1p1/pr/BCSD_0.125deg_pr_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011.nc">
+ <variable orgName="pr" name="BCSD_0-125deg_pr_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r2i1p1/tas/BCSD_0.125deg_tas_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011.nc">
+ <variable orgName="tas" name="BCSD_0-125deg_tas_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r2i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r2i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp85_r2i1p1_200601-210011" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r4i1p1/pr/BCSD_0.125deg_pr_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012.nc">
+ <variable orgName="pr" name="BCSD_0-125deg_pr_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r4i1p1/tas/BCSD_0.125deg_tas_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012.nc">
+ <variable orgName="tas" name="BCSD_0-125deg_tas_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r4i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012.nc">
+ <variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012" />
+ </netcdf>
+ <netcdf location="../cmip5_bcsd/hadgem2-es/rcp85/mon/r4i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012.nc">
+ <variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_HadGEM2-ES_rcp85_r4i1p1_200512-210012" />
+ </netcdf>
+ </aggregation>
+</netcdf>

@@ -22,8 +22,8 @@ tave_var <- "NULL"
 
 start <- "1950"
 end <- "1962"
-bbox_in<-c(-90,41,-90.5,41.5)
-bioclims<-c(1,2)
+bbox_in<-"-90,41,-90.5,41.5"
+bioclims<-"1,2"
 OPeNDAP_URI<-"http://cida.usgs.gov/thredds/dodsC/dcp/conus"
 tmax_var  <- "ccsm-a1b-tmax-NAm-grid"
 tmin_var <- "ccsm-a1b-tmin-NAm-grid"
