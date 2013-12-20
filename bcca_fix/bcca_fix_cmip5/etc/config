@@ -1,0 +1,4 @@
+OBSD="/Users/usgs/temp/bcca_fix/bcca_fix/etc" #where processed obs file is
+GCMROOTDIR="/Volumes/Striped/cmip5/bcca" #root dir for daily data
+WORKINGDIR="/Volumes/RAM-Disk/"
+OUTROOTDIR="/Volumes/Striped/bcca_cmip5" #root dir for daily output  data
