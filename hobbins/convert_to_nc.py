@@ -2,6 +2,7 @@ import os
 import subprocess
 import time
 import shlex
+# All constants in the constants.pr file that needs to live next to this script.
 from constants import src, dest, proc, time_files_path, input_tarballz, start_year, end_year, gdal_translate_path
 
 files=0
@@ -9,10 +10,9 @@ srcfiles=[ ]
 
 for tarball in input_tarballz:
     # Untar source tarball to processing directory.
-    os.system('tar -C '+proc+' -xvzf '+src+tarball)
+    os.system('tar -C '+proc+' -xzf '+src+tarball)
     # Find all the .asc files from the tarball.
     for dirname, dirnames, filenames in os.walk(proc):
-        #print dirname
         for filename in filenames:
             if '.asc' in filename:
                 srcfiles.append(os.path.join(dirname, filename))
@@ -27,6 +27,7 @@ for srcfile in srcfiles:
 
 # Remove the .asc files from the processing directory.
 os.system('rm '+proc+'*.asc')
+
 # Find each water year worth of files and create a netCDF file per year.
 for year in range(start_year,end_year):
     file_list=[]
@@ -40,16 +41,22 @@ for year in range(start_year,end_year):
             for filename in filenames[2]:
                 if file_pattern in filename:
                     file_list.append(filename)
-    # Create specific string list of files to concatenate.
+    # Create specific string list of files to concatenate with ncecat.
     files_to_cat=""
     for filename in file_list:
         files_to_cat=files_to_cat+proc+filename+' '
+    # Create file name for output nc file.
     nc_file_name='ETrs'+str(year)+'.nc'
     print nc_file_name
+    # ncecat with a record dimension named time.
     os.system('ncecat -h -O -u time '+files_to_cat+proc+nc_file_name)
+    # ncrename the gdal default variable Band1 to ETrs
     os.system('ncrename -h -O -v Band1,ETrs '+proc+nc_file_name)
+    # ncks to add the time coordinate variable. 
     os.system('ncks -h -A '+time_files_path+str(year)+'.nc '+proc+nc_file_name)
-    os.system('ncap2 -h -O --fl_fmt=netcdf4 -s "ETrs=short(10*ETrs)" '+proc+nc_file_name+' '+proc+nc_file_name)
+    # ncap2 to convert data to shorts with fixed precision of 0.01mm
+    os.system('ncap2 -h -O --fl_fmt=netcdf4 -s "ETrs=short(100*ETrs)" '+proc+nc_file_name+' '+proc+nc_file_name)
+    # ncatted to manipulate attributes of the file appropriately.
     os.system('ncatted -h -O -a scale_factor,ETrs,c,f,0.01 \
                 -a _FillValue,ETrs,o,f,31082 \
                 -a missing_value,ETrs,o,f,31082 \
@@ -63,6 +70,8 @@ for year in range(start_year,end_year):
                 -a GDAL,global,d,, \
                 -a NCO,global,d,, ' \
                 +proc+nc_file_name+' '+proc+nc_file_name)
+    # ncks to chunk, deflate, and fix the unlimited dimension for read optimization.
     os.system('ncks -h -O --cnk_plc=g3d --cnk_dmn lat,40 --cnk_dmn lon,80 --cnk_dmn time,1 --fl_fmt=netcdf4 \
                 --deflate=1 --fix_rec_dmn time '+proc+nc_file_name+' '+dest+nc_file_name)
+    # Clean up the processing folder.
     os.system('rm '+proc+'*.nc')
