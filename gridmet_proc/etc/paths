@@ -1,0 +1,3 @@
+SRC_DIR="/Volumes/process/gridmet"
+PROC_DIR="/Volumes/RAM-Disk"
+DEST_DIR="/Volumes/Striped/gridmet_out"
