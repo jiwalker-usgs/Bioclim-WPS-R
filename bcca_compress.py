@@ -25,11 +25,19 @@ for dirname, dirnames, filenames in os.walk(src):
             print 'made '+procdir
     for filename in filenames:
         if filename[len(filename)-6:len(filename)]=='.nc.gz':
-            srcfiles.append([dirname, filename])
-            files=files+1
+            print dest+dirname[len(src):len(dirname)]+'/'+filename[0:len(filename)-7]+'.nc'
+            if os.path.isfile(dest+dirname[len(src):len(dirname)]+'/'+filename[0:len(filename)-7]+'.nc'):
+                print 'passed'
+            else:
+                srcfiles.append([dirname, filename])
+                files=files+1
         elif filename[len(filename)-7:len(filename)]=='corr.nc':
-            srcfiles.append([dirname, filename])
-            files=files+1
+            print dest+dirname[len(src):len(dirname)]+'/'+filename[0:len(filename)-8]+'_corr.nc'
+            if os.path.isfile(dest+dirname[len(src):len(dirname)]+'/'+filename[0:len(filename)-8]+'_corr.nc'):
+                print 'passed'
+            else:    
+                srcfiles.append([dirname, filename])
+                files=files+1
 
 files_to_process = len(srcfiles)
 processes = []
