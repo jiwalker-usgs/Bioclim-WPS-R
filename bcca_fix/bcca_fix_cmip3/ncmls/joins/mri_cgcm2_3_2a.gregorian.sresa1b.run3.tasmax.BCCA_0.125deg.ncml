@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ <aggregation dimName="time" type="joinExisting">
+ <scan location="../../mri_cgcm2_3_2a.gregorian/sresa1b/run3/tasmax/bcca" regExp=".*(?&lt;!monthly)\.\d{4}.*" subdirs="false"/>
+ </aggregation>
+</netcdf>
