@@ -23,8 +23,8 @@ for dirname, dirnames, filenames in os.walk(pr_src):
     for filename in filenames:
         if filename[len(filename)-7:len(filename)]=='corr.nc':
             parts=filename.split('.')
-            path='/'+parts[0]+'.'+parts[1]+'/'+parts[2]+'/'+parts[3]+'/'+parts[4]+'/bcca/'
+            path=dest+'/'+parts[0]+'.'+parts[1]+'/'+parts[2]+'/'+parts[3]+'/'+parts[4]+'/bcca/'
             command=os.system('mkdir -p '+path)
-            command=os.system('rsync -aP '+os.path.join(dirname, filename)+' '+dest+path+filename)
+            command=os.system('rsync -aP '+os.path.join(dirname, filename)+' '+path+filename)
             if command!=0:
                 raise Exception('An error occured moving a file.')
