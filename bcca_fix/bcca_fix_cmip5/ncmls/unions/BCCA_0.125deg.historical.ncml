@@ -1,1 +1,1364 @@
-<?xml version="1.0" encoding="UTF-8"?> <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">  <aggregation type="union"><netcdf location="../joins/BCCA_0.125deg_pr_day_ACCESS1-0_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_ACCESS1-0_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_ACCESS1-0_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_ACCESS1-0_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_ACCESS1-0_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_ACCESS1-0_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_bcc-csm1-1_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_bcc-csm1-1_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_bcc-csm1-1_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_bcc-csm1-1_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_bcc-csm1-1_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_bcc-csm1-1_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_BNU-ESM_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_BNU-ESM_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_BNU-ESM_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_BNU-ESM_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_BNU-ESM_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_BNU-ESM_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CCSM4_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CCSM4_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CCSM4_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CESM1-BGC_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CESM1-BGC_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CESM1-BGC_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CESM1-BGC_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CESM1-BGC_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CESM1-BGC_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CNRM-CM5_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CNRM-CM5_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CNRM-CM5_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CNRM-CM5_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CNRM-CM5_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CNRM-CM5_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-CM3_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_GFDL-CM3_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-CM3_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_GFDL-CM3_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-CM3_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_GFDL-CM3_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2G_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_GFDL-ESM2G_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2G_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_GFDL-ESM2G_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2G_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_GFDL-ESM2G_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2M_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_GFDL-ESM2M_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2M_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_GFDL-ESM2M_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2M_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_GFDL-ESM2M_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_inmcm4_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_inmcm4_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_inmcm4_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_inmcm4_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_inmcm4_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_inmcm4_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-MR_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-MR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-MR_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-MR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-MR_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-MR_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC-ESM_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC-ESM_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC-ESM_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM-CHEM_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC-ESM-CHEM_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM-CHEM_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC-ESM-CHEM_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM-CHEM_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC-ESM-CHEM_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC5_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC5_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC5_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-LR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-LR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-LR_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-MR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-MR_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-MR_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MRI-CGCM3_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MRI-CGCM3_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MRI-CGCM3_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MRI-CGCM3_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MRI-CGCM3_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MRI-CGCM3_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_NorESM1-M_historical_r1i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_NorESM1-M_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_NorESM1-M_historical_r1i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_NorESM1-M_historical_r1i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_NorESM1-M_historical_r1i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_NorESM1-M_historical_r1i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CCSM4_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CCSM4_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CCSM4_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC5_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC5_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC5_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-LR_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-LR_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-LR_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_historical_r2i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-MR_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_historical_r2i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-MR_historical_r2i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_historical_r2i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-MR_historical_r2i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r3i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r3i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r3i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r3i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r3i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r3i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r3i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r3i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r3i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r3i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r3i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r3i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_historical_r3i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC5_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_historical_r3i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC5_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_historical_r3i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC5_historical_r3i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_historical_r3i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-LR_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_historical_r3i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-LR_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_historical_r3i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-LR_historical_r3i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_historical_r3i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-MR_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_historical_r3i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-MR_historical_r3i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_historical_r3i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-MR_historical_r3i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r4i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r4i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r4i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r4i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r4i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r4i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r4i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r4i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r4i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r4i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r4i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r4i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r4i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r4i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r4i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r4i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r4i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r4i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r5i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r5i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r5i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r5i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r5i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r5i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r5i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r5i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r5i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r5i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r5i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r5i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r6i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r6i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r6i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r6i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r6i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r6i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r7i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r7i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r7i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r7i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r7i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r7i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r8i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r8i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r8i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r8i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r8i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r8i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r9i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r9i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r9i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r9i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r9i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r9i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r10i1p1.ncml"> <variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r10i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> <remove type="attribute" name="typeConversion_op_ncl" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r10i1p1.ncml"> <variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r10i1p1"> <remove type="attribute" name="associated_files" /> <remove type="attribute" name="cell_measures" /> <remove type="attribute" name="cell_methods" /> <remove type="attribute" name="coordinates" /> <remove type="attribute" name="history" /> <remove type="attribute" name="time" /> <remove type="attribute" name="history" /> </variable> </netcdf><netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r10i1p1.ncml"> <variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r10i1p1"> <remove type="attribute" name="typeConversion_op_ncl" /> <attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature" /> <attribute name="standard_name" value="air_temperature" /> <attribute name="units" value="C" /> </variable> </netcdf> </aggregation> </netcdf>
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Bias Corrected Constructed Analogs V2 Daily Historical CMIP5 Climate Projections"/>
+	<attribute name="summary" type="String" value="For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<attribute name="keywords" type="String" value="Downscaled Climate Projection, Air Temperature Atmosphere, Precipitation"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/cmip5_bcca/historical"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2013-12-12"/>
+	<attribute name="creator_name" type="String" value="Bridget Thrasher"/>
+	<attribute name="creator_url" type="String" value="http://www.climateanalyticsgroup.org/"/>
+	<attribute name="creator_email" type="String" value="bridget@climateanalyticsgroup.org"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="institution" type="String" value="Varies, see http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<remove name="institute_id" type="attribute"/>
+	<attribute name="date_issued" type="String" value="2013-05-01"/>
+	<attribute name="project" type="String" value="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs. U.S. Department of the Interior, Bureau of Reclamation"/>
+	<attribute name="processing_level" type="String" value="Downscaled Climate Projection"/>
+	<attribute name="acknowledgement" type="String" value="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<attribute name="contributors" type="String" value="Maurer, E. P., L. Brekke, T. Pruitt, and P. B. Duffy"/>
+	<attribute name="geospatial_lon_min" value="-125.0"/>
+	<attribute name="geospatial_lat_min" value="24.0"/>
+	<attribute name="geospatial_lon_max" value="-67.0"/>
+	<attribute name="geospatial_lat_max" value="53.0"/>
+	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2005-12-01T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<remove name="model_id" type="attribute" />
+	<remove name="CDI" type="attribute" />
+	<remove name="NCO" type="attribute" />
+	<remove name="CDO" type="attribute" />
+    <remove name="experiment" type="attribute" />
+    <remove name="experiment_id" type="attribute" />
+    <remove name="parent_experiment" type="attribute" />
+    <remove name="parent_experiment_id" type="attribute" />
+    <remove name="parent_experiment_rip" type="attribute" />
+    <remove name="creation_date" type="attribute" />
+	<aggregation type="union">
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_ACCESS1-0_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_ACCESS1-0_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_ACCESS1-0_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_ACCESS1-0_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_ACCESS1-0_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_ACCESS1-0_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_bcc-csm1-1_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_bcc-csm1-1_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_bcc-csm1-1_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_bcc-csm1-1_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_bcc-csm1-1_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_bcc-csm1-1_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_BNU-ESM_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_BNU-ESM_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_BNU-ESM_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_BNU-ESM_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_BNU-ESM_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_BNU-ESM_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CCSM4_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CCSM4_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CCSM4_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CESM1-BGC_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CESM1-BGC_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CESM1-BGC_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CESM1-BGC_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CESM1-BGC_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CESM1-BGC_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CNRM-CM5_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CNRM-CM5_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CNRM-CM5_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CNRM-CM5_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CNRM-CM5_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CNRM-CM5_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-CM3_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_GFDL-CM3_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-CM3_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_GFDL-CM3_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-CM3_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_GFDL-CM3_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2G_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_GFDL-ESM2G_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2G_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_GFDL-ESM2G_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2G_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_GFDL-ESM2G_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2M_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_GFDL-ESM2M_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2M_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_GFDL-ESM2M_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2M_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_GFDL-ESM2M_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_inmcm4_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_inmcm4_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_inmcm4_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_inmcm4_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_inmcm4_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_inmcm4_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-MR_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-MR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-MR_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-MR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-MR_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-MR_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC-ESM_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC-ESM_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC-ESM_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM-CHEM_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC-ESM-CHEM_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM-CHEM_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC-ESM-CHEM_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM-CHEM_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC-ESM-CHEM_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC5_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC5_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC5_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-LR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-LR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-LR_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-MR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-MR_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-MR_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MRI-CGCM3_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MRI-CGCM3_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MRI-CGCM3_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MRI-CGCM3_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MRI-CGCM3_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MRI-CGCM3_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_NorESM1-M_historical_r1i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_NorESM1-M_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_NorESM1-M_historical_r1i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_NorESM1-M_historical_r1i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_NorESM1-M_historical_r1i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_NorESM1-M_historical_r1i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CCSM4_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CCSM4_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CCSM4_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC5_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC5_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC5_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-LR_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-LR_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-LR_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_historical_r2i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-MR_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_historical_r2i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-MR_historical_r2i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_historical_r2i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-MR_historical_r2i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r3i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r3i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r3i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r3i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r3i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r3i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r3i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r3i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r3i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r3i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r3i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r3i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_historical_r3i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MIROC5_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_historical_r3i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MIROC5_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_historical_r3i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MIROC5_historical_r3i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_historical_r3i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-LR_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_historical_r3i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-LR_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_historical_r3i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-LR_historical_r3i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_historical_r3i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_MPI-ESM-MR_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_historical_r3i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_MPI-ESM-MR_historical_r3i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_historical_r3i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_MPI-ESM-MR_historical_r3i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r4i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r4i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r4i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r4i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r4i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r4i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r4i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r4i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r4i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r4i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r4i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r4i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_historical_r4i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_IPSL-CM5A-LR_historical_r4i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_historical_r4i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_IPSL-CM5A-LR_historical_r4i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_historical_r4i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_IPSL-CM5A-LR_historical_r4i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_historical_r5i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CanESM2_historical_r5i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_historical_r5i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CanESM2_historical_r5i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_historical_r5i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CanESM2_historical_r5i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r5i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r5i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r5i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r5i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r5i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r5i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r6i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r6i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r6i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r6i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r6i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r6i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r7i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r7i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r7i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r7i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r7i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r7i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r8i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r8i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r8i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r8i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r8i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r8i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r9i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r9i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r9i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r9i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r9i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r9i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_historical_r10i1p1.ncml">
+			<variable orgName="pr" name="BCCA_0-125deg_pr_day_CSIRO-Mk3-6-0_historical_r10i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r10i1p1.ncml">
+			<variable orgName="tasmax" name="BCCA_0-125deg_tasmax_day_CSIRO-Mk3-6-0_historical_r10i1p1">
+				<remove type="attribute" name="associated_files"/>
+				<remove type="attribute" name="cell_measures"/>
+				<remove type="attribute" name="cell_methods"/>
+				<remove type="attribute" name="coordinates"/>
+				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="time"/>
+				<remove type="attribute" name="history"/>
+			</variable>
+		</netcdf>
+		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r10i1p1.ncml">
+			<variable orgName="tasmin" name="BCCA_0-125deg_tasmin_day_CSIRO-Mk3-6-0_historical_r10i1p1">
+				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
+				<attribute name="standard_name" value="air_temperature"/>
+				<attribute name="units" value="C"/>
+			</variable>
+		</netcdf>
+	</aggregation>
+</netcdf>
