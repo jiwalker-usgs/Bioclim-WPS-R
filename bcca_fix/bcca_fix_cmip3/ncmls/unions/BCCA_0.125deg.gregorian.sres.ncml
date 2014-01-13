@@ -1,482 +1,519 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
- <aggregation type="union">
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cnrm_cm3-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cnrm_cm3-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cnrm_cm3-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cnrm_cm3-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cnrm_cm3-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cnrm_cm3-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cnrm_cm3-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cnrm_cm3-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cnrm_cm3.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cnrm_cm3-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="gfdl_cm2_0-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="gfdl_cm2_0-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="gfdl_cm2_0-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="gfdl_cm2_0-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="gfdl_cm2_0-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="gfdl_cm2_0-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="gfdl_cm2_0-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="gfdl_cm2_0-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_0.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="gfdl_cm2_0-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="gfdl_cm2_1-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="gfdl_cm2_1-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="gfdl_cm2_1-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="gfdl_cm2_1-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="gfdl_cm2_1-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="gfdl_cm2_1-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="gfdl_cm2_1-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="gfdl_cm2_1-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/gfdl_cm2_1.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="gfdl_cm2_1-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="ipsl_cm4-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="ipsl_cm4-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="ipsl_cm4-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="ipsl_cm4-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="ipsl_cm4-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="ipsl_cm4-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="ipsl_cm4-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="ipsl_cm4-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/ipsl_cm4.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="ipsl_cm4-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miroc3_2_medres-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miroc3_2_medres-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miroc3_2_medres-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mpi_echam5.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mpi_echam5-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mpi_echam5.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mpi_echam5-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mpi_echam5.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mpi_echam5-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mpi_echam5.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mpi_echam5-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mpi_echam5.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mpi_echam5-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mpi_echam5.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mpi_echam5-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run1-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run1-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run1-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa2-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa2-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa2-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresb1-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresb1-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresb1-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miroc3_2_medres-gregorian-sresa1b-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miroc3_2_medres-gregorian-sresa2-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa2-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa2-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miroc3_2_medres-gregorian-sresb1-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresb1-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresb1-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresa1b-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresa2-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresa2-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresa2-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresb1-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresb1-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresb1-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run2-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run2-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run2-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa1b-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa1b-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa2-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa2-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa2-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresb1-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresb1-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresb1-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresa1b-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresa1b-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresa1b-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresa2-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresa2-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresa2.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresa2-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="miub_echo_g-gregorian-sresb1-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="miub_echo_g-gregorian-sresb1-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/miub_echo_g.gregorian.sresb1.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="miub_echo_g-gregorian-sresb1-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run3.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run3-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run3.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run3-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run3.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run3-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run4.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run4-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run4.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run4-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run4.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run4-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run4.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run4-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run4.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run4-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run4.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run4-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run4.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run4-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run4.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run4-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run4.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run4-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run5.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run5-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run5.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run5-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run5.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run5-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run5.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run5-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run5.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run5-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run5.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run5-tasmin-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run5.pr.BCCA_0.125deg.ncml">
- <variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run5-pr-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run5.tasmax.BCCA_0.125deg.ncml">
- <variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run5-tasmax-BCCA_0-125deg" />
- </netcdf>
- <netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run5.tasmin.BCCA_0.125deg.ncml">
- <variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run5-tasmin-BCCA_0-125deg" />
- </netcdf>
- </aggregation>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Statistically downscaled GCM data using Bias Corrected Constructed Analogs (BCCA) V2 Daily 20C3M CMIP3 Climate Projections"/>
+	<attribute name="summary" type="String" value="For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<attribute name="keywords" type="String" value="Downscaled Climate Projection, Air Temperature Atmosphere, Precipitation"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/cmip3_bcca/future"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2010-09-01"/>
+	<attribute name="creator_name" type="String" value="Bridget Thrasher"/>
+	<attribute name="creator_url" type="String" value="http://www.climateanalyticsgroup.org/"/>
+	<attribute name="creator_email" type="String" value="bridget@climateanalyticsgroup.org"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="institution" type="String" value="Varies, see http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<remove name="institute_id" type="attribute"/>
+	<attribute name="date_issued" type="String" value="2013-05-01"/>
+	<attribute name="project" type="String" value="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs. U.S. Department of the Interior, Bureau of Reclamation"/>
+	<attribute name="processing_level" type="String" value="Downscaled Climate Projection"/>
+	<attribute name="acknowledgement" type="String" value="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<attribute name="contributors" type="String" value="Maurer, E. P., L. Brekke, T. Pruitt, and P. B. Duffy"/>
+	<attribute name="geospatial_lon_min" value="-125.0"/>
+	<attribute name="geospatial_lat_min" value="24.0"/>
+	<attribute name="geospatial_lon_max" value="-67.0"/>
+	<attribute name="geospatial_lat_max" value="53.0"/>
+	<attribute name="time_coverage_start" type="String" value="2006-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2100-12-01T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<remove name="nco_openmp_thread_number" type="attribute" />
+	<remove name="CDI" type="attribute" />
+	<remove name="NCO" type="attribute" />
+	<remove name="CDO" type="attribute" />
+    <remove name="creation_date" type="attribute" />
+    <remove name="comment" type="attribute" />
+    <remove name="description" type="attribute" />
+    <remove name="bound" type="attribute" />
+	<aggregation type="union">
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cnrm_cm3-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cnrm_cm3-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cnrm_cm3-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cnrm_cm3-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cnrm_cm3-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cnrm_cm3-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cnrm_cm3-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cnrm_cm3-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cnrm_cm3.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cnrm_cm3-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="gfdl_cm2_0-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="gfdl_cm2_0-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="gfdl_cm2_0-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="gfdl_cm2_0-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="gfdl_cm2_0-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="gfdl_cm2_0-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="gfdl_cm2_0-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="gfdl_cm2_0-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_0.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="gfdl_cm2_0-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="gfdl_cm2_1-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="gfdl_cm2_1-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="gfdl_cm2_1-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="gfdl_cm2_1-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="gfdl_cm2_1-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="gfdl_cm2_1-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="gfdl_cm2_1-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="gfdl_cm2_1-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/gfdl_cm2_1.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="gfdl_cm2_1-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="ipsl_cm4-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="ipsl_cm4-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="ipsl_cm4-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="ipsl_cm4-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="ipsl_cm4-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="ipsl_cm4-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="ipsl_cm4-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="ipsl_cm4-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/ipsl_cm4.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="ipsl_cm4-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miroc3_2_medres-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miroc3_2_medres-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miroc3_2_medres-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mpi_echam5.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mpi_echam5-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mpi_echam5.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mpi_echam5-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mpi_echam5.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mpi_echam5-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mpi_echam5.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mpi_echam5-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mpi_echam5.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mpi_echam5-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mpi_echam5.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mpi_echam5-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run1.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run1-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run1.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run1-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run1.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run1-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa2-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa2-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa2-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresb1-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresb1-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresb1-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miroc3_2_medres-gregorian-sresa1b-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miroc3_2_medres-gregorian-sresa2-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresa2-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresa2-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miroc3_2_medres-gregorian-sresb1-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miroc3_2_medres-gregorian-sresb1-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miroc3_2_medres.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miroc3_2_medres-gregorian-sresb1-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresa1b-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresa2-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresa2-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresa2-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresb1-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresb1-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresb1-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run2.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run2-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run2.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run2-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run2.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run2-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa1b-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa1b-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa2-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresa2-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa2.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresa2-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresb1-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="cccma_cgcm3_1-gregorian-sresb1-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresb1.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="cccma_cgcm3_1-gregorian-sresb1-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresa1b-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresa1b-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa1b.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresa1b-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresa2-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresa2-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresa2.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresa2-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="miub_echo_g-gregorian-sresb1-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="miub_echo_g-gregorian-sresb1-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/miub_echo_g.gregorian.sresb1.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="miub_echo_g-gregorian-sresb1-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run3.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run3-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run3.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run3-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run3.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run3-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run4.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run4-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run4.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run4-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run4.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run4-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run4.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run4-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run4.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run4-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run4.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run4-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run4.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run4-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run4.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run4-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run4.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run4-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run5.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa1b-run5-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run5.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa1b-run5-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa1b.run5.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa1b-run5-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run5.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresa2-run5-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run5.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresa2-run5-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresa2.run5.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresa2-run5-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run5.pr.BCCA_0.125deg.ncml">
+			<variable orgName="pr" name="mri_cgcm2_3_2a-gregorian-sresb1-run5-pr-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run5.tasmax.BCCA_0.125deg.ncml">
+			<variable orgName="tasmax" name="mri_cgcm2_3_2a-gregorian-sresb1-run5-tasmax-BCCA_0-125deg"/>
+		</netcdf>
+		<netcdf location="../joins/mri_cgcm2_3_2a.gregorian.sresb1.run5.tasmin.BCCA_0.125deg.ncml">
+			<variable orgName="tasmin" name="mri_cgcm2_3_2a-gregorian-sresb1-run5-tasmin-BCCA_0-125deg"/>
+		</netcdf>
+	</aggregation>
 </netcdf>
