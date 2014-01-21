@@ -2,7 +2,7 @@
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
 	<attribute name="title" type="String" value="Statistically downscaled GCM data using Bias Corrected Constructed Analogs (BCCA) V2 Daily 20C3M CMIP3 Climate Projections"/>
-	<attribute name="summary" type="String" value="For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
+	<attribute name="summary" type="String" value="This archive contains projections of daily BCCA CMIP3 projections of precipitation, daily maximum, and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ Corrections to the dry bias in precipitation have been applied to this dataset according the Errata here: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/Errata.ClimateDownscalingDocumentation.130717.pdf The values in this archive will differ slightly from those in the gdp-dcp archive. These data have been rounded to the nearest 0.1 (mm or deg C) so will vary +/- 0.05 compared to the original data. This was done in an effort to compress / deflate the data."/>
 	<attribute name="keywords" type="String" value="Downscaled Climate Projection, Air Temperature Atmosphere, Precipitation"/>
 	<attribute name="id" type="String" value="cida.usgs.gov/cmip3_bcca/future"/>
 	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
