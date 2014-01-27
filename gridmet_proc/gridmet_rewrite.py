@@ -2,7 +2,7 @@ import os
 import subprocess
 import time
 import shlex
-src="/Volumes/process/gridmet"
+src="/Users/usgs/temp/gridmet_proc/new_files"
 PROC_DIR="/Volumes/RAM-Disk"
 dest="/Volumes/Striped/gridmet_out"
 dirs=0
@@ -29,13 +29,14 @@ max_processes = 5
 pause_time=10
 file_processing = 1
 for srcfile in srcfiles:
-    inputs = [['pdur','precipitation_duration_hours','10','-999'],['pr','precipitation_amount','10','-999'],['rmax','relative_humidity','10','-999'],['rmin','relative_humidity','10','-999'],['sph','specific_humidity','10','-999'],['srad','surface_downwelling_shortwave_flux_in_air','10','-999'],['th','wind_from_direction','10','-999'],['tmmn','air_temperature','10','-999'],['tmmx','air_temperature','10','-999'],['vs','wind_speed','10','-999']]
+    inputs = [['pdur','precipitation_duration_hours','10','-999','0.1'],['pr','precipitation_amount','10','-999','0.1'],['rmax','relative_humidity','10','-999','0.1'],['rmin','relative_humidity','10','-999','0.1'],['sph','specific_humidity','10','-999','0.1'],['srad','surface_downwelling_shortwave_flux_in_air','10','-999','0.1'],['th','wind_from_direction','10','-999','0.1'],['tmmn','air_temperature','10','-999','0.1'],['tmmx','air_temperature','10','-999','0.1'],['vs','wind_speed','10','-999','0.1']]
     for input_keys in inputs:
         if input_keys[0] in srcfile:
             var=input_keys[1]
             scale=input_keys[2]
             missing=input_keys[3]
-    command=shlex.split('./bin/script.sh '+var+' '+scale+' '+missing+' '+srcfile+' '+src+' '+PROC_DIR+' '+dest)
+            scale_factor=input_keys[4]
+    command=shlex.split('./bin/script.sh '+var+' '+scale+' '+scale_factor+' '+missing+' '+srcfile+' '+src+' '+PROC_DIR+' '+dest)
     print str(file_processing)+ ' of ' + str(files_to_process)
     file_processing+=1
     processes.append(subprocess.Popen(command))
