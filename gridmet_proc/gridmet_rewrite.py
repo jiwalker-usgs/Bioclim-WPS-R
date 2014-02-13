@@ -4,7 +4,7 @@ import time
 import shlex
 src="/Users/usgs/temp/gridmet_proc/new_files"
 PROC_DIR="/Volumes/RAM-Disk"
-dest="/Volumes/Striped/gridmet_out"
+dest="/Volumes/process/gridmet_out"
 dirs=0
 files=0
 srcfiles=[ ]

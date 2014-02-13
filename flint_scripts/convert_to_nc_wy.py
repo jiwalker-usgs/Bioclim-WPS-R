@@ -28,27 +28,6 @@ else:
     os.makedirs(dest_folder)
 ### Historical WaterYear Parameters
 
-### Monthly Historical Parameters
-folder='HST'
-time_res="WaterYears"
-time_res="Monthly"
-time_file='times_monthly_hst.nc'
-input_folder='{0}{1}/{2}/'.format(src,folder,time_res)
-dest_folder='{0}{1}/{2}/'.format(dest,folder,time_res)
-if os.access(dest_folder,os.F_OK):
-    pass
-else:
-    os.makedirs(dest_folder)
-
-months={'oct':'01','nov':'02','dec':'03','jan':'04','feb':'05','mar':'06','apr':'07','may':'08','jun':'09','jul':'10','aug':'11','sep':'12'}
-for filenames in os.walk(input_folder):
-    for filename in filenames[2]:
-        for month_key in months.keys():
-            if month_key in filename:
-                os.rename(input_folder+filename, input_folder+filename[0:7]+months[month_key]+filename[10:len(filename)])
-
-###End Monthly Historical Parameters
-
 processes = []
 max_processes = 1
 pause_time=2
