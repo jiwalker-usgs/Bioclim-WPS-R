@@ -20,7 +20,7 @@ tmin_var <- "tmin"
 prcp_var <- "prcp"
 tave_var <- "NULL"
 
-start <- "1950"
+start <- "1960"
 end <- "1962"
 bbox_in<-"-90,41,-90.5,41.5"
 bioclims<-"1,2"
