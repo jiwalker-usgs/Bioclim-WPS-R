@@ -1,6 +1,6 @@
 import pyGDP
 import os
-pyGDP.WPS_URL    = 'http://cida-eros-gdpdev.er.usgs.gov:8080/gdp-process-wps/WebProcessingService'
+pyGDP.WPS_URL    = 'http://cida.usgs.gov/gdp/process/WebProcessingService'
 processid = 'org.n52.wps.server.r.gridded_bioclim'
 
 filename = 'test_prism.zip'

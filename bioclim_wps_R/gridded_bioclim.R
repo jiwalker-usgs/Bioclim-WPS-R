@@ -14,21 +14,44 @@ library("rgdal")
 library("stats")
 library("chron")
 library("zoo")
-request_bbox<-function(ncdf4_handle,rep_var,bbox)
-{
-  if (!is.null(ncatt_get(ncdf4_handle, rep_var,'grid_mapping')) && !is.null(ncdf4_handle$dim$x$vals))
+
+request_bbox<-function(ncdf4_handle,rep_var,bbox) {
+  grid_mapping<-ncatt_get(ncdf4_handle, rep_var,'grid_mapping')
+  if (!is.null(grid_mapping) && !is.null(ncdf4_handle$dim$x$vals))
   {
-    if (ncatt_get(ncdf4_handle, ncatt_get(ncdf4_handle, rep_var,'grid_mapping')$value, 'grid_mapping_name')$value=='lambert_conformal_conic')
+    grid_mapping_name<-grid_mapping$value
+    grid_mapping_atts<-ncatt_get(ncdf4_handle, grid_mapping_name)
+    x_vals<-ncdf4_handle$dim$x$vals
+    y_vals<-ncdf4_handle$dim$y$vals
+    bbox_indices<-CF_grid_mapping_bbox(x_vals,y_vals,rep_var,grid_mapping_name,grid_mapping_atts)
+  }
+  # Supports lat/lon that is NOT a 2D coordinate variable.
+  else if (!is.null(ncdf4_handle$dim$lon$vals) && length(dim(ncdf4_handle$dim$lon$vals)==1))
+  {
+    x_vals<-ncdf4_handle$dim$lon$vals
+    y_vals<-ncdf4_handle$dim$lat$vals
+    bbox_indices<-CF_grid_mapping_bbox(x_vals,y_vals,rep_var,bbox)
+  }
+  return(bbox_indices)
+}
+
+CF_grid_mapping_bbox<-function(x_vals,y_vals,rep_var,bbox,grid_mapping_name=NULL,grid_mapping_atts=NULL)
+{
+  if (!is.null(grid_mapping_name))
+  {
+    #Supports Lambert Conformal Conic from NetCDF-CF.
+    if (grid_mapping_name=='lambert_conformal_conic')
     {
-      grid_mapping_name<-ncatt_get(ncdf4_handle, rep_var,'grid_mapping')$value
-      longitude_of_central_meridian<-ncatt_get(ncdf4_handle, grid_mapping_name, 'longitude_of_central_meridian')$value
-      latitude_of_projection_origin<-ncatt_get(ncdf4_handle, grid_mapping_name, 'latitude_of_projection_origin')$value
-      standard_parallel<-ncatt_get(ncdf4_handle, grid_mapping_name, 'standard_parallel')$value
-      false_easting<-ncatt_get(ncdf4_handle, grid_mapping_name, 'false_easting')$value
-      false_northing<-ncatt_get(ncdf4_handle, grid_mapping_name, 'false_northing')$value
-      longitude_of_prime_meridian<-ncatt_get(ncdf4_handle, grid_mapping_name, 'longitude_of_prime_meridian')$value
-      semi_major_axis<-ncatt_get(ncdf4_handle, grid_mapping_name, 'semi_major_axis')$value
-      inverse_flattening<-ncatt_get(ncdf4_handle, grid_mapping_name, 'inverse_flattening')$value
+      # Get lambert conformal attributes.
+      longitude_of_central_meridian<-grid_mapping_atts$longitude_of_central_meridian
+      latitude_of_projection_origin<-grid_mapping_atts$latitude_of_projection_origin
+      standard_parallel<-grid_mapping_atts$standard_parallel
+      false_easting<-grid_mapping_atts$false_easting
+      false_northing<-grid_mapping_atts$false_northing
+      longitude_of_prime_meridian<-grid_mapping_atts$longitude_of_prime_meridian
+      semi_major_axis<-grid_mapping_atts$semi_major_axis
+      inverse_flattening<-grid_mapping_atts$inverse_flattening
+      # Can have two or one standard parallels. Based on this, create a proj4 string.
       if (length(standard_parallel==2))
       {
         prj <- paste("+proj=lcc +lat_1=", standard_parallel[1],
@@ -62,30 +85,30 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox)
       bbox_proj<-spTransform(bbox_unproj,CRS(prj)) # Project bbox.
       bbox_proj_coords<-coordinates(bbox_proj)
       # Get projected bounds
-      min_dods_x<-min(ncdf4_handle$dim$x$vals)
-      max_dods_x<-max(ncdf4_handle$dim$x$vals)
-      min_dods_y<-min(ncdf4_handle$dim$y$vals)
-      max_dods_y<-max(ncdf4_handle$dim$y$vals)
+      min_dods_x<-min(x_vals)
+      max_dods_x<-max(x_vals)
+      min_dods_y<-min(y_vals)
+      max_dods_y<-max(y_vals)
       # Prepare projected bounds to be unprojected.
-      ncdf4_handle_range<-data.frame(matrix(c(min_dods_x,min_dods_y,max_dods_x,max_dods_y,min_dods_x,max_dods_y,max_dods_x,min_dods_y),ncol=2,byrow=TRUE))
-      colnames(ncdf4_handle_range)<-c("x","y")
-      coordinates(ncdf4_handle_range)<-c("x","y")
-      proj4string(ncdf4_handle_range) <- CRS(prj)
-      ncdf4_handle_range_unproj<-spTransform(ncdf4_handle_range,CRS("+init=epsg:4326"))
-      ncdf4_handle_range_unproj_coords<-coordinates(ncdf4_handle_range_unproj)
+      x_y_range<-data.frame(matrix(c(min_dods_x,min_dods_y,max_dods_x,max_dods_y,min_dods_x,max_dods_y,max_dods_x,min_dods_y),ncol=2,byrow=TRUE))
+      colnames(x_y_range)<-c("x","y")
+      coordinates(x_y_range)<-c("x","y")
+      proj4string(x_y_range) <- CRS(prj)
+      x_y_range_unproj<-spTransform(x_y_range,CRS("+init=epsg:4326"))
+      x_y_range_unproj_coords<-coordinates(x_y_range_unproj)
       # Coding against daymet for now, need to find a way to identify the coordinate variable for requested variables and use that name rather than the hardcoded x and y.
       # Check lower left.
-      if (bbox_proj_coords[1]<min_dods_x || bbox_proj_coords[1]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",ncdf4_handle_range_unproj_coords[1]))
-      if (bbox_proj_coords[3]<min_dods_y || bbox_proj_coords[3]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",ncdf4_handle_range_unproj_coords[2]))
+      if (bbox_proj_coords[1]<min_dods_x || bbox_proj_coords[1]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",x_y_range_unproj_coords[1]))
+      if (bbox_proj_coords[3]<min_dods_y || bbox_proj_coords[3]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",x_y_range_unproj_coords[2]))
       # Check upper right.
-      if (bbox_proj_coords[2]<min_dods_x || bbox_proj_coords[2]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",ncdf4_handle_range_unproj_coords[3]))
-      if (bbox_proj_coords[4]<min_dods_y || bbox_proj_coords[4]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",ncdf4_handle_range_unproj_coords[4]))
+      if (bbox_proj_coords[2]<min_dods_x || bbox_proj_coords[2]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",x_y_range_unproj_coords[3]))
+      if (bbox_proj_coords[4]<min_dods_y || bbox_proj_coords[4]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",x_y_range_unproj_coords[4]))
       # Check upper left.
-      if (bbox_proj_coords[5]<min_dods_x || bbox_proj_coords[5]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",ncdf4_handle_range_unproj_coords[1]))
-      if (bbox_proj_coords[6]<min_dods_y || bbox_proj_coords[6]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",ncdf4_handle_range_unproj_coords[2]))
+      if (bbox_proj_coords[5]<min_dods_x || bbox_proj_coords[5]>max_dods_x) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",x_y_range_unproj_coords[1]))
+      if (bbox_proj_coords[6]<min_dods_y || bbox_proj_coords[6]>max_dods_y) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",x_y_range_unproj_coords[2]))
       # Check lower right.
-      if (bbox_proj_coords[7]<min_dods_x || bbox_proj_coords[7]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",ncdf4_handle_range_unproj_coords[3]))
-      if (bbox_proj_coords[8]<min_dods_y || bbox_proj_coords[8]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",ncdf4_handle_range_unproj_coords[4]))
+      if (bbox_proj_coords[7]<min_dods_x || bbox_proj_coords[7]>max_dods_x) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",x_y_range_unproj_coords[3]))
+      if (bbox_proj_coords[8]<min_dods_y || bbox_proj_coords[8]>max_dods_y) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",x_y_range_unproj_coords[4]))
       bbox<-bbox_proj_coords
       x1 <- which(abs(ncdf4_handle$dim$x$vals-bbox[1])==min(abs(ncdf4_handle$dim$x$vals-bbox[1])))
       y1 <- which(abs(ncdf4_handle$dim$y$vals-bbox[2])==min(abs(ncdf4_handle$dim$y$vals-bbox[2])))
@@ -96,38 +119,41 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox)
       if(length(y1)==2) if((bbox[2]-ncdf4_handle$dim$y$vals[y1[1]])>(bbox[2]-ncdf4_handle$dim$y$vals[y1[2]])) y1<-y1[1] else y1<-y1[2]
       if(length(x2)==2) if((bbox[3]-ncdf4_handle$dim$x$vals[x2[1]])>(bbox[3]-ncdf4_handle$dim$x$vals[x2[2]])) x2<-x2[1] else x2<-x2[2]
       if(length(y2)==2) if((bbox[4]-ncdf4_handle$dim$y$vals[y2[1]])>(bbox[4]-ncdf4_handle$dim$y$vals[y2[2]])) y2<-y2[1] else y2<-y2[2]
-      x_index<-dods_data$dim$x$vals[x1:x2]
-      y_index<-dods_data$dim$y$vals[y1:y2]
+      x_index<-ncdf4_handle$dim$x$vals[x1:x2]
+      y_index<-ncdf4_handle$dim$y$vals[y1:y2]
     }
-    else
-    {
-      stop('Unsupported Projection Found in Source Data.')
-    }
+  #Doesn't support any other grid mappings.
+  else
+  {
+    stop('Unsupported Projection Found in Source Data.')
   }
-  if (!is.null(ncdf4_handle$dim$lat$vals) && length(dim(ncdf4_handle$dim$lat$vals)==1))
+}
+  #Given no grid mapping, assume WGS84. Should check if grid mapping is WGS84, not manye datasets like this.
+  else
   {
     prj<-"+init=epsg:4326"
-    if (max(ncdf4_handle$dim$lon$vals)>180 || max(ncdf4_handle$dim$lat$vals)>180) 
+    #Check if data uses 0:360 lat/lon
+    if (max(x_vals)>180 || max(y_vals)>180) 
     {
       bbox[1]=bbox[1]+360
       bbox[3]=bbox[3]+360
     }
-    if (bbox[1]<min(ncdf4_handle$dim$lon$vals)) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",min(ncdf4_handle$dim$lon$vals)))
-    if (bbox[2]<min(ncdf4_handle$dim$lat$vals)) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",min(ncdf4_handle$dim$lat$vals)))
-    if (bbox[3]>max(ncdf4_handle$dim$lon$vals)) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",max(ncdf4_handle$dim$lon$vals)))
-    if (bbox[4]>max(ncdf4_handle$dim$lat$vals)) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",max(ncdf4_handle$dim$lat$vals)))
+    if (bbox[1]<min(x_vals)) stop(paste("Submitted minimum longitude",bbox[1], "is outside the dataset's minimum",min(x_vals)))
+    if (bbox[2]<min(y_vals)) stop(paste("Submitted minimum latitude",bbox[2], "is outside the dataset's minimum",min(y_vals)))
+    if (bbox[3]>max(x_vals)) stop(paste("Submitted maximum longitude",bbox[3], "is outside the dataset's maximum",max(x_vals)))
+    if (bbox[4]>max(y_vals)) stop(paste("Submitted maximum latitude",bbox[4], "is outside the dataset's maximum",max(y_vals)))
     # Search for x/y indices cooresponding to start and end dates.
-    lon1_index <- which(abs(ncdf4_handle$dim$lon$vals-bbox[1])==min(abs(ncdf4_handle$dim$lon$vals-bbox[1])))
-    lat1_index <- which(abs(ncdf4_handle$dim$lat$vals-bbox[2])==min(abs(ncdf4_handle$dim$lat$vals-bbox[2])))
-    lon2_index <- which(abs(ncdf4_handle$dim$lon$vals-bbox[3])==min(abs(ncdf4_handle$dim$lon$vals-bbox[3])))                 
-    lat2_index <- which(abs(ncdf4_handle$dim$lat$vals-bbox[4])==min(abs(ncdf4_handle$dim$lat$vals-bbox[4])))
+    lon1_index <- which(abs(x_vals-bbox[1])==min(abs(x_vals-bbox[1])))
+    lat1_index <- which(abs(y_vals-bbox[2])==min(abs(y_vals-bbox[2])))
+    lon2_index <- which(abs(x_vals-bbox[3])==min(abs(x_vals-bbox[3])))                 
+    lat2_index <- which(abs(y_vals-bbox[4])==min(abs(y_vals-bbox[4])))
     # Check to see if multiple indices were found and buffer out if they were.
-    if(length(lon1_index)==2) if((bbox[1]-ncdf4_handle$dim$lon$vals[lon1_index[1]])>(bbox[1]-ncdf4_handle$dim$lon$vals[lon1_index[2]])) lon1_index<-lon1_index[1] else lon1_index<-lon1_index[2]  
-    if(length(lat1_index)==2) if((bbox[2]-ncdf4_handle$dim$lat$vals[lat1_index[1]])>(bbox[2]-ncdf4_handle$dim$lat$vals[lat1_index[2]])) lat1_index<-lat1_index[1] else lat1_index<-lat1_index[2]
-    if(length(lon2_index)==2) if((bbox[3]-ncdf4_handle$dim$lon$vals[lon2_index[1]])>(bbox[3]-ncdf4_handle$dim$lon$vals[lon2_index[2]])) lon2_index<-lon2_index[1] else lon2_index<-lon2_index[2]
-    if(length(lat2_index)==2) if((bbox[4]-ncdf4_handle$dim$lat$vals[lat2_index[1]])>(bbox[4]-ncdf4_handle$dim$lat$vals[lat2_index[2]])) lat2_index<-lat2_index[1] else lat2_index<-lat2_index[2]
-    x_index<-dods_data$dim$lon$vals[lon1_index:lon2_index]
-    y_index<-dods_data$dim$lat$vals[lat1_index:lat2_index]
+    if(length(lon1_index)==2) if((bbox[1]-x_vals[lon1_index[1]])>(bbox[1]-x_vals[lon1_index[2]])) lon1_index<-lon1_index[1] else lon1_index<-lon1_index[2]  
+    if(length(lat1_index)==2) if((bbox[2]-y_vals[lat1_index[1]])>(bbox[2]-y_vals[lat1_index[2]])) lat1_index<-lat1_index[1] else lat1_index<-lat1_index[2]
+    if(length(lon2_index)==2) if((bbox[3]-x_vals[lon2_index[1]])>(bbox[3]-x_vals[lon2_index[2]])) lon2_index<-lon2_index[1] else lon2_index<-lon2_index[2]
+    if(length(lat2_index)==2) if((bbox[4]-y_vals[lat2_index[1]])>(bbox[4]-y_vals[lat2_index[2]])) lat2_index<-lat2_index[1] else lat2_index<-lat2_index[2]
+    x_index<-x_vals[lon1_index:lon2_index]
+    y_index<-y_vals[lat1_index:lat2_index]
     x1<-lon1_index
     y1<-lat1_index
     x2<-lon2_index
@@ -181,15 +207,15 @@ if (3 %in% bioclims & !7 %in% bioclims) {
   pop_seven<-TRUE
 } else {pop_seven<-FALSE}
 # Define Inputs (will come from external call)
-tryCatch(dods_data <- nc_open(OPeNDAP_URI), error = function(e) 
+tryCatch(ncdf4_handle <- nc_open(OPeNDAP_URI), error = function(e) 
   {
   cat("An error was encountered trying to open the OPeNDAP resource."); print(e)
   })
-variables<-as.character(sapply(dods_data$var,function(x) x$name))
+variables<-as.character(sapply(ncdf4_handle$var,function(x) x$name))
 if (!tmax_var %in% variables) stop(paste("The given tmax variable wasn't found in the OPeNDAP dataset"))
 t_unit_multiplier<-function(t) {t}
-if (grepl('k',ncatt_get(dods_data, tmax_var,'units')$value, ignore.case = TRUE)) {t_unit_multiplier <- function(t) {t-273} }
-if (grepl('f',ncatt_get(dods_data, tmax_var,'units')$value, ignore.case = TRUE)) {t_unit_multiplier <- function(t) {(t-32)*(5/9)} }
+if (grepl('k',ncatt_get(ncdf4_handle, tmax_var,'units')$value, ignore.case = TRUE)) {t_unit_multiplier <- function(t) {t-273} }
+if (grepl('f',ncatt_get(ncdf4_handle, tmax_var,'units')$value, ignore.case = TRUE)) {t_unit_multiplier <- function(t) {(t-32)*(5/9)} }
 if (!tmin_var %in% variables) stop(paste("The given tmin variable wasn't found in the OPeNDAP dataset"))
 if (!prcp_var %in% variables) stop(paste("The given prcp variable wasn't found in the OPeNDAP dataset"))
 if (tave_var!="NULL") if (!tmax_var %in% variables) stop(paste("The given tave variable wasn't found in the OPeNDAP dataset"))
@@ -198,8 +224,10 @@ if (any(!bioclims %in% valid_bioclims)) stop("Invalid Bioclim ids were submitted
 # Bioclims in allowable set
 # lat in dataset check in bbox function
 # time in dataset check in time function
-# check is tmax, tmin, and prcp variables exist in dataset
-request_bbox_indices<-request_bbox(dods_data,tmax_var,bbox_in)
+rep_var<-tmax_var
+ncdf4_handle<-ncdf4_handle
+
+request_bbox_indices<-request_bbox(ncdf4_handle,tmax_var,bbox_in)
 x1<-request_bbox_indices$x1
 y1<-request_bbox_indices$y1
 x2<-request_bbox_indices$x2
@@ -220,16 +248,16 @@ fileNames<-array(dim=(as.numeric(end)-as.numeric(start))*length(bioclims))
 fileStep<-1
 for (year in as.numeric(start):(as.numeric(end)))
 {
-  request_time_indices<-request_time_bounds(dods_data,year,year+1)
+  request_time_indices<-request_time_bounds(ncdf4_handle,year,year+1)
   t_ind1 <- request_time_indices$t_ind1
   t_ind2<-request_time_indices$t_ind2
   time<-request_time_indices$time
   origin<-request_time_indices$origin
   # !!! Make sure this is robust for network failures. !!!
-  tmax_data <- t_unit_multiplier(ncvar_get(dods_data, tmax_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1))))
-  tmin_data <- t_unit_multiplier(ncvar_get(dods_data, tmin_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1))))
-  prcp_data <- ncvar_get(dods_data, prcp_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
-  if (tave_var!="NULL") tave_data <- t_unit_multiplier(ncvar_get(dods_data, tave_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))) else tave_data <- (tmax_data+tmin_data)/2
+  tmax_data <- t_unit_multiplier(ncvar_get(ncdf4_handle, tmax_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1))))
+  tmin_data <- t_unit_multiplier(ncvar_get(ncdf4_handle, tmin_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1))))
+  prcp_data <- ncvar_get(ncdf4_handle, prcp_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))
+  if (tave_var!="NULL") tave_data <- t_unit_multiplier(ncvar_get(ncdf4_handle, tave_var, c(min(x1,x2),min(y1,y2),t_ind1),c((abs(x1-x2)+1),(abs(y1-y2)+1),(t_ind2-t_ind1)))) else tave_data <- (tmax_data+tmin_data)/2
   cells<-nrow(tmax_data)*ncol(tmax_data)
   tmax_data <- matrix(tmax_data,t_ind2-t_ind1,cells,byrow = TRUE)
   tmin_data <- matrix(tmin_data,t_ind2-t_ind1,cells,byrow = TRUE)
