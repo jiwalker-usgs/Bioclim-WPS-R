@@ -9,7 +9,7 @@
 # wps.in: tave_var, string, Tave Variable, The variable from the OPeNDAP dataset to use as tave, can be "NULL".;
 # wps.in: prcp_var, string, Prcp Variable, The variable from the OPeNDAP dataset to use as prcp.;
 library("ncdf4")
-library("climates")
+#library("climates")
 library("rgdal")
 library("stats")
 library("chron")
@@ -81,7 +81,7 @@ init_dap_bclim<-function(OPeNDAP_URI,tmax_var,tmin_var,prcp_var,bioclims)
   return(list(ncdf4_handle=ncdf4_handle,temp_unit_func=temp_unit_func))
 }
 
-get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func=NULL)
+get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func=NULL)
 {
   #Can optionally pass in a function that will convert temperature on the fly.
   if (!is.null(temp_unit_func)) temp_unit_func<-function(t) {t}
@@ -138,38 +138,36 @@ bclim_gtiff<-function(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_m
   return(fileNames)
 }
 
+dap_bioclim<-function(start,end,bbox_in,bioclims,OPeNDAP_URI,tmax_var,tmin_var,tave_var,prcp_var)
+{
+  te<-init_dap_bclim(OPeNDAP_URI,tmax_var,tmin_var,prcp_var,bioclims)
+  ncdf4_handle<-te$ncdf4_handle; temp_unit_func<-te$temp_unit_func
+  
+  te2<-request_bbox(ncdf4_handle,tmax_var,bbox_in); x1<-te2$x1; y1<-te2$y1; x2<-te2$x2; 
+  y2<-te2$y2; coords_master<-te2$coords_master; prj<-te2$prj
+  
+  fileNames<-c()
+  for (year in as.numeric(start):(as.numeric(end)))
+  {
+    #Call for time indices for this year
+    te3<-request_time_bounds(ncdf4_handle,year,year+1); t_ind1 <- te3$t_ind1; t_ind2<-te3$t_ind2; 
+    time_indices<-te3$time; origin<-te3$origin
+    
+    #Get the dap data
+    te4<-get_dap_data(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func)
+    tmax_data<-te4$tmax_data; tmin_data<-te4$tmin_data; prcp_data<-te4$prcp_data; tave_data<-te4$tave_data
+    
+    #Run Bioclim and write to geotiff.
+    fileNames<-bclim_gtiff(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_master, prj, year, fileNames)
+  }
+  return(fileNames)
+}
+
 bbox_in <- as.double(read.csv(header=F,colClasses=c("character"),text=bbox_in))
 bioclims <- as.double(read.csv(header=F,colClasses=c("character"),text=bioclims))
 
-te<-init_dap_bclim(OPeNDAP_URI,tmax_var,tmin_var,prcp_var,bioclims)
-ncdf4_handle<-te$ncdf4_handle; temp_unit_func<-te$temp_unit_func
+fileNames<-dap_bioclim(start,end,bbox_in,bioclims,OPeNDAP_URI,tmax_var,tmin_var,tave_var,prcp_var)
 
-te<-request_bbox(ncdf4_handle,tmax_var,bbox_in); x1<-te$x1; y1<-te$y1; x2<-te$x2; 
-y2<-te$y2; x_index<-te$x_index; y_index<-te$y_index; prj<-te$prj
-
-# Check for regular grid.
-dif_xs = mean(diff(x_index))
-dif_ys = mean(diff(y_index))
-if (abs(abs(dif_ys)-abs(dif_xs))>0.00001) stop('The data source appears to be an irregular grid, this datatype is not supported.')
-
-# Create x/y points for cells for geotiff files to be written.
-coords_master <- array(dim=c(length(x_index)*length(y_index),2))
-coords_master[,1]<-rep(rev(x_index)+dif_ys/2,length(y_index))
-coords_master[,2]<-rep(rev(y_index)-dif_ys/2,each=length(x_index))
-fileNames<-c()
-for (year in as.numeric(start):(as.numeric(end)))
-{
-  #Call for time indices for this year
-  te<-request_time_bounds(ncdf4_handle,year,year+1); t_ind1 <- te$t_ind1; t_ind2<-te$t_ind2; 
-  time_indices<-te$time; origin<-te$origin
-  
-  #Get the dap data
-  te<-get_dap_data(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func)
-  tmax_data<-te$tmax_data; tmin_data<-te$tmin_data; prcp_data<-te$prcp_data; tave_data<-te$tave_data
-  
-  #Run Bioclim and write to geotiff.
-  fileNames<-bclim_gtiff(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_master, prj, year, fileNames)
-}
 name<-'bioclim.zip'
 bioclim_zip<-zip(name,fileNames)
 #wps.out: name, zip, bioclim_zip, A zip pf the resulting bioclim getiffs..;
