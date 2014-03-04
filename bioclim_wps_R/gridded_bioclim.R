@@ -9,12 +9,8 @@
 # wps.in: tave_var, string, Tave Variable, The variable from the OPeNDAP dataset to use as tave, can be "NULL".;
 # wps.in: prcp_var, string, Prcp Variable, The variable from the OPeNDAP dataset to use as prcp.;
 library("ncdf4")
-#library("climates")
-library("rgdal")
-library("stats")
-library("chron")
-library("zoo")
-
+library("climates")
+library('rgdal')
 request_bbox<-function(ncdf4_handle,rep_var,bbox_in) 
 {
   grid_mapping<-ncatt_get(ncdf4_handle, rep_var,'grid_mapping')
@@ -33,14 +29,6 @@ request_bbox<-function(ncdf4_handle,rep_var,bbox_in)
     bbox_indices<-CF_bbox_grid(x_vals,y_vals,bbox_in)
   }
   return(bbox_indices)
-}
-
-dailyToMonthly<-function(daily_data, time, origin, cells)
-{
-  daily_data<-zoo(daily_data,chron(time,out.format=c(dates="year-m-day"), origin=origin))
-  daily_data<-aggregate(daily_data, as.yearmon, mean)
-  daily_data<-t(data.matrix(fortify.zoo(daily_data),cells)[1:12,2:(cells+1)])
-  return(daily_data)
 }
 
 request_time_bounds<-function(ncdf4_handle,start,end)
@@ -68,7 +56,7 @@ init_dap_bclim<-function(OPeNDAP_URI,tmax_var,tmin_var,prcp_var,bioclims)
   if (!tmax_var %in% variables) stop(paste("The given tmax variable wasn't found in the OPeNDAP dataset"))
   if (!tmin_var %in% variables) stop(paste("The given tmin variable wasn't found in the OPeNDAP dataset"))
   if (!prcp_var %in% variables) stop(paste("The given prcp variable wasn't found in the OPeNDAP dataset"))
-  if (tave_var!="NULL") if (!tmax_var %in% variables) stop(paste("The given tave variable wasn't found in the OPeNDAP dataset"))
+  if (!is.null(tave_var)) if (!tmax_var %in% variables) stop(paste("The given tave variable wasn't found in the OPeNDAP dataset"))
   
   #Set temperature unit conversion to 1 unless units are K or F.
   temp_unit_func<-function(t) {t}
@@ -81,7 +69,7 @@ init_dap_bclim<-function(OPeNDAP_URI,tmax_var,tmin_var,prcp_var,bioclims)
   return(list(ncdf4_handle=ncdf4_handle,temp_unit_func=temp_unit_func))
 }
 
-get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func=NULL)
+get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,origin,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func=NULL)
 {
   #Can optionally pass in a function that will convert temperature on the fly.
   if (!is.null(temp_unit_func)) temp_unit_func<-function(t) {t}
@@ -100,10 +88,10 @@ get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,
   {
     # Convert daily data to monthly in preperation for bioclim functions.
     time_indices<-floor(time_indices)
-    tmax_data<-dailyToMonthly(tmax_data, time_indices, origin, cells)
-    tmin_data<-dailyToMonthly(tmin_data, time_indices, origin, cells)
-    prcp_data<-dailyToMonthly(prcp_data, time_indices, origin, cells)
-    tave_data<-dailyToMonthly(tave_data, time_indices, origin, cells)
+    tmax_data<-daily2monthly(tmax_data, time_indices, origin, cells)
+    tmin_data<-daily2monthly(tmin_data, time_indices, origin, cells)
+    prcp_data<-daily2monthly(prcp_data, time_indices, origin, cells)
+    tave_data<-daily2monthly(tave_data, time_indices, origin, cells)
   }
   else
   {
@@ -114,28 +102,6 @@ get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,
     tave_data<-t(tave_data)
   }
   return(list(tmax_data=tmax_data,tmin_data=tmin_data,prcp_data=prcp_data,tave_data=tave_data))
-}
-
-bclim_gtiff<-function(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_master, prj, year, fileNames=NULL)
-{
-  #remove cells that are NaNs.
-  mask<-!is.na(prcp_data[,1])
-  masked_coords<-coords_master[mask,]
-  tmax_data<-tmax_data[mask,]
-  tmin_data<-tmin_data[mask,]
-  prcp_data<-prcp_data[mask,]
-  tave_data<-tave_data[mask,]
-  # Run BioClim
-  bioclim_out<-data.frame(bioclim(tmin=tmin_data, tmax=tmax_data, prec=prcp_data, tmean=tave_data, bioclims))
-  colnames(bioclim_out)<-paste('bioclim_',bioclims, sep='')
-  for (bclim in names(bioclim_out))
-  {
-    file_name<-paste(bclim,'_',as.character(year),'.tif',sep='')
-    if (is.null(fileNames)) fileNames<-c()
-    fileNames<-append(fileNames,file_name)
-    writeGDAL(SpatialPixelsDataFrame(SpatialPoints(masked_coords, proj4string = CRS(prj)), bioclim_out[bclim], tolerance=0.0001),file_name)
-  }
-  return(fileNames)
 }
 
 dap_bioclim<-function(start,end,bbox_in,bioclims,OPeNDAP_URI,tmax_var,tmin_var,tave_var,prcp_var)
@@ -154,18 +120,18 @@ dap_bioclim<-function(start,end,bbox_in,bioclims,OPeNDAP_URI,tmax_var,tmin_var,t
     time_indices<-te3$time; origin<-te3$origin
     
     #Get the dap data
-    te4<-get_dap_data(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func)
+    te4<-get_dap_data(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,origin,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func)
     tmax_data<-te4$tmax_data; tmin_data<-te4$tmin_data; prcp_data<-te4$prcp_data; tave_data<-te4$tave_data
     
     #Run Bioclim and write to geotiff.
-    fileNames<-bclim_gtiff(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_master, prj, year, fileNames)
+    fileNames<-append(fileNames,bioclim2geotiff(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_master, prj, year))
   }
   return(fileNames)
 }
 
 bbox_in <- as.double(read.csv(header=F,colClasses=c("character"),text=bbox_in))
 bioclims <- as.double(read.csv(header=F,colClasses=c("character"),text=bioclims))
-
+if (tave_var=="NULL") tave_var=NULL
 fileNames<-dap_bioclim(start,end,bbox_in,bioclims,OPeNDAP_URI,tmax_var,tmin_var,tave_var,prcp_var)
 
 name<-'bioclim.zip'
