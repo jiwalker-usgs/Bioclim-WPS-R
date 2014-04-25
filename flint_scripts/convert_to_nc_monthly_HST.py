@@ -28,11 +28,16 @@ else:
     os.makedirs(dest_folder)
 
 months={'oct':'01','nov':'02','dec':'03','jan':'04','feb':'05','mar':'06','apr':'07','may':'08','jun':'09','jul':'10','aug':'11','sep':'12'}
+
 for filenames in os.walk(input_folder):
     for filename in filenames[2]:
         for month_key in months.keys():
+            if int(months[month_key])<=3:
+                year_mod=1
+            else:
+                year_mod=0
             if month_key in filename:
-                os.rename(input_folder+filename, input_folder+filename[0:7]+months[month_key]+filename[10:len(filename)])
+                os.rename(input_folder+filename, input_folder+filename[0:3]+str(int(filename[3:7])+year_mod)+months[month_key]+filename[10:len(filename)])
 
 years=range(1895,2011)
 

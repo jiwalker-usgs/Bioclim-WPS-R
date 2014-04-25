@@ -1,6 +1,7 @@
-src='/Volumes/Striped/CA_BCM/' # Location of source tar.gz files.
+src='/Volumes/Scratch/CA_BCM_Ensemble_asc/' # Location of source tar.gz files.
+unzip_to='/Volumes/Striped/CA_BCM/' # Location where tar.gz files will be unzipped to.
 dest='/Volumes/process/flint_out/' # Location where output .nc file should be placed.
-proc_path='/Volumes/RAM-Disk/' # Location where processing should take place. This script will wipe files from this folder. IT SHOULD BE A NEW EMPTY FOLDER!!!
+proc_path='/Volumes/RAM_DISK/' # Location where processing should take place. This script will wipe files from this folder. IT SHOULD BE A NEW EMPTY FOLDER!!!
 time_files_path='/Users/usgs/temp/flint/etc/' # Where the water year .nc files are. The are checked into the git hub repository and need to be local to the script somewhere.
 start_year=2012 # Year to start at ie. Oct 1 2012
 end_year=2013 # Year to end at ie. Sept 20 2013
@@ -43,10 +44,26 @@ metadata_wy={'tmx':{"long_name":"Maximum Temperature","description":"The maximum
 
 stat_metadata={}
 #'aet',
-file_keys={"Monthly":['cwd','exc','mlt','pck','pet','ppt','rch','run','sbl','snw','str','tmn','tmx'],
+file_keys={"Monthly":['aet','cwd','exc','mlt','pck','pet','ppt','rch','run','sbl','snw','str','tmn','tmx'],
             "Summary":['aet','aprpck','cwd','djf','jja','pet','ppt','rch','run','tmn','tmx'],
             "WaterYears":['aet','cwd','djf','jja','pet','ppt','rch','run','sbl','snw','str','tmn','tmx'],
             "summary_stats":['ave','dsd','std']}
 
 creator='David Blodgett'.replace(' ', '\ ')
 creator_email='dblodgett@usgs.gov'
+
+folders={"FGOALS_rcp85":"Volumes/CA_BCM_Ensemble Copy I/FGOALS_rcp85",
+    "CNRM_rcp85":"Volumes/CA_BCM_Ensemble Copy III/CNRM_rcp85",
+    "CSIRO_A1B":"CSIRO_A1B",
+    "GFDL_A2":"GFDL_A2",
+    "GFDL_B1":"../../CA_BCM_Ensemble Copy II/GFDL_B1",
+    "GISS_AOM_A1B":"Volumes/CA_BCM_Ensemble Copy II/GISS_AOM_A1B",
+    "GISS_rcp26":"Volumes/CA_BCM_Ensemble Copy III/GISS_rcp26",
+    "MIROC5_rcp26":"Volumes/CA_BCM_Ensemble Copy III/MIROC5_rcp26",
+    "MIROC_rcp45":"Volumes/CA_BCM_Ensemble Copy III/MIROC_rcp45",
+    "MIROC_rcp60":"Volumes/CA_BCM_Ensemble Copy III/MIROC_rcp60",
+    "MIROC_rcp85":"Volumes/CA_BCM_Ensemble Copy III/MIROC_rcp85",
+    "MPI_rcp45":"Volumes/CA_BCM_Ensemble Copy III/MPI_rcp45",
+    "MRI_rcp26":"Volumes/CA_BCM_Ensemble Copy III/MRI_rcp26",
+    "PCM_A2":"Volumes/CA_BCM_Ensemble Copy II/PCM_A2"}
+
