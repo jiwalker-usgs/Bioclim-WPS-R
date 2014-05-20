@@ -52,10 +52,7 @@ file_keys={"Monthly":['aet','cwd','exc','mlt','pck','pet','ppt','rch','run','sbl
 creator='David Blodgett'.replace(' ', '\ ')
 creator_email='dblodgett@usgs.gov'
 
-folders={"FGOALS_rcp85":"Volumes/CA_BCM_Ensemble Copy I/FGOALS_rcp85",
-    "CNRM_rcp85":"Volumes/CA_BCM_Ensemble Copy III/CNRM_rcp85",
-    "CSIRO_A1B":"CSIRO_A1B",
-    "GFDL_A2":"GFDL_A2",
+folders={"CNRM_rcp85":"Volumes/CA_BCM_Ensemble Copy III/CNRM_rcp85",
     "GFDL_B1":"../../CA_BCM_Ensemble Copy II/GFDL_B1",
     "GISS_AOM_A1B":"Volumes/CA_BCM_Ensemble Copy II/GISS_AOM_A1B",
     "GISS_rcp26":"Volumes/CA_BCM_Ensemble Copy III/GISS_rcp26",
@@ -63,7 +60,10 @@ folders={"FGOALS_rcp85":"Volumes/CA_BCM_Ensemble Copy I/FGOALS_rcp85",
     "MIROC_rcp45":"Volumes/CA_BCM_Ensemble Copy III/MIROC_rcp45",
     "MIROC_rcp60":"Volumes/CA_BCM_Ensemble Copy III/MIROC_rcp60",
     "MIROC_rcp85":"Volumes/CA_BCM_Ensemble Copy III/MIROC_rcp85",
-    "MPI_rcp45":"Volumes/CA_BCM_Ensemble Copy III/MPI_rcp45",
     "MRI_rcp26":"Volumes/CA_BCM_Ensemble Copy III/MRI_rcp26",
     "PCM_A2":"Volumes/CA_BCM_Ensemble Copy II/PCM_A2"}
 
+Done={"MPI_rcp45":"Volumes/CA_BCM_Ensemble Copy III/MPI_rcp45",
+    "FGOALS_rcp85":"Volumes/CA_BCM_Ensemble Copy I/FGOALS_rcp85",
+    "GFDL_A2":"GFDL_A2",
+    "CSIRO_A1B":"CSIRO_A1B"}

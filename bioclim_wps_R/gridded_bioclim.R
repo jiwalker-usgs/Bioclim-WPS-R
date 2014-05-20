@@ -69,7 +69,7 @@ init_dap_bclim<-function(OPeNDAP_URI,tmax_var,tmin_var,prcp_var,bioclims)
   return(list(ncdf4_handle=ncdf4_handle,temp_unit_func=temp_unit_func))
 }
 
-get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,origin,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func=NULL)
+get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,origin,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func=NULL)
 {
   #Can optionally pass in a function that will convert temperature on the fly.
   if (!is.null(temp_unit_func)) temp_unit_func<-function(t) {t}
@@ -84,23 +84,6 @@ get_dap_data<-function(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,
   tmin_data <- matrix(tmin_data,t_ind2-t_ind1,cells,byrow = TRUE)
   prcp_data <- matrix(prcp_data,t_ind2-t_ind1,cells,byrow = TRUE)
   tave_data <- matrix(tave_data,t_ind2-t_ind1,cells,byrow = TRUE)
-  if (dim(time_indices)>12)
-  {
-    # Convert daily data to monthly in preperation for bioclim functions.
-    time_indices<-floor(time_indices)
-    tmax_data<-daily2monthly(tmax_data, time_indices, origin, cells)
-    tmin_data<-daily2monthly(tmin_data, time_indices, origin, cells)
-    prcp_data<-daily2monthly(prcp_data, time_indices, origin, cells)
-    tave_data<-daily2monthly(tave_data, time_indices, origin, cells)
-  }
-  else
-  {
-    #Transpose
-    tmax_data<-t(tmax_data)
-    tmin_data<-t(tmin_data)
-    prcp_data<-t(prcp_data)
-    tave_data<-t(tave_data)
-  }
   return(list(tmax_data=tmax_data,tmin_data=tmin_data,prcp_data=prcp_data,tave_data=tave_data))
 }
 
@@ -120,9 +103,25 @@ dap_bioclim<-function(start,end,bbox_in,bioclims,OPeNDAP_URI,tmax_var,tmin_var,t
     time_indices<-te3$time; origin<-te3$origin
     
     #Get the dap data
-    te4<-get_dap_data(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,time_indices,origin,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func)
+    te4<-get_dap_data(ncdf4_handle,x1,y1,x2,y2,time,t_ind1,t_ind2,origin,tmax_var,tmin_var,prcp_var,tave_var=NULL,temp_unit_func)
     tmax_data<-te4$tmax_data; tmin_data<-te4$tmin_data; prcp_data<-te4$prcp_data; tave_data<-te4$tave_data
-    
+    if (dim(time_indices)>12)
+    {
+      # Convert daily data to monthly in preperation for bioclim functions.
+      time_indices<-floor(time_indices)
+      tmax_data<-daily2monthly(tmax_data, time_indices, origin, cells)
+      tmin_data<-daily2monthly(tmin_data, time_indices, origin, cells)
+      prcp_data<-daily2monthly(prcp_data, time_indices, origin, cells)
+      tave_data<-daily2monthly(tave_data, time_indices, origin, cells)
+    }
+    else
+    {
+      #Transpose
+      tmax_data<-t(tmax_data)
+      tmin_data<-t(tmin_data)
+      prcp_data<-t(prcp_data)
+      tave_data<-t(tave_data)
+    }
     #Run Bioclim and write to geotiff.
     fileNames<-append(fileNames,bioclim2geotiff(tmax_data,tmin_data,prcp_data,tave_data,bioclims, coords_master, prj, year))
   }

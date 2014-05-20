@@ -2,8 +2,8 @@ import os
 import subprocess
 import time
 import shlex
-src="/Users/usgs/temp/gridmet_proc/new_files"
-PROC_DIR="/Volumes/RAM-Disk"
+src="/Volumes/Striped/gridmet_temp"
+PROC_DIR="/Volumes/RAM_Disk"
 dest="/Volumes/process/gridmet_out"
 dirs=0
 files=0
