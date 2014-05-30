@@ -1,4 +1,4 @@
-# Define Inputs (will come from external call)
+# Define Inputs 
 start <- "1961"
 end <- "1962"
 bbox_in<-"-87,41,-89,43"
@@ -9,12 +9,12 @@ tmin_var <- "20c3m-cccma_cgcm3_1-tmin-01"
 prcp_var <- "20c3m-cccma_cgcm3_1-prcp-01"
 tave_var <- "NULL"
 
-# Define Inputs (will come from external call)
+# Define Inputs 
 start <- "1980"
 end <- "1980"
 bbox_in<-"-90,40,-91,41"
 bioclims<-"1"
-OPeNDAP_URI<-"http://cida-eros-mows1.er.usgs.gov:8080/thredds/dodsC/daymet"
+OPeNDAP_URI<-"http://thredds.daac.ornl.gov/thredds/dodsC/daymet-agg/daymet-agg.ncml"
 tmax_var  <- "tmax"
 tmin_var <- "tmin"
 prcp_var <- "prcp"
