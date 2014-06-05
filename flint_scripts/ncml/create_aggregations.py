@@ -53,29 +53,30 @@ for scenario in scenarios:
             elif '.nc' in line:
                 if key in line:
                     if path_switch==1:
-                        path_switch=0
-                        name=line[0:-1-11]+key+'.ncml'
-                        var_name=line[7:-1-8]
-                        d.write(' <netcdf location="../joins/'+name+'">\n <variable orgName="'+key+'" name="'+var_name+'" />\n </netcdf>\n')
+                        if scenario in line:
+                            path_switch=0
+                            name=line[0:-1-11]+key+'.ncml'
+                            var_name=line[7:-1-8]
+                            d.write(' <netcdf location="../joins/'+name+'">\n <variable orgName="'+key+'" name="'+var_name+'" />\n </netcdf>\n')
 
 d.write(' </aggregation>\n</netcdf>')
 d.close()
 
-scenarios=("HST")
+scenario=("HST")
 d=open('./unions/union_HST.ncml','a')
 d.write('<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n <aggregation type="union">\n')
-for scenario in scenarios:
-    for key in file_keys:
-        f=open('./flint_ls.txt')
-        lines=f.readlines()
-        f.close()
-        for line in lines:
-            if line[0]=='.': #if line is a path, do some union stuff if the path is terminal.
-                path="."+line[0:-1-1] # Paths end in :\n so take off last two characters.
-                path_switch=1 # Set the "path switch". If its on, and the next line is a file, will write a union.
-            elif '.nc' in line:
-                if key in line:
-                    if path_switch==1:
+for key in file_keys:
+    f=open('./flint_ls.txt')
+    lines=f.readlines()
+    f.close()
+    for line in lines:
+        if line[0]=='.': #if line is a path, do some union stuff if the path is terminal.
+            path="."+line[0:-1-1] # Paths end in :\n so take off last two characters.
+            path_switch=1 # Set the "path switch". If its on, and the next line is a file, will write a union.
+        elif '.nc' in line:
+            if key in line:
+                if path_switch==1:
+                    if scenario in line:
                         path_switch=0
                         name=line[0:-1-11]+key+'.ncml'
                         var_name=line[7:-1-8]
