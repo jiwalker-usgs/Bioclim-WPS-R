@@ -17,6 +17,7 @@
 # wps.in: tave_var, string, Tave Variable, The variable from the OPeNDAP dataset to use as tave, can be "NULL".;
 # wps.in: prcp_var, string, Prcp Variable, The variable from the OPeNDAP dataset to use as prcp.;
 library("dapClimates")
+library("climates") # Because climates uses depends on stuff, this is needed as well as the dapClimates load.
 
 start <- "1961"
 end <- "1961"
