@@ -63,7 +63,7 @@ for grid in grids:
                             if 'tasmin' in path:
                                 orgName='tasmin'
                             if open_switch==1:
-                                d.write('  <netcdf location="../joins/'+name+'">\n   <variable orgName="'+orgName+'" name="'+var_name+'" />\n  </netcdf>\n')
+                                d.write('  <netcdf location="../joins/'+name+'">\n   <variable orgName="'+orgName+'" name="'+var_name+'">\n    <remove type="attribute" name="valid_range" />\n   </variable>\n  </netcdf>\n')
                                 count+=1
         if open_switch==1:
             d.write(' </aggregation>\n</netcdf>')

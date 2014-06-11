@@ -49,6 +49,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_ACCESS1-0_rcp45_r1i1p1.ncml">
@@ -60,6 +61,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_ACCESS1-0_rcp45_r1i1p1.ncml">
@@ -68,6 +70,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_ACCESS1-0_rcp85_r1i1p1.ncml">
@@ -79,6 +82,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_ACCESS1-0_rcp85_r1i1p1.ncml">
@@ -90,6 +94,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_ACCESS1-0_rcp85_r1i1p1.ncml">
@@ -98,6 +103,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_bcc-csm1-1_rcp26_r1i1p1.ncml">
@@ -109,6 +115,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_bcc-csm1-1_rcp26_r1i1p1.ncml">
@@ -120,6 +127,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_bcc-csm1-1_rcp26_r1i1p1.ncml">
@@ -128,6 +136,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_bcc-csm1-1_rcp45_r1i1p1.ncml">
@@ -139,6 +148,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_bcc-csm1-1_rcp45_r1i1p1.ncml">
@@ -150,6 +160,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_bcc-csm1-1_rcp45_r1i1p1.ncml">
@@ -158,6 +169,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_bcc-csm1-1_rcp60_r1i1p1.ncml">
@@ -169,6 +181,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_bcc-csm1-1_rcp60_r1i1p1.ncml">
@@ -180,6 +193,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_bcc-csm1-1_rcp60_r1i1p1.ncml">
@@ -188,6 +202,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_bcc-csm1-1_rcp85_r1i1p1.ncml">
@@ -199,6 +214,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_bcc-csm1-1_rcp85_r1i1p1.ncml">
@@ -210,6 +226,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_bcc-csm1-1_rcp85_r1i1p1.ncml">
@@ -218,6 +235,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_BNU-ESM_rcp45_r1i1p1.ncml">
@@ -229,6 +247,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_BNU-ESM_rcp45_r1i1p1.ncml">
@@ -240,6 +259,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_BNU-ESM_rcp45_r1i1p1.ncml">
@@ -248,6 +268,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_BNU-ESM_rcp85_r1i1p1.ncml">
@@ -259,6 +280,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_BNU-ESM_rcp85_r1i1p1.ncml">
@@ -270,6 +292,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_BNU-ESM_rcp85_r1i1p1.ncml">
@@ -278,6 +301,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp26_r1i1p1.ncml">
@@ -289,6 +313,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp26_r1i1p1.ncml">
@@ -300,6 +325,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp26_r1i1p1.ncml">
@@ -308,6 +334,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp45_r1i1p1.ncml">
@@ -319,6 +346,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp45_r1i1p1.ncml">
@@ -330,6 +358,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp45_r1i1p1.ncml">
@@ -338,6 +367,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp85_r1i1p1.ncml">
@@ -349,6 +379,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp85_r1i1p1.ncml">
@@ -360,6 +391,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp85_r1i1p1.ncml">
@@ -368,6 +400,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp26_r1i1p1.ncml">
@@ -379,6 +412,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp26_r1i1p1.ncml">
@@ -390,6 +424,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp26_r1i1p1.ncml">
@@ -398,6 +433,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp45_r1i1p1.ncml">
@@ -409,6 +445,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp45_r1i1p1.ncml">
@@ -420,6 +457,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp45_r1i1p1.ncml">
@@ -428,6 +466,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp60_r1i1p1.ncml">
@@ -439,6 +478,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp60_r1i1p1.ncml">
@@ -450,6 +490,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp60_r1i1p1.ncml">
@@ -458,6 +499,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp85_r1i1p1.ncml">
@@ -469,6 +511,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp85_r1i1p1.ncml">
@@ -480,6 +523,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp85_r1i1p1.ncml">
@@ -488,6 +532,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CESM1-BGC_rcp45_r1i1p1.ncml">
@@ -499,6 +544,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CESM1-BGC_rcp45_r1i1p1.ncml">
@@ -510,6 +556,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CESM1-BGC_rcp45_r1i1p1.ncml">
@@ -518,6 +565,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CESM1-BGC_rcp85_r1i1p1.ncml">
@@ -529,6 +577,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CESM1-BGC_rcp85_r1i1p1.ncml">
@@ -540,6 +589,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CESM1-BGC_rcp85_r1i1p1.ncml">
@@ -548,6 +598,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CNRM-CM5_rcp45_r1i1p1.ncml">
@@ -559,6 +610,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CNRM-CM5_rcp45_r1i1p1.ncml">
@@ -570,6 +622,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CNRM-CM5_rcp45_r1i1p1.ncml">
@@ -578,6 +631,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CNRM-CM5_rcp85_r1i1p1.ncml">
@@ -589,6 +643,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CNRM-CM5_rcp85_r1i1p1.ncml">
@@ -600,6 +655,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CNRM-CM5_rcp85_r1i1p1.ncml">
@@ -608,6 +664,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r1i1p1.ncml">
@@ -619,6 +676,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r1i1p1.ncml">
@@ -630,6 +688,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r1i1p1.ncml">
@@ -638,6 +697,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r1i1p1.ncml">
@@ -649,6 +709,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r1i1p1.ncml">
@@ -660,6 +721,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r1i1p1.ncml">
@@ -668,6 +730,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r1i1p1.ncml">
@@ -679,6 +742,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r1i1p1.ncml">
@@ -690,6 +754,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r1i1p1.ncml">
@@ -698,6 +763,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-CM3_rcp26_r1i1p1.ncml">
@@ -709,6 +775,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-CM3_rcp26_r1i1p1.ncml">
@@ -720,6 +787,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-CM3_rcp26_r1i1p1.ncml">
@@ -728,6 +796,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-CM3_rcp60_r1i1p1.ncml">
@@ -739,6 +808,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-CM3_rcp60_r1i1p1.ncml">
@@ -750,6 +820,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-CM3_rcp60_r1i1p1.ncml">
@@ -758,6 +829,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-CM3_rcp85_r1i1p1.ncml">
@@ -769,6 +841,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-CM3_rcp85_r1i1p1.ncml">
@@ -780,6 +853,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-CM3_rcp85_r1i1p1.ncml">
@@ -788,6 +862,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2G_rcp26_r1i1p1.ncml">
@@ -799,6 +874,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2G_rcp26_r1i1p1.ncml">
@@ -810,6 +886,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2G_rcp26_r1i1p1.ncml">
@@ -818,6 +895,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2G_rcp45_r1i1p1.ncml">
@@ -829,6 +907,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2G_rcp45_r1i1p1.ncml">
@@ -840,6 +919,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2G_rcp45_r1i1p1.ncml">
@@ -848,6 +928,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2G_rcp60_r1i1p1.ncml">
@@ -859,6 +940,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2G_rcp60_r1i1p1.ncml">
@@ -870,6 +952,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2G_rcp60_r1i1p1.ncml">
@@ -878,6 +961,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2G_rcp85_r1i1p1.ncml">
@@ -889,6 +973,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2G_rcp85_r1i1p1.ncml">
@@ -900,6 +985,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2G_rcp85_r1i1p1.ncml">
@@ -908,6 +994,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2M_rcp26_r1i1p1.ncml">
@@ -919,6 +1006,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2M_rcp26_r1i1p1.ncml">
@@ -930,6 +1018,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2M_rcp26_r1i1p1.ncml">
@@ -938,6 +1027,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2M_rcp45_r1i1p1.ncml">
@@ -949,6 +1039,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2M_rcp45_r1i1p1.ncml">
@@ -960,6 +1051,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2M_rcp45_r1i1p1.ncml">
@@ -968,6 +1060,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2M_rcp60_r1i1p1.ncml">
@@ -979,6 +1072,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2M_rcp60_r1i1p1.ncml">
@@ -990,6 +1084,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2M_rcp60_r1i1p1.ncml">
@@ -998,6 +1093,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_GFDL-ESM2M_rcp85_r1i1p1.ncml">
@@ -1009,6 +1105,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_GFDL-ESM2M_rcp85_r1i1p1.ncml">
@@ -1020,6 +1117,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_GFDL-ESM2M_rcp85_r1i1p1.ncml">
@@ -1028,6 +1126,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_inmcm4_rcp45_r1i1p1.ncml">
@@ -1039,6 +1138,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_inmcm4_rcp45_r1i1p1.ncml">
@@ -1050,6 +1150,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_inmcm4_rcp45_r1i1p1.ncml">
@@ -1058,6 +1159,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_inmcm4_rcp85_r1i1p1.ncml">
@@ -1069,6 +1171,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_inmcm4_rcp85_r1i1p1.ncml">
@@ -1080,6 +1183,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_inmcm4_rcp85_r1i1p1.ncml">
@@ -1088,6 +1192,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp26_r1i1p1.ncml">
@@ -1099,6 +1204,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp26_r1i1p1.ncml">
@@ -1110,6 +1216,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp26_r1i1p1.ncml">
@@ -1118,6 +1225,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp45_r1i1p1.ncml">
@@ -1129,6 +1237,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp45_r1i1p1.ncml">
@@ -1140,6 +1249,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp45_r1i1p1.ncml">
@@ -1148,6 +1258,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp60_r1i1p1.ncml">
@@ -1159,6 +1270,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp60_r1i1p1.ncml">
@@ -1170,6 +1282,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp60_r1i1p1.ncml">
@@ -1178,6 +1291,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp85_r1i1p1.ncml">
@@ -1189,6 +1303,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp85_r1i1p1.ncml">
@@ -1200,6 +1315,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp85_r1i1p1.ncml">
@@ -1208,6 +1324,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-MR_rcp26_r1i1p1.ncml">
@@ -1219,6 +1336,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-MR_rcp26_r1i1p1.ncml">
@@ -1230,6 +1348,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-MR_rcp26_r1i1p1.ncml">
@@ -1238,6 +1357,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-MR_rcp45_r1i1p1.ncml">
@@ -1249,6 +1369,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-MR_rcp45_r1i1p1.ncml">
@@ -1260,6 +1381,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-MR_rcp45_r1i1p1.ncml">
@@ -1268,6 +1390,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-MR_rcp60_r1i1p1.ncml">
@@ -1279,6 +1402,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-MR_rcp60_r1i1p1.ncml">
@@ -1290,6 +1414,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-MR_rcp60_r1i1p1.ncml">
@@ -1298,6 +1423,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-MR_rcp85_r1i1p1.ncml">
@@ -1309,6 +1435,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-MR_rcp85_r1i1p1.ncml">
@@ -1320,6 +1447,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-MR_rcp85_r1i1p1.ncml">
@@ -1328,6 +1456,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM_rcp26_r1i1p1.ncml">
@@ -1339,6 +1468,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM_rcp26_r1i1p1.ncml">
@@ -1350,6 +1480,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM_rcp26_r1i1p1.ncml">
@@ -1358,6 +1489,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM_rcp45_r1i1p1.ncml">
@@ -1369,6 +1501,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM_rcp45_r1i1p1.ncml">
@@ -1380,6 +1513,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM_rcp45_r1i1p1.ncml">
@@ -1388,6 +1522,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM_rcp60_r1i1p1.ncml">
@@ -1399,6 +1534,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM_rcp60_r1i1p1.ncml">
@@ -1410,6 +1546,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM_rcp60_r1i1p1.ncml">
@@ -1418,6 +1555,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM_rcp85_r1i1p1.ncml">
@@ -1429,6 +1567,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM_rcp85_r1i1p1.ncml">
@@ -1440,6 +1579,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM_rcp85_r1i1p1.ncml">
@@ -1448,6 +1588,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM-CHEM_rcp26_r1i1p1.ncml">
@@ -1459,6 +1600,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM-CHEM_rcp26_r1i1p1.ncml">
@@ -1470,6 +1612,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM-CHEM_rcp26_r1i1p1.ncml">
@@ -1478,6 +1621,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM-CHEM_rcp45_r1i1p1.ncml">
@@ -1489,6 +1633,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM-CHEM_rcp45_r1i1p1.ncml">
@@ -1500,6 +1645,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM-CHEM_rcp45_r1i1p1.ncml">
@@ -1508,6 +1654,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM-CHEM_rcp60_r1i1p1.ncml">
@@ -1519,6 +1666,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM-CHEM_rcp60_r1i1p1.ncml">
@@ -1530,6 +1678,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM-CHEM_rcp60_r1i1p1.ncml">
@@ -1538,6 +1687,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC-ESM-CHEM_rcp85_r1i1p1.ncml">
@@ -1549,6 +1699,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC-ESM-CHEM_rcp85_r1i1p1.ncml">
@@ -1560,6 +1711,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC-ESM-CHEM_rcp85_r1i1p1.ncml">
@@ -1568,6 +1720,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp26_r1i1p1.ncml">
@@ -1579,6 +1732,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp26_r1i1p1.ncml">
@@ -1590,6 +1744,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp26_r1i1p1.ncml">
@@ -1598,6 +1753,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp45_r1i1p1.ncml">
@@ -1609,6 +1765,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp45_r1i1p1.ncml">
@@ -1620,6 +1777,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp45_r1i1p1.ncml">
@@ -1628,6 +1786,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp60_r1i1p1.ncml">
@@ -1639,6 +1798,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp60_r1i1p1.ncml">
@@ -1650,6 +1810,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp60_r1i1p1.ncml">
@@ -1658,6 +1819,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp85_r1i1p1.ncml">
@@ -1669,6 +1831,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp85_r1i1p1.ncml">
@@ -1680,6 +1843,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp85_r1i1p1.ncml">
@@ -1688,6 +1852,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp26_r1i1p1.ncml">
@@ -1699,6 +1864,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp26_r1i1p1.ncml">
@@ -1710,6 +1876,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp26_r1i1p1.ncml">
@@ -1718,6 +1885,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp45_r1i1p1.ncml">
@@ -1729,6 +1897,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp45_r1i1p1.ncml">
@@ -1740,6 +1909,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp45_r1i1p1.ncml">
@@ -1748,6 +1918,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp85_r1i1p1.ncml">
@@ -1759,6 +1930,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp85_r1i1p1.ncml">
@@ -1770,6 +1942,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp85_r1i1p1.ncml">
@@ -1778,6 +1951,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_rcp26_r1i1p1.ncml">
@@ -1789,6 +1963,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_rcp26_r1i1p1.ncml">
@@ -1800,6 +1975,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_rcp26_r1i1p1.ncml">
@@ -1808,6 +1984,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_rcp45_r1i1p1.ncml">
@@ -1819,6 +1996,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_rcp45_r1i1p1.ncml">
@@ -1830,6 +2008,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_rcp45_r1i1p1.ncml">
@@ -1838,6 +2017,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_rcp85_r1i1p1.ncml">
@@ -1849,6 +2029,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_rcp85_r1i1p1.ncml">
@@ -1860,6 +2041,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_rcp85_r1i1p1.ncml">
@@ -1868,6 +2050,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MRI-CGCM3_rcp26_r1i1p1.ncml">
@@ -1879,6 +2062,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MRI-CGCM3_rcp26_r1i1p1.ncml">
@@ -1890,6 +2074,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MRI-CGCM3_rcp26_r1i1p1.ncml">
@@ -1898,6 +2083,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MRI-CGCM3_rcp45_r1i1p1.ncml">
@@ -1909,6 +2095,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MRI-CGCM3_rcp45_r1i1p1.ncml">
@@ -1920,6 +2107,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MRI-CGCM3_rcp45_r1i1p1.ncml">
@@ -1928,6 +2116,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MRI-CGCM3_rcp60_r1i1p1.ncml">
@@ -1939,6 +2128,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MRI-CGCM3_rcp60_r1i1p1.ncml">
@@ -1950,6 +2140,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MRI-CGCM3_rcp60_r1i1p1.ncml">
@@ -1958,6 +2149,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MRI-CGCM3_rcp85_r1i1p1.ncml">
@@ -1969,6 +2161,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MRI-CGCM3_rcp85_r1i1p1.ncml">
@@ -1980,6 +2173,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MRI-CGCM3_rcp85_r1i1p1.ncml">
@@ -1988,6 +2182,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_NorESM1-M_rcp26_r1i1p1.ncml">
@@ -1999,6 +2194,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_NorESM1-M_rcp26_r1i1p1.ncml">
@@ -2010,6 +2206,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_NorESM1-M_rcp26_r1i1p1.ncml">
@@ -2018,6 +2215,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_NorESM1-M_rcp45_r1i1p1.ncml">
@@ -2029,6 +2227,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_NorESM1-M_rcp45_r1i1p1.ncml">
@@ -2040,6 +2239,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_NorESM1-M_rcp45_r1i1p1.ncml">
@@ -2048,6 +2248,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_NorESM1-M_rcp60_r1i1p1.ncml">
@@ -2059,6 +2260,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_NorESM1-M_rcp60_r1i1p1.ncml">
@@ -2070,6 +2272,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_NorESM1-M_rcp60_r1i1p1.ncml">
@@ -2078,6 +2281,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_NorESM1-M_rcp85_r1i1p1.ncml">
@@ -2089,6 +2293,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_NorESM1-M_rcp85_r1i1p1.ncml">
@@ -2100,6 +2305,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_NorESM1-M_rcp85_r1i1p1.ncml">
@@ -2108,6 +2314,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp26_r2i1p1.ncml">
@@ -2119,6 +2326,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp26_r2i1p1.ncml">
@@ -2130,6 +2338,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp26_r2i1p1.ncml">
@@ -2138,6 +2347,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp45_r2i1p1.ncml">
@@ -2149,6 +2359,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp45_r2i1p1.ncml">
@@ -2160,6 +2371,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp45_r2i1p1.ncml">
@@ -2168,6 +2380,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp85_r2i1p1.ncml">
@@ -2179,6 +2392,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp85_r2i1p1.ncml">
@@ -2190,6 +2404,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp85_r2i1p1.ncml">
@@ -2198,6 +2413,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp26_r2i1p1.ncml">
@@ -2209,6 +2425,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp26_r2i1p1.ncml">
@@ -2220,6 +2437,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp26_r2i1p1.ncml">
@@ -2228,6 +2446,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp45_r2i1p1.ncml">
@@ -2239,6 +2458,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp45_r2i1p1.ncml">
@@ -2250,6 +2470,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp45_r2i1p1.ncml">
@@ -2258,6 +2479,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp60_r2i1p1.ncml">
@@ -2269,6 +2491,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp60_r2i1p1.ncml">
@@ -2280,6 +2503,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp60_r2i1p1.ncml">
@@ -2288,6 +2512,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CCSM4_rcp85_r2i1p1.ncml">
@@ -2299,6 +2524,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CCSM4_rcp85_r2i1p1.ncml">
@@ -2310,6 +2536,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CCSM4_rcp85_r2i1p1.ncml">
@@ -2318,6 +2545,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r2i1p1.ncml">
@@ -2329,6 +2557,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r2i1p1.ncml">
@@ -2340,6 +2569,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r2i1p1.ncml">
@@ -2348,6 +2578,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r2i1p1.ncml">
@@ -2359,6 +2590,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r2i1p1.ncml">
@@ -2370,6 +2602,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r2i1p1.ncml">
@@ -2378,6 +2611,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r2i1p1.ncml">
@@ -2389,6 +2623,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r2i1p1.ncml">
@@ -2400,6 +2635,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r2i1p1.ncml">
@@ -2408,6 +2644,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp26_r2i1p1.ncml">
@@ -2419,6 +2656,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp26_r2i1p1.ncml">
@@ -2430,6 +2668,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp26_r2i1p1.ncml">
@@ -2438,6 +2677,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp45_r2i1p1.ncml">
@@ -2449,6 +2689,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp45_r2i1p1.ncml">
@@ -2460,6 +2701,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp45_r2i1p1.ncml">
@@ -2468,6 +2710,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp85_r2i1p1.ncml">
@@ -2479,6 +2722,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp85_r2i1p1.ncml">
@@ -2490,6 +2734,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp85_r2i1p1.ncml">
@@ -2498,6 +2743,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp26_r2i1p1.ncml">
@@ -2509,6 +2755,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp26_r2i1p1.ncml">
@@ -2520,6 +2767,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp26_r2i1p1.ncml">
@@ -2528,6 +2776,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp45_r2i1p1.ncml">
@@ -2539,6 +2788,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp45_r2i1p1.ncml">
@@ -2550,6 +2800,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp45_r2i1p1.ncml">
@@ -2558,6 +2809,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp85_r2i1p1.ncml">
@@ -2569,6 +2821,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp85_r2i1p1.ncml">
@@ -2580,6 +2833,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp85_r2i1p1.ncml">
@@ -2588,6 +2842,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp26_r2i1p1.ncml">
@@ -2599,6 +2854,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp26_r2i1p1.ncml">
@@ -2610,6 +2866,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp26_r2i1p1.ncml">
@@ -2618,6 +2875,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp45_r2i1p1.ncml">
@@ -2629,6 +2887,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp45_r2i1p1.ncml">
@@ -2640,6 +2899,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp45_r2i1p1.ncml">
@@ -2648,6 +2908,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp85_r2i1p1.ncml">
@@ -2659,6 +2920,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp85_r2i1p1.ncml">
@@ -2670,6 +2932,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp85_r2i1p1.ncml">
@@ -2678,6 +2941,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_rcp45_r2i1p1.ncml">
@@ -2689,6 +2953,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_rcp45_r2i1p1.ncml">
@@ -2700,6 +2965,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_rcp45_r2i1p1.ncml">
@@ -2708,6 +2974,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp26_r3i1p1.ncml">
@@ -2719,6 +2986,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp26_r3i1p1.ncml">
@@ -2730,6 +2998,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp26_r3i1p1.ncml">
@@ -2738,6 +3007,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp45_r3i1p1.ncml">
@@ -2749,6 +3019,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp45_r3i1p1.ncml">
@@ -2760,6 +3031,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp45_r3i1p1.ncml">
@@ -2768,6 +3040,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp85_r3i1p1.ncml">
@@ -2779,6 +3052,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp85_r3i1p1.ncml">
@@ -2790,6 +3064,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp85_r3i1p1.ncml">
@@ -2798,6 +3073,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r3i1p1.ncml">
@@ -2809,6 +3085,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r3i1p1.ncml">
@@ -2820,6 +3097,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r3i1p1.ncml">
@@ -2828,6 +3106,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r3i1p1.ncml">
@@ -2839,6 +3118,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r3i1p1.ncml">
@@ -2850,6 +3130,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r3i1p1.ncml">
@@ -2858,6 +3139,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r3i1p1.ncml">
@@ -2869,6 +3151,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r3i1p1.ncml">
@@ -2880,6 +3163,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r3i1p1.ncml">
@@ -2888,6 +3172,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp26_r3i1p1.ncml">
@@ -2899,6 +3184,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp26_r3i1p1.ncml">
@@ -2910,6 +3196,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp26_r3i1p1.ncml">
@@ -2918,6 +3205,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp45_r3i1p1.ncml">
@@ -2929,6 +3217,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp45_r3i1p1.ncml">
@@ -2940,6 +3229,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp45_r3i1p1.ncml">
@@ -2948,6 +3238,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp85_r3i1p1.ncml">
@@ -2959,6 +3250,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp85_r3i1p1.ncml">
@@ -2970,6 +3262,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp85_r3i1p1.ncml">
@@ -2978,6 +3271,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp26_r3i1p1.ncml">
@@ -2989,6 +3283,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp26_r3i1p1.ncml">
@@ -3000,6 +3295,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp26_r3i1p1.ncml">
@@ -3008,6 +3304,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp45_r3i1p1.ncml">
@@ -3019,6 +3316,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp45_r3i1p1.ncml">
@@ -3030,6 +3328,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp45_r3i1p1.ncml">
@@ -3038,6 +3337,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MIROC5_rcp85_r3i1p1.ncml">
@@ -3049,6 +3349,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MIROC5_rcp85_r3i1p1.ncml">
@@ -3060,6 +3361,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MIROC5_rcp85_r3i1p1.ncml">
@@ -3068,6 +3370,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp26_r3i1p1.ncml">
@@ -3079,6 +3382,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp26_r3i1p1.ncml">
@@ -3090,6 +3394,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp26_r3i1p1.ncml">
@@ -3098,6 +3403,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp45_r3i1p1.ncml">
@@ -3109,6 +3415,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp45_r3i1p1.ncml">
@@ -3120,6 +3427,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp45_r3i1p1.ncml">
@@ -3128,6 +3436,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-LR_rcp85_r3i1p1.ncml">
@@ -3139,6 +3448,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-LR_rcp85_r3i1p1.ncml">
@@ -3150,6 +3460,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-LR_rcp85_r3i1p1.ncml">
@@ -3158,6 +3469,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_MPI-ESM-MR_rcp45_r3i1p1.ncml">
@@ -3169,6 +3481,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_MPI-ESM-MR_rcp45_r3i1p1.ncml">
@@ -3180,6 +3493,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_MPI-ESM-MR_rcp45_r3i1p1.ncml">
@@ -3188,6 +3502,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp26_r4i1p1.ncml">
@@ -3199,6 +3514,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp26_r4i1p1.ncml">
@@ -3210,6 +3526,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp26_r4i1p1.ncml">
@@ -3218,6 +3535,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp45_r4i1p1.ncml">
@@ -3229,6 +3547,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp45_r4i1p1.ncml">
@@ -3240,6 +3559,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp45_r4i1p1.ncml">
@@ -3248,6 +3568,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp85_r4i1p1.ncml">
@@ -3259,6 +3580,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp85_r4i1p1.ncml">
@@ -3270,6 +3592,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp85_r4i1p1.ncml">
@@ -3278,6 +3601,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r4i1p1.ncml">
@@ -3289,6 +3613,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r4i1p1.ncml">
@@ -3300,6 +3625,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r4i1p1.ncml">
@@ -3308,6 +3634,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r4i1p1.ncml">
@@ -3319,6 +3646,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r4i1p1.ncml">
@@ -3330,6 +3658,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r4i1p1.ncml">
@@ -3338,6 +3667,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r4i1p1.ncml">
@@ -3349,6 +3679,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r4i1p1.ncml">
@@ -3360,6 +3691,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r4i1p1.ncml">
@@ -3368,6 +3700,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp45_r4i1p1.ncml">
@@ -3379,6 +3712,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp45_r4i1p1.ncml">
@@ -3390,6 +3724,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp45_r4i1p1.ncml">
@@ -3398,6 +3733,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_IPSL-CM5A-LR_rcp85_r4i1p1.ncml">
@@ -3409,6 +3745,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_IPSL-CM5A-LR_rcp85_r4i1p1.ncml">
@@ -3420,6 +3757,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_IPSL-CM5A-LR_rcp85_r4i1p1.ncml">
@@ -3428,6 +3766,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp26_r5i1p1.ncml">
@@ -3439,6 +3778,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp26_r5i1p1.ncml">
@@ -3450,6 +3790,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp26_r5i1p1.ncml">
@@ -3458,6 +3799,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp45_r5i1p1.ncml">
@@ -3469,6 +3811,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp45_r5i1p1.ncml">
@@ -3480,6 +3823,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp45_r5i1p1.ncml">
@@ -3488,6 +3832,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CanESM2_rcp85_r5i1p1.ncml">
@@ -3499,6 +3844,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CanESM2_rcp85_r5i1p1.ncml">
@@ -3510,6 +3856,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CanESM2_rcp85_r5i1p1.ncml">
@@ -3518,6 +3865,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r5i1p1.ncml">
@@ -3529,6 +3877,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r5i1p1.ncml">
@@ -3540,6 +3889,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r5i1p1.ncml">
@@ -3548,6 +3898,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r5i1p1.ncml">
@@ -3559,6 +3910,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r5i1p1.ncml">
@@ -3570,6 +3922,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r5i1p1.ncml">
@@ -3578,6 +3931,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r5i1p1.ncml">
@@ -3589,6 +3943,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r5i1p1.ncml">
@@ -3600,6 +3955,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r5i1p1.ncml">
@@ -3608,6 +3964,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r6i1p1.ncml">
@@ -3619,6 +3976,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r6i1p1.ncml">
@@ -3630,6 +3988,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r6i1p1.ncml">
@@ -3638,6 +3997,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r6i1p1.ncml">
@@ -3649,6 +4009,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r6i1p1.ncml">
@@ -3660,6 +4021,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r6i1p1.ncml">
@@ -3668,6 +4030,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r6i1p1.ncml">
@@ -3679,6 +4042,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r6i1p1.ncml">
@@ -3690,6 +4054,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r6i1p1.ncml">
@@ -3698,6 +4063,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r7i1p1.ncml">
@@ -3709,6 +4075,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r7i1p1.ncml">
@@ -3720,6 +4087,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r7i1p1.ncml">
@@ -3728,6 +4096,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r7i1p1.ncml">
@@ -3739,6 +4108,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r7i1p1.ncml">
@@ -3750,6 +4120,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r7i1p1.ncml">
@@ -3758,6 +4129,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r7i1p1.ncml">
@@ -3769,6 +4141,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r7i1p1.ncml">
@@ -3780,6 +4153,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r7i1p1.ncml">
@@ -3788,6 +4162,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r8i1p1.ncml">
@@ -3799,6 +4174,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r8i1p1.ncml">
@@ -3810,6 +4186,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r8i1p1.ncml">
@@ -3818,6 +4195,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r8i1p1.ncml">
@@ -3829,6 +4207,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r8i1p1.ncml">
@@ -3840,6 +4219,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r8i1p1.ncml">
@@ -3848,6 +4228,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r8i1p1.ncml">
@@ -3859,6 +4240,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r8i1p1.ncml">
@@ -3870,6 +4252,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r8i1p1.ncml">
@@ -3878,6 +4261,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r9i1p1.ncml">
@@ -3889,6 +4273,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r9i1p1.ncml">
@@ -3900,6 +4285,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r9i1p1.ncml">
@@ -3908,6 +4294,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r9i1p1.ncml">
@@ -3919,6 +4306,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r9i1p1.ncml">
@@ -3930,6 +4318,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r9i1p1.ncml">
@@ -3938,6 +4327,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r9i1p1.ncml">
@@ -3949,6 +4339,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r9i1p1.ncml">
@@ -3960,6 +4351,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r9i1p1.ncml">
@@ -3968,6 +4360,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp26_r10i1p1.ncml">
@@ -3979,6 +4372,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp26_r10i1p1.ncml">
@@ -3990,6 +4384,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp26_r10i1p1.ncml">
@@ -3998,6 +4393,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp45_r10i1p1.ncml">
@@ -4009,6 +4405,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp45_r10i1p1.ncml">
@@ -4020,6 +4417,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp45_r10i1p1.ncml">
@@ -4028,6 +4426,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_CSIRO-Mk3-6-0_rcp85_r10i1p1.ncml">
@@ -4039,6 +4438,7 @@
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="typeConversion_op_ncl"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmax_day_CSIRO-Mk3-6-0_rcp85_r10i1p1.ncml">
@@ -4050,6 +4450,7 @@
 				<remove type="attribute" name="history"/>
 				<remove type="attribute" name="time"/>
 				<remove type="attribute" name="history"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 		<netcdf location="../joins/BCCA_0.125deg_tasmin_day_CSIRO-Mk3-6-0_rcp85_r10i1p1.ncml">
@@ -4058,6 +4459,7 @@
 				<attribute name="long_name" value="Daily Minimum Near-Surface Air Temperature"/>
 				<attribute name="standard_name" value="air_temperature"/>
 				<attribute name="units" value="C"/>
+				<remove type="attribute" name="valid_range"/>
 			</variable>
 		</netcdf>
 	</aggregation>
