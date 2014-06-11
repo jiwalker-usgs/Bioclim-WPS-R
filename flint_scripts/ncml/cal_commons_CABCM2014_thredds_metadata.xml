@@ -63,7 +63,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<resolution>30 years</resolution>
 			</timeCoverage>
 		</metadata>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/historic_wy_std" serviceName="Services" urlPath="CA-BCM-2014/historic_wy_std">
+		<dataset name="CA-BCM-2014/historic_wy_std" ID="opendap.calcommons.org/CA-BCM-2014/historic_wy_std" serviceName="Services" urlPath="CA-BCM-2014/historic_wy_std">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/historic_wy_std.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -111,7 +111,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/historic_wy_dsd" serviceName="Services" urlPath="CA-BCM-2014/historic_wy_dsd">
+		<dataset name="CA-BCM-2014/historic_wy_dsd" ID="opendap.calcommons.org/CA-BCM-2014/historic_wy_dsd" serviceName="Services" urlPath="CA-BCM-2014/historic_wy_dsd">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/historic_wy_dsd.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -159,7 +159,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/historic_wy_ave" serviceName="Services" urlPath="CA-BCM-2014/historic_wy_ave">
+		<dataset name="CA-BCM-2014/historic_wy_ave" ID="opendap.calcommons.org/CA-BCM-2014/historic_wy_ave" serviceName="Services" urlPath="CA-BCM-2014/historic_wy_ave">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/historic_wy_ave.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -207,7 +207,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/historic_mowy_std" serviceName="Services" urlPath="CA-BCM-2014/historic_mowy_std">
+		<dataset name="CA-BCM-2014/historic_mowy_std" ID="opendap.calcommons.org/CA-BCM-2014/historic_mowy_std" serviceName="Services" urlPath="CA-BCM-2014/historic_mowy_std">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/historic_mowy_std.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -255,7 +255,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/historic_mowy_dsd" serviceName="Services" urlPath="CA-BCM-2014/historic_mowy_dsd">
+		<dataset name="CA-BCM-2014/historic_mowy_dsd" ID="opendap.calcommons.org/CA-BCM-2014/historic_mowy_dsd" serviceName="Services" urlPath="CA-BCM-2014/historic_mowy_dsd">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/historic_mowy_dsd.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -303,7 +303,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/historic_mowy_ave" serviceName="Services" urlPath="CA-BCM-2014/historic_mowy_ave">
+		<dataset name="CA-BCM-2014/historic_mowy_ave" ID="opendap.calcommons.org/CA-BCM-2014/historic_mowy_ave" serviceName="Services" urlPath="CA-BCM-2014/historic_mowy_ave">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/historic_mowy_ave.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -351,7 +351,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/futures_wy_std" serviceName="Services" urlPath="CA-BCM-2014/futures_wy_std">
+		<dataset name="CA-BCM-2014/futures_wy_std" ID="opendap.calcommons.org/CA-BCM-2014/futures_wy_std" serviceName="Services" urlPath="CA-BCM-2014/futures_wy_std">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/futures_wy_std.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -399,7 +399,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/futures_wy_dsd" serviceName="Services" urlPath="CA-BCM-2014/futures_wy_dsd">
+		<dataset name="CA-BCM-2014/futures_wy_dsd" ID="opendap.calcommons.org/CA-BCM-2014/futures_wy_dsd" serviceName="Services" urlPath="CA-BCM-2014/futures_wy_dsd">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/futures_wy_dsd.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -447,7 +447,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/futures_wy_ave" serviceName="Services" urlPath="CA-BCM-2014/futures_wy_ave">
+		<dataset name="CA-BCM-2014/futures_wy_ave" ID="opendap.calcommons.org/CA-BCM-2014/futures_wy_ave" serviceName="Services" urlPath="CA-BCM-2014/futures_wy_ave">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/futures_wy_ave.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -495,7 +495,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/futures_mowy_std" serviceName="Services" urlPath="CA-BCM-2014/futures_mowy_std">
+		<dataset name="CA-BCM-2014/futures_mowy_std" ID="opendap.calcommons.org/CA-BCM-2014/futures_mowy_std" serviceName="Services" urlPath="CA-BCM-2014/futures_mowy_std">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/futures_mowy_std.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -543,7 +543,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/futures_mowy_dsd" serviceName="Services" urlPath="CA-BCM-2014/futures_mowy_dsd">
+		<dataset name="CA-BCM-2014/futures_mowy_dsd" ID="opendap.calcommons.org/CA-BCM-2014/futures_mowy_dsd" serviceName="Services" urlPath="CA-BCM-2014/futures_mowy_dsd">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/futures_mowy_dsd.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -591,7 +591,7 @@ The following data are available online: 30-year summary time periods: Historic:
 				<!-- end - Global Attributes for Dataset Discovery -->
 			</netcdf>
 		</dataset>
-		<dataset name="CA-BCM-2014" ID="opendap.calcommons.org/CA-BCM-2014/futures_mowy_ave" serviceName="Services" urlPath="CA-BCM-2014/futures_mowy_ave">
+		<dataset name="CA-BCM-2014/futures_mowy_ave" ID="opendap.calcommons.org/CA-BCM-2014/futures_mowy_ave" serviceName="Services" urlPath="CA-BCM-2014/futures_mowy_ave">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/Data/BCM2014/ncmls/futures_mowy_ave.ncml">
 				<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
